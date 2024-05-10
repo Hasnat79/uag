@@ -1,0 +1,3 @@
+[submodule "foundation_models/Ask-Anything"]
+	path = foundation_models/Ask-Anything
+	url = https://github.com/OpenGVLab/Ask-Anything.git
