@@ -1,3 +1,9 @@
 [submodule "foundation_models/Ask-Anything"]
 	path = foundation_models/Ask-Anything
 	url = https://github.com/OpenGVLab/Ask-Anything.git
+[submodule "foundation_models/Video-LLaMa"]
+	path = foundation_models/Video-LLaMa
+	url = https://github.com/DAMO-NLP-SG/Video-LLaMA.git
+[submodule "foundation_models/Video-ChatGPT"]
+	path = foundation_models/Video-ChatGPT
+	url = https://github.com/mbzuai-oryx/Video-ChatGPT.git

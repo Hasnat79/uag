@@ -160,3 +160,12 @@ cython_debug/
 #.idea/
 #add data folder
 data
+backup/copy_videochat2_pred_uag_oops_dataset.json
+backup/failed_validation_filtered_videos_with_single_scene.json
+backup/temp_uag_oops_dataset_v1.json
+backup/videochat2_pred_uag_oops_dataset_null_fixed.json
+scripts/cachedir/joblib/__main__--scratch-user-hasnat/md/abdullah-uag-scripts-videochat2_x_uag_oops_v1/init_model/func_code.py
+scripts/cachedir/joblib/__main__--scratch-user-hasnat/md/abdullah-uag-scripts-videochat2_x_uag_oops_v1/init_model/72a755383fba437e4dead6ff3e3d81e3/metadata.json
+scripts/cachedir/joblib/__main__--scratch-user-hasnat/md/abdullah-uag-scripts-videochat2_x_uag_oops_v1/init_model/72a755383fba437e4dead6ff3e3d81e3/output.pkl
+scripts/hprc_out_files/oops_data_builder_Out.10382334
+scripts/hprc_out_files/vidcht_2_uag_oops_Out.10382553
