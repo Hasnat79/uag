@@ -1,0 +1,30 @@
+Total training files: 23201
+Total training videos available: 23201
+Total videos in train filtered list: 16012
+Total trained filtered videos available: 16012
+-----------------------------------------------
+Total validation files: 6739
+Total validation videos available: 6739
+Total videos in val filtered list: 4711
+Total validation filtered videos available: 4711
+------------------------------------------
+Failed validation filtered videos: 2906
+Not failed validation filtered videos: 1805
+Percentage of failed validation filtered videos: 61.68541710889408
+Percentage of not failed validation filtered videos: 38.31458289110593
+----------------------------------------------
+Average duration of failed validation filtered videos: 9.901152787336546 seconds
+Standard deviation of failed validation filtered videos duration: 6.757147357354729
+-----------------------------------------------
+failed annotation videos: 2906
+Average duration of failed annotation videos: 1.5883307255523038 seconds
+Standard deviation of failed annotation videos duration: 2.600692199826183
+----------------------------------------------------------------
+Total filtered validation failed videos in heldout transition times set: 2906
+-------------------------------------------------------
+Total validation videos with description: 3588
+Total failed filtered validation videos with validation descriptions: 2903
+--------------------------------------------------------
+Total filtered validation videos with descriptions, start time < 5s, and video length > 15s: 496
+
+Total failed filtered validation videos with description and multiple scenes: 1314
