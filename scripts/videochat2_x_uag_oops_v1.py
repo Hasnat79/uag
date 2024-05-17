@@ -203,8 +203,10 @@ if __name__ == "__main__":
         if video_id not in results:
             video_path = video_info["video_path"]
             description = video_info["description"]
-            query = f"""Find the start time and end time of the query below from the video. Provide your start and end timestamps in json format.        
-            Query: {description}"""
+            query = f"""Find the start time and end time of the query below from the given video.
+            Query: {description} 
+            Provide your start and end timestamps in json format.        
+            """
             answer = main(video_path, query,chat)
             # answer = "demo"
             video_info["videochat2_pred"] =answer
