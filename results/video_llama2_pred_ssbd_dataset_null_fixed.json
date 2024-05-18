@@ -1,0 +1,1562 @@
+{
+    "v_ArmFlapping_01_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0018:0024",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:07 and the end time is approximately 0:14-0:21.",
+        "pred_start": "00:03",
+        "pred_end": "00:17"
+    },
+    "v_ArmFlapping_01_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0027:0032",
+            "bodypart": "full",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_02_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0011:0016",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_02_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0019:0023",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:10 - 0:15.",
+        "pred_start": "00:02",
+        "pred_end": "00:12"
+    },
+    "v_ArmFlapping_02_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0029:0033",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_03_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_03.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0022:0027",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_04_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_04.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0105:0125",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:06.",
+        "pred_start": "0:00",
+        "pred_end": "0:06"
+    },
+    "v_ArmFlapping_04_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_04.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0212:0220",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query is approximately 0:00 - 0:03 and the end time is approximately 0:04 - 0:06.",
+        "pred_start": "00:01",
+        "pred_end": "00:05"
+    },
+    "v_ArmFlapping_05_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_05.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0014",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_08_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0018:0021",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_08_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0047:0051",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_08_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0110:0117",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:07 and the end time is approximately 0:14 - 0:21.",
+        "pred_start": "00:03",
+        "pred_end": "00:17"
+    },
+    "v_ArmFlapping_08_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0130:0148",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Sure! Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_08_b_05": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_05",
+            "time": "0202:0214",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "To find the start time and end time of the query in the given video, we need to visually identify the moment when the person starts and stops armflapping.\nBased on the video provided, the person starts armflapping at around 0:07 seconds and continues until around 0:14 seconds. Therefore, the start time of the query is 0:07 and the end time is 0:14.\nHere is a breakdown of the time codes for the query in the video:\nStart time: 0:07\nEnd time: 0:14",
+        "pred_start": "0:07",
+        "pred_end": "0:14"
+    },
+    "v_ArmFlapping_08_b_06": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_06",
+            "time": "0315:0320",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "To find the start time and end time of the query \"A person is armflapping with high intensity\" in the given video, we need to visually identify the moments when the person is flapping their arms with high intensity.\nBased on the video provided, the query starts at 00:00:07.7 and ends at 00:00:14.8.\nHere are the exact time stamps for the query in the video:\nStart time: 00:00:07.7\nEnd time: 00:00:14.8",
+        "pred_start": "0:07",
+        "pred_end": "0:14"
+    },
+    "v_ArmFlapping_08_b_07": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4",
+        "behaviour": {
+            "id": "b_07",
+            "time": "0338:0343",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:06 and the end time is approximately 0:07-0:10.",
+        "pred_start": "00:03",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_09_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0005:0015",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 00:00:05 and the end time is 00:00:10.",
+        "pred_start": "00:00:05",
+        "pred_end": "00:00:10"
+    },
+    "v_ArmFlapping_09_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0030:0044",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 00:00:05 and the end time is approximately 00:00:10.",
+        "pred_start": "00:00:05",
+        "pred_end": "00:00:10"
+    },
+    "v_ArmFlapping_09_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0055:0110",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 00:00:00 and the end time is 00:00:10.",
+        "pred_start": "00:00:00",
+        "pred_end": "00:00:10"
+    },
+    "v_ArmFlapping_09_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0125:0140",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query is approximately 00:00:05 (5 seconds into the video) and the end time is approximately 00:00:10 (10 seconds into the video).",
+        "pred_start": "00:00:05",
+        "pred_end": "00:00:10"
+    },
+    "v_ArmFlapping_09_b_05": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4",
+        "behaviour": {
+            "id": "b_05",
+            "time": "0205:0219",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 00:00:07 and the end time is 00:00:11.",
+        "pred_start": "00:00:07",
+        "pred_end": "00:00:11"
+    },
+    "v_ArmFlapping_10_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0018:0027",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_10_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0033:0037",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:07 and the end time is approximately 0:08 - 0:15.",
+        "pred_start": "00:03",
+        "pred_end": "00:11"
+    },
+    "v_ArmFlapping_10_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0050:0057",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "To find the start time and end time of the query based on the given video, we need to analyze the video frame by frame.\nThe query is \"A person is armflapping with high intensity.\"\nFrom the video, we can see that the person starts flapping their arms at around 0:05 seconds and continues until around 0:15 seconds. Therefore, the start time of the query is 0:05 seconds and the end time is 0:15 seconds.\nHere is a frame-by-frame breakdown of the query in the video:\n0:05 - The person starts flapping their arms with high intensity.\n0:15 - The person stops flapping their arms.\nTherefore, the duration of the query in the video is 10 seconds (0:05 - 0:15).",
+        "pred_start": "0:05",
+        "pred_end": "0:15"
+    },
+    "v_ArmFlapping_10_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0108:0125",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_12_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003:0030",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with low intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_12_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0114:0210",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with low intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_12_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0214:0235",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:10 and the end time is approximately 0:10 - 0:20.",
+        "pred_start": "00:05",
+        "pred_end": "00:15"
+    },
+    "v_ArmFlapping_13_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_13.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0019:0022",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_13_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_13.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0040:0051",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with low intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_14_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_14.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003:0007",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_15_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_15.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0017:0023",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_15_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_15.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0032:0037",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_ArmFlapping_16_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_16.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0032:0046",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:05 and the end time is approximately 0:10 - 0:15.",
+        "pred_start": "00:02",
+        "pred_end": "00:12"
+    },
+    "v_ArmFlapping_18_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_18.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003:0007",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_18_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_18.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0040:0050",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_19_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0100:0134",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_19_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0140:0200",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:07, and the end time is approximately 0:10 - 0:13.",
+        "pred_start": "00:03",
+        "pred_end": "00:11"
+    },
+    "v_ArmFlapping_19_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0255:0310",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_19_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0325:0339",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_20_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_20.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0134:0138",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_ArmFlapping_21_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_21.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0007:0016",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:07 and the end time is approximately 0:14 - 0:21.",
+        "pred_start": "00:03",
+        "pred_end": "00:17"
+    },
+    "v_ArmFlapping_22_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0006",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:15 and the end time is approximately 0:30 - 0:45.",
+        "pred_start": "00:07",
+        "pred_end": "00:37"
+    },
+    "v_ArmFlapping_22_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0041:0055",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:15.",
+        "pred_start": "0:00",
+        "pred_end": "0:15"
+    },
+    "v_ArmFlapping_22_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0100:0129",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:15.",
+        "pred_start": "0:00",
+        "pred_end": "0:15"
+    },
+    "v_ArmFlapping_22_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0134:0142",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:15.",
+        "pred_start": "0:00",
+        "pred_end": "0:15"
+    },
+    "v_ArmFlapping_22_b_05": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4",
+        "behaviour": {
+            "id": "b_05",
+            "time": "0150:0158",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_24_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_24.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0008:0015",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_ArmFlapping_25_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_25.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0004:0008",
+            "bodypart": "hand",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_01_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_01.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0004",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_HeadBanging_02_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_02.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0004:0009",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:10 and the end time is approximately 0:15 - 0:25.",
+        "pred_start": "00:05",
+        "pred_end": "00:20"
+    },
+    "v_HeadBanging_02_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_02.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0036:0044",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00-0:07 and the end time is approximately 0:14-0:19.",
+        "pred_start": "00:03",
+        "pred_end": "00:16"
+    },
+    "v_HeadBanging_03_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_03.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0006:0014",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_HeadBanging_04_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_04.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0016:0030",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_04_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_04.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0034:0039",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:07 and the end time is approximately 0:13.",
+        "pred_start": "0:07",
+        "pred_end": "0:13"
+    },
+    "v_HeadBanging_05_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_05.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003:0017",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_HeadBanging_06_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_06.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0010:0019",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:07 and the end time is approximately 0:15.",
+        "pred_start": "0:07",
+        "pred_end": "0:15"
+    },
+    "v_HeadBanging_07_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_07.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0055:0104",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_10_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_10.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0016:0022",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:05 and the end time is 0:00:15.",
+        "pred_start": "0:00:05",
+        "pred_end": "0:00:15"
+    },
+    "v_HeadBanging_13_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_13.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0020",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:10 and the end time is approximately 0:15 - 0:25.",
+        "pred_start": "00:05",
+        "pred_end": "00:20"
+    },
+    "v_HeadBanging_14_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_14.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0004:0030",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00:05 (5 seconds) and the end time is approximately 0:00:13 (13 seconds).",
+        "pred_start": "0:00:05",
+        "pred_end": "0:00:13"
+    },
+    "v_HeadBanging_15_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_15.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0023",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_16_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_16.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0010:0017",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query \"A person is headbanging with low intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_17_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_17.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0058",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_18_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_18.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0015",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00-0:07 and the end time is approximately 0:08-0:15.",
+        "pred_start": "00:03",
+        "pred_end": "00:11"
+    },
+    "v_HeadBanging_19_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0030:0040",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_HeadBanging_19_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0204:0230",
+            "bodypart": "arm",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:07 and the end time is approximately 0:14-0:21.",
+        "pred_start": "00:03",
+        "pred_end": "00:17"
+    },
+    "v_HeadBanging_19_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0256:0307",
+            "bodypart": "arm",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:10-0:15.",
+        "pred_start": "00:02",
+        "pred_end": "00:12"
+    },
+    "v_HeadBanging_19_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0326:0331",
+            "bodypart": "arm",
+            "category": "armflapping",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is armflapping with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is armflapping with high intensity\" is approximately 0:00-0:05 and the end time is approximately 0:06-0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_20_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0007",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:07 and the end time is approximately 0:08 - 0:15.",
+        "pred_start": "00:03",
+        "pred_end": "00:11"
+    },
+    "v_HeadBanging_20_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0018:0025",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_20_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0036:0050",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_21_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0008:0018",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:03 and the end time is approximately 0:04 - 0:07.",
+        "pred_start": "00:01",
+        "pred_end": "00:05"
+    },
+    "v_HeadBanging_21_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0020:0044",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with low intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_HeadBanging_21_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0054:0123",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_HeadBanging_22_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_22.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0009:0026",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with high intensity\" is approximately 0:00 - 0:15 and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_HeadBanging_24_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_24.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003:0010",
+            "bodypart": "head",
+            "category": "headbanging",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is headbanging with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is headbanging with low intensity\" is approximately 0:07-0:10 and the end time is approximately 0:13-0:15.",
+        "pred_start": "00:08",
+        "pred_end": "00:14"
+    },
+    "v_Spinning_01_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_01.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0108:0123",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_Spinning_02_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_02.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0010:0020",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_Spinning_04_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_04.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0110",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_Spinning_05_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_05.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0015",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00-0:03 and the end time is approximately 0:04-0:06.",
+        "pred_start": "00:01",
+        "pred_end": "00:05"
+    },
+    "v_Spinning_07_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_07.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0006-0018",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00 - 0:05, and the end time is approximately 0:10 - 0:15.",
+        "pred_start": "00:02",
+        "pred_end": "00:12"
+    },
+    "v_Spinning_08_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_08.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002-0059",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is approximately 0:00-0:07 and the end time is approximately 0:14-0:17.",
+        "pred_start": "00:03",
+        "pred_end": "00:15"
+    },
+    "v_Spinning_09_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0004-0012",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_09_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0028-0047",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_Spinning_09_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0058-0104",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_10_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_10.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003-0028",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_Spinning_11_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_11.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0003-0020",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with low intensity\" is approximately 0:00 - 0:05 and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_12_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_12.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002-0150",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_14_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_14.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0051-0058",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:10 - 0:15.",
+        "pred_start": "00:02",
+        "pred_end": "00:12"
+    },
+    "v_Spinning_15_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_15.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0010",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query \"A person is spinning with low intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_16_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_16.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0006:0012",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05, and the end time is approximately 0:06 - 0:10.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_16_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_16.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0115:0135",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:05 seconds, and the end time is approximately 0:06 - 0:10 seconds.",
+        "pred_start": "00:02",
+        "pred_end": "00:08"
+    },
+    "v_Spinning_18_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0047",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_Spinning_18_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0100:0128",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with low intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_Spinning_18_b_03": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4",
+        "behaviour": {
+            "id": "b_03",
+            "time": "0145:0208",
+            "bodypart": "head",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with low intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:25 - 0:35.",
+        "pred_start": "00:07",
+        "pred_end": "00:30"
+    },
+    "v_Spinning_18_b_04": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4",
+        "behaviour": {
+            "id": "b_04",
+            "time": "0220:0227",
+            "bodypart": "head",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Sure, I can help you with that! Based on the video you provided, the start time of the query \"A person is spinning with low intensity\" is approximately 0:00 - 0:07 and the end time is approximately 0:10 - 0:17.",
+        "pred_start": "00:03",
+        "pred_end": "00:13"
+    },
+    "v_Spinning_18_b_05": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4",
+        "behaviour": {
+            "id": "b_05",
+            "time": "0243:0455",
+            "bodypart": "head",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:05.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:05"
+    },
+    "v_Spinning_19_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_19.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0056:0103",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_Spinning_21_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_21.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0047",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:10.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:10"
+    },
+    "v_Spinning_22_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_22.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0002:0007",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_Spinning_22_b_02": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_22.mp4",
+        "behaviour": {
+            "id": "b_02",
+            "time": "0015:0120",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "low",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with low intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00 and the end time is 0:05.",
+        "pred_start": "0:00",
+        "pred_end": "0:05"
+    },
+    "v_Spinning_23_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_23.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0001:0235",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query is 0:00:00 and the end time is 0:00:15.",
+        "pred_start": "0:00:00",
+        "pred_end": "0:00:15"
+    },
+    "v_Spinning_25_b_01": {
+        "video_path": "/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_25.mp4",
+        "behaviour": {
+            "id": "b_01",
+            "time": "0025:0028",
+            "bodypart": "body",
+            "category": "spinning",
+            "intensity": "high",
+            "modality": "video"
+        },
+        "query": "Find the start time and end time of the query below from the given video.\n            Query: A person is spinning with high intensity.\n            ",
+        "video_llama2_pred": "Based on the video you provided, the start time of the query \"A person is spinning with high intensity\" is approximately 0:00 - 0:15, and the end time is approximately 0:30 - 0:45.",
+        "pred_start": "00:07",
+        "pred_end": "00:37"
+    }
+}

@@ -3,7 +3,8 @@ import re
 import sys
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 from tqdm import tqdm
-from configs.configure import video_chatgpt_pred_x_uag_oops_dataset_path,video_chatgpt_pred_x_ssbd_result_path, video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path
+from configs.configure import video_chatgpt_pred_x_uag_oops_dataset_path,video_chatgpt_pred_x_ssbd_result_path, video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path,video_llama2_pred_x_uag_oops_dataset_path,video_llama2_pred_x_uag_oops_dataset_null_fixed_path,video_llama2_pred_x_ssbd_result_path,video_llama2_pred_x_ssbd_result_null_fixed_path 
+
 
 def get_uag_oops_dataset(uag_oops_dataset_path):
     with open(uag_oops_dataset_path, "r") as f:
@@ -132,12 +133,135 @@ def run_null_fix_video_chatgpt_pred_ssbd_dataset():
     # total non null values
     print(f"total non null values: {len(video_chatgpt_pred_x_ssbd_result) - none_count}")#82
 
+def extract_time_ranges(pred):
+    # Define regular expression patterns to match time ranges
+    time_range_pattern = r'(\d+:\d+) - (\d+:\d+)'
+    time_range_pattern_1 = r'(\d+:\d+)-(\d+:\d+)'
+    time_range_pattern_2 = r"(\d+:\d+:\d+).*?(\d+:\d+:\d+)"
+    
+
+    # Find all matches of time ranges in the input text
+    matches = re.findall(time_range_pattern, pred)
+    matches_1 = re.findall(time_range_pattern_1, pred)
+    matches_2 = re.findall(time_range_pattern_2, pred)
+    # Extract start and end times from matches
+    time_ranges = []
+    if len(matches)== 2:
+        for match in matches:
+            start_time = match[0]
+            end_time = match[1]
+            time_ranges.append((start_time, end_time))
+        return time_ranges
+    elif len(matches_1) ==2:
+        for match in matches_1:
+            start_time = match[0]
+            end_time = match[1]
+            time_ranges.append((start_time, end_time))
+        return time_ranges
+    elif len(matches) >= 2:
+        for match in matches:
+            start_time = match[0]
+            end_time = match[1]
+            time_ranges.append((start_time, end_time))
+        return time_ranges
+    elif len(matches_1) >= 2:
+        for match in matches_1:
+            start_time = match[0]
+            end_time = match[1]
+            time_ranges.append((start_time, end_time))
+        return time_ranges
+    elif len(matches_2) >= 2:
+        print(matches_2)
+        exit()
+        for match in matches_2:
+            start_time = match[0]
+            end_time = match[1]
+            time_ranges.append((start_time, end_time))
+        return time_ranges
+    else :
+       return None
+
+    
+def calculate_middle_time(time_range):
+    # Parse start and end times into numerical values
+    start_hours, start_minutes = map(int, time_range[0].split(':'))
+    end_hours, end_minutes = map(int, time_range[1].split(':'))
+
+    # Calculate the middle point
+    middle_hours = (start_hours + end_hours) // 2
+    middle_minutes = (start_minutes + end_minutes) // 2
+
+    # Convert the middle point back into time stamp format
+    middle_time_stamp = '{:02d}:{:02d}'.format(middle_hours, middle_minutes)
+
+    return middle_time_stamp
+
+def extract_time_for_videollama2_preds(pred):
+
+    time_ranges = extract_time_ranges(pred)
+    print(f"time_ranges: {time_ranges}")
+    if time_ranges!=None and len(time_ranges)==2:
+        middle_times =[]
+        for time_range in time_ranges:
+            middle_time = calculate_middle_time(time_range)
+            middle_times.append(middle_time)
+        pred_start, pred_end = middle_times
+        print(f"pred_start: {pred_start}, pred_end: {pred_end}")
+        return pred_start, pred_end
+    else: 
+        return None, None
+    
+
+def run_null_fix_video_llama2_pred_uag_oops_dataset():
+    # video_llama2_pred_x_uag_oops_dataset = load_file(video_llama2_pred_x_uag_oops_dataset_path)
+    video_llama2_pred_x_uag_oops_dataset = load_file(video_llama2_pred_x_uag_oops_dataset_null_fixed_path)
+    none_count = get_null_value_count(video_llama2_pred_x_uag_oops_dataset)
+    print(f"none_count: {none_count}")#0
+    for video_id,video_info in tqdm(video_llama2_pred_x_uag_oops_dataset.items()):
+        if video_info['pred_start'] is None or video_info['pred_end'] is None:
+            print("video_id: ", video_id)
+            print(f"video_llama2_pred: {video_info['video_llama2_pred']}")
+            pred = video_info['video_llama2_pred']
+
+            start, end = extract_time_for_videollama2_preds(pred)
+            print(f"start: {start}, end: {end}\n\n")
+            video_info['pred_start'] = start
+            video_info['pred_end'] = end
+            
+    save_data(video_llama2_pred_x_uag_oops_dataset, video_llama2_pred_x_uag_oops_dataset_null_fixed_path)
+    print(f" null values: {get_null_value_count(video_llama2_pred_x_uag_oops_dataset)}")#42 // 15
+    # total non null values
+    print(f"total non null values: {len(video_llama2_pred_x_uag_oops_dataset) - none_count}")#1547 // 1574
+def run_null_fix_video_llama2_pred_ssbd_dataset():
+    # video_llama2_pred_x_ssbd_result = load_file(video_llama2_pred_x_ssbd_result_path)
+    video_llama2_pred_x_ssbd_result = load_file(video_llama2_pred_x_ssbd_result_null_fixed_path)
+    none_count = get_null_value_count(video_llama2_pred_x_ssbd_result)
+    print(f"none_count: {none_count}")#0
+    for video_id,video_info in tqdm(video_llama2_pred_x_ssbd_result.items()):
+        if video_info['pred_start'] is None or video_info['pred_end'] is None:
+            # print("video_id: ", video_id)
+            # print(f"video_llama2_pred: {video_info['video_llama2_pred']}")
+            pred = video_info['video_llama2_pred']
+
+            start, end = extract_time_for_videollama2_preds(pred)
+            # print(f"start: {start}, end: {end}\n\n")
+            video_info['pred_start'] = start
+            video_info['pred_end'] = end
+            
+            
+    # save_data(video_llama2_pred_x_ssbd_result, video_llama2_pred_x_ssbd_result_null_fixed_path)
+    print(f" null values: {get_null_value_count(video_llama2_pred_x_ssbd_result)}")#3 // 0
+    print(f"total non null values: {len(video_llama2_pred_x_ssbd_result) - none_count}")#101 // 104
+    
 if __name__ == "__main__":
     # done
     # run_null_fix_videochat2_pred_uag_oops_dataset()
     # done
     # run_null_fix_video_chatgpt_pred_uag_oops_dataset()
-    # currently doing
-    run_null_fix_video_chatgpt_pred_ssbd_dataset()
-
+    # done
+    # run_null_fix_video_chatgpt_pred_ssbd_dataset()
+    #done
+    # run_null_fix_video_llama2_pred_uag_oops_dataset()
+    #TODO
+    run_null_fix_video_llama2_pred_ssbd_dataset()
 
