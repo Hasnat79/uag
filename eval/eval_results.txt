@@ -40,3 +40,13 @@ After removing null predictions, total instances: 82
  IoU = 0.3 R@1: 0.0610
  IoU = 0.5 R@1: 0.0366
  IoU = 0.7 R@1: 0.0000
+
+============== video_llama2_uag_oops_v1 ==============
+video_llama2_pred_x_uag_oops_dataset: 1589
+After removing null predictions, total instances: 1574
+ IoU = 0.001 R@1: 0.7128
+ IoU = 0.01 R@1: 0.7052
+ IoU = 0.1 R@1: 0.6061
+ IoU = 0.3 R@1: 0.3698
+ IoU = 0.5 R@1: 0.1785
+ IoU = 0.7 R@1: 0.0546

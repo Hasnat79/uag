@@ -2,7 +2,7 @@ import sys
 import json
 import random
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
-from configs.configure import videochat2_pred_uag_oops_v1_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path,video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path
+from configs.configure import videochat2_pred_uag_oops_v1_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path,video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path, video_llama2_pred_x_uag_oops_dataset_null_fixed_path
 
 # def get_null_removed_from_res(videochat2_pred_uag_oops_v1):
 #     videochat2_pred_uage_oops_v1_null_fixed = {}
@@ -171,11 +171,38 @@ def run_eval_video_chatgpt_ssbd(model):
                 correct_count += 1
         iou_recall_top_1 = correct_count / len(video_chatgpt_pred_x_ssbd_result_null_fixed)
         print(f" IoU = {threshold} R@1: {iou_recall_top_1:.4f}")
+def run_eval_video_llama2_oops(model,result_path =""):
+    print(f"\n\n============== {model} ==============")
+    with open(result_path, 'r') as f:
+        video_llama2_pred_x_uag_oops_dataset = json.load(f)
+    print(f"video_llama2_pred_x_uag_oops_dataset: {len(video_llama2_pred_x_uag_oops_dataset)}")
+    # we will ignore the null 
+    video_llama2_pred_x_uag_oops_dataset_null_fixed = get_null_removed_from_res(video_llama2_pred_x_uag_oops_dataset)
+    
+
+    IoU_threshold = [0.001,0.01,0.1,0.3 ,0.5, 0.7]
+    for threshold in IoU_threshold:
+        # calculating iou recall@1 for threshold
+        correct_count = 0
+        for video_id,video_info in video_llama2_pred_x_uag_oops_dataset_null_fixed.items(): 
+            gt_start,gt_end = process_gts(video_info['start_time'],video_info['end_time'])
+
+            
+            pred_start,pred_end = proces_preds(video_info['pred_start'],video_info['pred_end'])
+            # print(f"gt_start: {gt_start} gt_end: {gt_end} pred_start: {pred_start} pred_end: {pred_end}")
+            iou_recall_top_1 = calculate_iou(gt_start,gt_end,pred_start,pred_end)
+            iou = calculate_iou(gt_start,gt_end,pred_start,pred_end)
+            # print(f"iou: {iou}")
+            if iou >= threshold:
+                correct_count += 1
+        iou_recall_top_1 = correct_count / len(video_llama2_pred_x_uag_oops_dataset_null_fixed)
+        print(f" IoU = {threshold} R@1: {iou_recall_top_1:.4f}")
 if __name__ == "__main__":
     foundation_models =["random prediction",
                     "videochat2_uag_oops_v1",
                     "video_chatgpt_uag_oops_v1",
-                    "video_chatgpt_ssbd"
+                    "video_chatgpt_ssbd",
+                    "video_llama2_uag_oops_v1",
                     ]
     for model in foundation_models:
         # done
@@ -184,11 +211,13 @@ if __name__ == "__main__":
         #done
         # if model == "videochat2_uag_oops_v1":
         #     run_eval_videochat2(model)
-        # doing
+        # done
         # if model == "video_chatgpt_uag_oops_v1":
         #     run_eval_video_chatgpt_oops(model,result_path = video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path)
-        ##TODO
-        if model == "video_chatgpt_ssbd":
-            run_eval_video_chatgpt_ssbd(model)
+        #done
+        # if model == "video_chatgpt_ssbd":
+        #     run_eval_video_chatgpt_ssbd(model)
+        if model == "video_llama2_uag_oops_v1":
+            run_eval_video_llama2_oops(model,result_path = video_llama2_pred_x_uag_oops_dataset_null_fixed_path)
         
 
