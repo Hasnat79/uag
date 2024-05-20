@@ -43,4 +43,8 @@ results_dir = "/scratch/user/hasnat.md.abdullah/uag/results/"
 llava_lightning_7b_v1_1_path = "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/LLaVA-7B-Lightening-v1-1"
 video_chatgpt_weights_path = "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/video_chatgpt-7B.bin"
 
+# configs for text_representation_builders
+blip2_text_rep_x_oops_dataset_v1_path =  "/scratch/user/hasnat.md.abdullah/uag/data/oops_dataset/uag_oops_dataset/blip2_text_rep_x_oops_dataset_v1.json"
+temp_video_frames_dir = "./temp_frames"
+
 
