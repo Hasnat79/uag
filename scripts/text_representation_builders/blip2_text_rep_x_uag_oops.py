@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 import cv2
+import shlex
 import torch
 import nltk
 from tqdm import tqdm
@@ -54,11 +55,18 @@ def vqa_captioner(frame,question=""):
 def save_temporary_frames_from_video(video_path="", output_path = "./temp_frames"):
     '''from a video path it saves the first frame and the rest of the frames at 1fps in a temp folder
     '''
+
     if not os.path.exists(output_path):
         os.makedirs(output_path)
+
+    # video_path = video_path.replace("'",'"')
+    # video_path = video_path.replace("'","\'")        
+    # escaped_video_path = shlex.quote(video_path)
+    # print(escaped_video_path)
     
     # extract frames from video: 1fps -- 0th second ~ frame 1
-    os.system(f"ffmpeg -i '{video_path}' -vf fps=1 {output_path}/%d.png")
+
+    os.system(f"""ffmpeg -i "{video_path}" -vf fps=1 {output_path}/%d.png""")
     # save frames in output_path
 
 def load_frame(frame_path):
@@ -93,19 +101,26 @@ def build_blip2_text_rep_x_oops_dataset_v1(dataset = uag_oops_dataset_path, outp
         with open(output_path,'r') as f:
             blip2_text_rep_x_oops_dataset_v1 = json.load(f)
         print(f"Loaded blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
-    
+    # count how many samples have 'text_rep' = ""
+    print(f"total missing text_rep :{len([video_info for video_info in blip2_text_rep_x_oops_dataset_v1.values() if video_info['text_rep']==''])}")
     for video_id, video_info in tqdm(dataset.items()):
-        if video_id not in blip2_text_rep_x_oops_dataset_v1:
+        if video_id not in blip2_text_rep_x_oops_dataset_v1 or blip2_text_rep_x_oops_dataset_v1[video_id]['text_rep']=="":
             video_path = video_info ["video_path"]
             print(f"video_path: {video_path}")
             text_rep = generate_text_representation_from_video(video_path)
             video_info["text_rep"] = text_rep
             blip2_text_rep_x_oops_dataset_v1[video_id] = video_info
             
-        # with open(output_path, 'w') as f:
-        #     json.dump(blip2_text_rep_x_oops_dataset_v1, f,indent=4)
-        #     print(f"succesfully saved blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
+        with open(output_path, 'w') as f:
+            json.dump(blip2_text_rep_x_oops_dataset_v1, f,indent=4)
+            print(f"succesfully saved blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
+        
     #verifying the result
+    with open(output_path,'r') as f:
+        blip2_text_rep_x_oops_dataset_v1 = json.load(f)
+    print(f"Loaded blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
+    print(f"total missing text_rep :{len([video_info for video_info in blip2_text_rep_x_oops_dataset_v1.values() if video_info['text_rep']==''])}")
+
   
 if __name__ == "__main__":
     with open(uag_oops_dataset_path, 'r') as f:
