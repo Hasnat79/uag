@@ -37,10 +37,10 @@ if __name__ == "__main__":
 
 
     results = {}
-    # if os.path.exists(video_llama2_pred_x_ssbd_result_path):
-    #     with open(video_llama2_pred_x_ssbd_result_path, "r") as f:
-    #         results = json.load(f)
-    #     print(f"Loaded {len(results)} results")
+    if os.path.exists(video_llama2_pred_x_ssbd_result_path):
+        with open(video_llama2_pred_x_ssbd_result_path, "r") as f:
+            results = json.load(f)
+        print(f"Loaded {len(results)} results")
     for video_id,video_info in tqdm(ssbd_data):
         
         if video_id not in results:
@@ -68,9 +68,9 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
             # save results
-            # with open(video_llama2_pred_x_ssbd_result_path, "w") as f:
-            #     json.dump(results, f, indent=4)
-            #     print(f"Results saved successfully in {video_llama2_pred_x_ssbd_result_path}")
+            with open(video_llama2_pred_x_ssbd_result_path, "w") as f:
+                json.dump(results, f, indent=4)
+                print(f"Results saved successfully in {video_llama2_pred_x_ssbd_result_path}")
         
     # check the results
     print("verifying results")

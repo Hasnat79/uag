@@ -35,10 +35,10 @@ if __name__ == "__main__":
    
 
     result = {}
-    # if os.path.exists(video_llama2_pred_x_uag_oops_dataset_path):
-    #     with open(video_llama2_pred_x_uag_oops_dataset_path, "r") as f:
-    #         result = json.load(f)
-    #     print(f"Loaded {len(result)} results")
+    if os.path.exists(video_llama2_pred_x_uag_oops_dataset_path):
+        with open(video_llama2_pred_x_uag_oops_dataset_path, "r") as f:
+            result = json.load(f)
+        print(f"Loaded {len(result)} results")
     for video_id, video_info in tqdm(uag_oops_v1.items()):
         if video_id not in result:
             gr_video = video_info["video_path"]
@@ -59,9 +59,9 @@ if __name__ == "__main__":
                 result[video_id] = video_info
             except Exception as e:
                 print(e)
-            # with open(video_llama2_pred_x_uag_oops_dataset_path, "w") as f:
-            #     json.dump(result, f, indent=4)
-            #     print(f"Results saved successfully in {video_llama2_pred_x_uag_oops_dataset_path}")
+            with open(video_llama2_pred_x_uag_oops_dataset_path, "w") as f:
+                json.dump(result, f, indent=4)
+                print(f"Results saved successfully in {video_llama2_pred_x_uag_oops_dataset_path}")
     # check the results
     print("verifying results")
     with open(video_llama2_pred_x_uag_oops_dataset_path, "r") as f:

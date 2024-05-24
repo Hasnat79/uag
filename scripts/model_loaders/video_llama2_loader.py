@@ -1,8 +1,5 @@
 import os
 import argparse
-import random
-import numpy as np
-import torch
 from joblib import Memory
 cache_dir = './cachedir'
 if not os.path.exists(cache_dir):

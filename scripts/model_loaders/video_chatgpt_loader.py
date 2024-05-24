@@ -6,7 +6,6 @@ if not os.path.exists(cache_dir):
     os.makedirs(cache_dir)
 memory = Memory(cache_dir)
 import sys
-import argparse
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/")
 from configs.configure import llava_lightning_7b_v1_1_path, video_chatgpt_weights_path

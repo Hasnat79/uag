@@ -6,7 +6,6 @@ if not os.path.exists(cache_dir):
     os.makedirs(cache_dir)
 memory = Memory(cache_dir)
 import sys
-import argparse
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/foundation_models/Ask-Anything/video_chat2/")
 from conversation import Chat
