@@ -10,36 +10,13 @@ if not os.path.exists(cache_dir):
 memory = Memory(cache_dir)
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/")
-import argparse
+
 from tqdm import tqdm
-from configs.configure import ssbd_data_path,llava_lightning_7b_v1_1_path, video_chatgpt_weights_path, results_dir
-from video_chatgpt.eval.model_utils import initialize_model, load_video
-from video_chatgpt.inference import video_chatgpt_infer
+from configs.configure import results_dir
+from data_loaders.ssbd_loader import Ssbd_DataLoader
+from model_loaders.video_chatgpt_loader import VideoChatGPTLoader
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Demo")
 
-    parser.add_argument("--host", type=str, default="0.0.0.0")
-    parser.add_argument("--port", type=int)
-    parser.add_argument("--controller-url", type=str, default="http://localhost:21001")
-    parser.add_argument("--concurrency-count", type=int, default=8)
-    parser.add_argument("--model-list-mode", type=str, default="once", choices=["once", "reload"])
-    parser.add_argument("--share", action="store_true")
-    parser.add_argument("--moderate", action="store_true")
-    parser.add_argument("--embed", action="store_true")
-    parser.add_argument("--model-name", type=str, default=llava_lightning_7b_v1_1_path)
-    parser.add_argument("--vision_tower_name", type=str, default="openai/clip-vit-large-patch14")
-    parser.add_argument("--conv-mode", type=str, default="video-chatgpt_v1")
-    parser.add_argument("--projection_path", type=str, required=False, default=video_chatgpt_weights_path)
-
-    args = parser.parse_args()
-    return args
-@memory.cache
-def init_model(model_name, projection_path):
-    model, vision_tower, tokenizer, image_processor, video_token_len = \
-        initialize_model(model_name, projection_path)
-    print("Model initialized")
-    return model, vision_tower, tokenizer, image_processor, video_token_len
 def extract_time_from_answer(answer):
     pattern_1 = r'(\d{1,2}:\d{2}(:\d{2})?)'
     times = re.findall(pattern_1, answer)
@@ -53,41 +30,30 @@ def extract_time_from_answer(answer):
 
 
 if __name__ == "__main__":
-    with open(ssbd_data_path, 'r') as f:
-        ssbd_data = json.load(f)
-    print(f"SSBD data loaded with {len(ssbd_data)} videos")
+    ssbd_data = Ssbd_DataLoader()
+    video_chatgpt = VideoChatGPTLoader()
 
-    #args setup
-    args = parse_args()
-    conv_mode = args.conv_mode
-
-    # initialize the model
-    model, vision_tower, tokenizer, image_processor, video_token_len = init_model(args.model_name, args.projection_path)
     results = {}
-    ##TODO: if result file exists then load the file and update the results
     if os.path.exists(f"{results_dir}video_chatgpt_pred_ssbd_dataset.json"):
         with open(f"{results_dir}video_chatgpt_pred_ssbd_dataset.json", "r") as f:
             results = json.load(f)
-        print(f"Results loaded successfully from {results_dir}video_chatgpt_pred_ssbd_dataset.json")
-    for sample in tqdm(ssbd_data):
-        print(f"sample: {sample}")
-        video_tag = sample[0]
-        behaviour_id = sample[2]['id']
-        video_id = video_tag+'_'+str(behaviour_id)
-        video_info = {}
-        video_info = {'video_path': sample[1], 'behaviour': sample[2]}
+            print(f"Results loaded successfully from {results_dir}video_chatgpt_pred_ssbd_dataset.json")
+    for video_id,video_info in tqdm(ssbd_data):
+        
         if video_id not in results:
-            video_path = sample[1]
-            video_frames = load_video(video_path, num_frm =100)
-            category = sample[2]['category']
-            intensity = sample[2]['intensity']
+            video_path = video_info["video_path"]
+            video_frames = video_chatgpt.get_video_frames(video_path,num_frm=100)
+
+            category =video_info['behaviour']['category']
+            intensity =video_info['behaviour']['intensity']
+            
             query = f"""Find the start time and end time of the query below from the given video.
             Query: A person is {category} with {intensity} intensity.
             Instruction: Provide your start and end timestamps in json format.
             """
             video_info["query"] = query
             try:
-                answer = video_chatgpt_infer(video_frames, query, conv_mode, model, vision_tower, tokenizer, image_processor, video_token_len)
+                answer =video_chatgpt.infer(video_frames, query)
                 video_info["video_chatgpt_pred"] = answer
                 pred_start, pred_end = extract_time_from_answer(answer)
                 video_info['pred_start'] = pred_start
@@ -98,7 +64,7 @@ if __name__ == "__main__":
                 print(e)
             with open(f"{results_dir}   video_chatgpt_pred_ssbd_dataset.json", "w") as f:
                 json.dump(results, f, indent=4)
-            print(f"Results saved successfully in{results_dir}video_chatgpt_pred_ssbd_dataset.json")
+                print(f"Results saved successfully in{results_dir}video_chatgpt_pred_ssbd_dataset.json")
 
 
     # check the results
