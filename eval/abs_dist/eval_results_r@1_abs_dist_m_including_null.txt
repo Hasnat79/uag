@@ -1,0 +1,155 @@
+
+
+============== random prediction_oops ==============
+videochat2_pred_uag_oops_v1: 1589
+Threshold m = 0.001 R@1: 47.89 mean abs distance: 5.46
+Threshold m = 0.01 R@1: 48.65 mean abs distance: 5.46
+Threshold m = 0.1 R@1: 52.61 mean abs distance: 5.46
+Threshold m = 0.3 R@1: 57.21 mean abs distance: 5.46
+Threshold m = 0.5 R@1: 63.37 mean abs distance: 5.46
+Threshold m = 0.7 R@1: 67.15 mean abs distance: 5.46
+
+
+============== random prediction_ssbd ==============
+videochat2_pred_uag_oops_v1: 104
+Threshold m = 0.001 R@1 16.35 mean abs distance: 75.37
+Threshold m = 0.01 R@1 20.19 mean abs distance: 75.37
+Threshold m = 0.1 R@1 18.27 mean abs distance: 75.37
+Threshold m = 0.3 R@1 19.23 mean abs distance: 75.37
+Threshold m = 0.5 R@1 24.04 mean abs distance: 75.37
+Threshold m = 0.7 R@1 29.81 mean abs distance: 75.37
+
+
+============== videochat2_uag_oops_v1 ==============
+model name: videochat2_uag_oops_v1 x uag_oops_result: 1589
+After removing null predictions, total instances: 1465
+correct_count: 182 len(result): 1589
+Threshold m = 0.001 R@1 abs dist: 11.45 mean abs distance: 237.97
+correct_count: 185 len(result): 1589
+Threshold m = 0.01 R@1 abs dist: 11.64 mean abs distance: 237.97
+correct_count: 227 len(result): 1589
+Threshold m = 0.1 R@1 abs dist: 14.29 mean abs distance: 237.97
+correct_count: 345 len(result): 1589
+Threshold m = 0.3 R@1 abs dist: 21.71 mean abs distance: 237.97
+correct_count: 439 len(result): 1589
+Threshold m = 0.5 R@1 abs dist: 27.63 mean abs distance: 237.97
+correct_count: 544 len(result): 1589
+Threshold m = 0.7 R@1 abs dist: 34.24 mean abs distance: 237.97
+
+
+============== videochat2_ssbd ==============
+videochat2_ssbd_pred: 104
+correct_count: 9 len(result): 104
+Threshold m = 0.001 R@1 abs dist: 8.65 mean abs distance: 139.63
+correct_count: 9 len(result): 104
+Threshold m = 0.01 R@1 abs dist: 8.65 mean abs distance: 139.63
+correct_count: 11 len(result): 104
+Threshold m = 0.1 R@1 abs dist: 10.58 mean abs distance: 139.63
+correct_count: 17 len(result): 104
+Threshold m = 0.3 R@1 abs dist: 16.35 mean abs distance: 139.63
+correct_count: 21 len(result): 104
+Threshold m = 0.5 R@1 abs dist: 20.19 mean abs distance: 139.63
+correct_count: 21 len(result): 104
+Threshold m = 0.7 R@1 abs dist: 20.19 mean abs distance: 139.63
+
+
+============== video_chatgpt_uag_oops_v1 ==============
+model name: video_chatgpt_uag_oops_v1 x uag_oops_result: 1589
+After removing null predictions, total instances: 1315
+correct_count: 232 len(result): 1589
+Threshold m = 0.001 R@1 abs dist: 14.60 mean abs distance: 12.63
+correct_count: 232 len(result): 1589
+Threshold m = 0.01 R@1 abs dist: 14.60 mean abs distance: 12.63
+correct_count: 269 len(result): 1589
+Threshold m = 0.1 R@1 abs dist: 16.93 mean abs distance: 12.63
+correct_count: 356 len(result): 1589
+Threshold m = 0.3 R@1 abs dist: 22.40 mean abs distance: 12.63
+correct_count: 430 len(result): 1589
+Threshold m = 0.5 R@1 abs dist: 27.06 mean abs distance: 12.63
+correct_count: 494 len(result): 1589
+Threshold m = 0.7 R@1 abs dist: 31.09 mean abs distance: 12.63
+
+
+============== video_chatgpt_ssbd ==============
+model name: video_chatgpt_ssbd x ssbd_result: 104
+After removing null predictions, total instances: 82
+correct_count: 10 len(result): 104
+Threshold m = 0.001 R@1 abs dist: 9.62 mean abs distance: 101.16
+correct_count: 10 len(result): 104
+Threshold m = 0.01 R@1 abs dist: 9.62 mean abs distance: 101.16
+correct_count: 12 len(result): 104
+Threshold m = 0.1 R@1 abs dist: 11.54 mean abs distance: 101.16
+correct_count: 16 len(result): 104
+Threshold m = 0.3 R@1 abs dist: 15.38 mean abs distance: 101.16
+correct_count: 19 len(result): 104
+Threshold m = 0.5 R@1 abs dist: 18.27 mean abs distance: 101.16
+correct_count: 20 len(result): 104
+Threshold m = 0.7 R@1 abs dist: 19.23 mean abs distance: 101.16
+
+
+============== video_llama2_uag_oops_v1 ==============
+model name: video_llama2_uag_oops_v1 x uag_oops_result: 1589
+After removing null predictions, total instances: 1574
+correct_count: 429 len(result): 1589
+Threshold m = 0.001 R@1 abs dist: 27.00 mean abs distance: 11.40
+correct_count: 432 len(result): 1589
+Threshold m = 0.01 R@1 abs dist: 27.19 mean abs distance: 11.40
+correct_count: 477 len(result): 1589
+Threshold m = 0.1 R@1 abs dist: 30.02 mean abs distance: 11.40
+correct_count: 569 len(result): 1589
+Threshold m = 0.3 R@1 abs dist: 35.81 mean abs distance: 11.40
+correct_count: 640 len(result): 1589
+Threshold m = 0.5 R@1 abs dist: 40.28 mean abs distance: 11.40
+correct_count: 705 len(result): 1589
+Threshold m = 0.7 R@1 abs dist: 44.37 mean abs distance: 11.40
+
+
+============== video_llama2_ssbd ==============
+model name: video_llama2_ssbd x ssbd_result: 104
+After removing null predictions, total instances: 104
+correct_count: 26 len(result): 104
+Threshold m = 0.001 R@1 abs dist: 25.00 mean abs distance: 96.55
+correct_count: 26 len(result): 104
+Threshold m = 0.01 R@1 abs dist: 25.00 mean abs distance: 96.55
+correct_count: 28 len(result): 104
+Threshold m = 0.1 R@1 abs dist: 26.92 mean abs distance: 96.55
+correct_count: 29 len(result): 104
+Threshold m = 0.3 R@1 abs dist: 27.88 mean abs distance: 96.55
+correct_count: 32 len(result): 104
+Threshold m = 0.5 R@1 abs dist: 30.77 mean abs distance: 96.55
+correct_count: 32 len(result): 104
+Threshold m = 0.7 R@1 abs dist: 30.77 mean abs distance: 96.55
+
+
+============== llama3_blip2_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_blip2_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+After removing null predictions, total instances: 1530
+correct_count: 876 len(result): 1589
+Threshold m = 0.001 R@1 abs dist: 55.13 mean abs distance: 5.64
+correct_count: 878 len(result): 1589
+Threshold m = 0.01 R@1 abs dist: 55.25 mean abs distance: 5.64
+correct_count: 913 len(result): 1589
+Threshold m = 0.1 R@1 abs dist: 57.46 mean abs distance: 5.64
+correct_count: 987 len(result): 1589
+Threshold m = 0.3 R@1 abs dist: 62.11 mean abs distance: 5.64
+correct_count: 1052 len(result): 1589
+Threshold m = 0.5 R@1 abs dist: 66.21 mean abs distance: 5.64
+correct_count: 1102 len(result): 1589
+Threshold m = 0.7 R@1 abs dist: 69.35 mean abs distance: 5.64
+
+
+============== llama3_blip2_text_rep_x_ssbd_dataset ==============
+model name: llama3_blip2_text_rep_x_ssbd_dataset x ssbd_result: 104
+After removing null predictions, total instances: 75
+correct_count: 24 len(result): 104
+Threshold m = 0.001 R@1 abs dist: 23.08 mean abs distance: 66.55
+correct_count: 24 len(result): 104
+Threshold m = 0.01 R@1 abs dist: 23.08 mean abs distance: 66.55
+correct_count: 24 len(result): 104
+Threshold m = 0.1 R@1 abs dist: 23.08 mean abs distance: 66.55
+correct_count: 27 len(result): 104
+Threshold m = 0.3 R@1 abs dist: 25.96 mean abs distance: 66.55
+correct_count: 30 len(result): 104
+Threshold m = 0.5 R@1 abs dist: 28.85 mean abs distance: 66.55
+correct_count: 31 len(result): 104
+Threshold m = 0.7 R@1 abs dist: 29.81 mean abs distance: 66.55

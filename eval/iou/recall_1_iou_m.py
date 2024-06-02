@@ -143,7 +143,7 @@ def process_ssbd_gts(time):
             gt_end = int(gt_end[0])*60 + int(gt_end[1])
     return gt_start,gt_end
     
-def run_eval_on_ssbd(model_name, result_path,ignore_null=True):
+def run_eval_on_ssbd(model_name, result_path,ignore_null=False):
     print(f"\n\n============== {model_name} ==============")
     with open(result_path, 'r') as f: 
         ssbd_result = json.load(f)
@@ -177,7 +177,7 @@ def run_eval_on_ssbd(model_name, result_path,ignore_null=True):
         print(f" IoU = {threshold} R@1: {iou_recall_top_1:.2f}; mIoU: {(np.mean(ious)*100):.2f}")
 
 
-def run_eval_on_uag_oops(model_name,result_path,ignore_null=True):
+def run_eval_on_uag_oops(model_name,result_path,ignore_null=False):
     print(f"\n\n============== {model_name} ==============")
     with open(result_path, 'r') as f:
         result = json.load(f)
@@ -204,11 +204,37 @@ def run_eval_on_uag_oops(model_name,result_path,ignore_null=True):
         print(f'correct_count: {correct_count} len(result): {sample_len}')
         iou_recall_top_1 = 100*(correct_count / sample_len)
         print(f" IoU = {threshold} R@1: {iou_recall_top_1:.2f}; mIoU: {(np.mean(ious)*100):.2f}")
-    
+def  run_eval_on_ssbd_videochat2(model, result_path ="/scratch/user/hasnat.md.abdullah/uag/results/videochat2_ssbd_res_pred_gt.json"):
+    print(f"\n\n============== {model} ==============")
+    with open(result_path, 'r') as f:
+        videochat2_ssbd_pred = json.load(f)
+    print(f"videochat2_ssbd_pred: {len(videochat2_ssbd_pred)}")
+    sample_len = len(videochat2_ssbd_pred)
+    ious = []
+    toggle = True
+    abs_distance_threshold = [0.001,0.01,0.1,0.3 ,0.5, 0.7]
+    for threshold in abs_distance_threshold:
+        correct_count = 0
+        for res in videochat2_ssbd_pred:
+            gt_start,gt_end = proces_preds(res['gt'][0],res['gt'][1])
+
+            pred_start, pred_end = proces_preds(res['pred'][0],res['pred'][1]) 
+            original_distance = gt_end - gt_start
+            iou = calculate_iou(gt_start,gt_end,pred_start,pred_end)
+            if toggle:
+                ious.append(iou)
+            if iou >= threshold:
+                correct_count += 1
+        toggle = False
+        print(f"correct_count: {correct_count} len(result): {sample_len}")
+        iou_recall_top_1 = 100*(correct_count / sample_len)
+        print(f" IoU = {threshold} R@1: {iou_recall_top_1:.2f}; mIoU: {(np.mean(ious)*100):.2f}")
+
 if __name__ == "__main__":
     foundation_models =["random prediction_oops",
                     "random prediction_ssbd",
                     "videochat2_uag_oops_v1",
+                    "videochat2_ssbd",
                     "video_chatgpt_uag_oops_v1",
                     "video_chatgpt_ssbd",
                     "video_llama2_uag_oops_v1",
@@ -223,9 +249,10 @@ if __name__ == "__main__":
             run_eval_random_pred_oops(model)
         if model == "random prediction_ssbd":
             run_eval_random_pred_ssbd(model)
-            exit()
         if model == "videochat2_uag_oops_v1":
             run_eval_on_uag_oops(model,result_path = videochat2_pred_uag_oops_v1_path)
+        if model == "videochat2_ssbd":
+            run_eval_on_ssbd_videochat2(model, result_path ="/scratch/user/hasnat.md.abdullah/uag/results/videochat2_ssbd_res_pred_gt.json")
         if model == "video_chatgpt_uag_oops_v1":
             run_eval_on_uag_oops(model,result_path = video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path)
         if model == "video_chatgpt_ssbd":
