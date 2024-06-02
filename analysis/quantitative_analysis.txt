@@ -1,0 +1,5 @@
+ uag oops v1 dataset: The word 'approximately' was found in the 'video_llama2_pred' key of 585 samples.
+ ssbd dataset: The word 'approximately' was found in the 'video_llama2_pred' key of 72 samples.
+uag_oops_v1 dataset: The phrase 'don't know don't know' was found in the 'description' key of 17 samples.
+uag_oops_v1 dataset: The phrase 'explicit content' was found in the 'llama3_pred' key of 3 samples.
+uag_oops_v1 dataset: The phrase 'I cannot provide' was found in the 'llama3_pred' key of 12 samples.
