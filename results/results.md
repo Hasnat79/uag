@@ -1,13 +1,15 @@
-## Summary
+## Null Value Summary
 | Model Name | Dataset Name | Total Videos Predicted | Null Values After Fix | Videos with Extracted Timestamps |
 |------------|--------------|-----------------------|----------------------|---------------------------------|
 | videochat2 (Video-LLM) | uag oops dataset v1 | 1589 | 124 | 1465 |
 | video_chatgpt (Video-LLM) | uag oops dataset v1 | 1589 | 274 | 1315 |
-| video_chatgpt (Video-LLM) | ssbd dataset | 104 | 22 | 82 |
 | video_llama2 (Video-LLM)| uag oops dataset v1 | 1589 | 15 | 1574 |
+| blip2 (text representation) +llama3 | uag oops dataset v1 | 1589 | 59 | 1530 |
+| ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+|videochat2 (Video-LLM) | ssbd dataset | 104 | 0 | 104 |
+| video_chatgpt (Video-LLM) | ssbd dataset | 104 | 22 | 82 |
 | video_llama2 (Video-LLM)| ssbd dataset | 104 | 0 | 104 |
-| blip2 (text representation) +llama3 | uag oops dataset v1 (Manual check pending) | 1589 | 77 | 1512 |
-| blip2 (text representation)+llama3 | ssbd dataset (Manual check pending) | 104 | 57 | 47 |
+| blip2 (text representation)+llama3 | ssbd dataset (Manual check pending) | 104 | 29 | 75 |
 
 
 ## Summary
