@@ -279,11 +279,11 @@ def run_null_fix_uag_oops(model_name,result_data_path="",output_path = "",time_e
     print(f"===================={model_name} null fix====================")
     if os.path.exists(output_path):
         result_data = load_file(output_path)
-        print("ff")
     else:
         result_data = load_file(result_data_path)
     none_count = get_null_value_count(result_data)
     print(f"model_name: {model_name}, none_count: {none_count}")
+    
     for video_id,video_info in tqdm(result_data.items()):
         if video_info['pred_start'] is None or video_info['pred_end'] is None:
             # print("video_id: ", video_id)
@@ -298,11 +298,11 @@ def run_null_fix_uag_oops(model_name,result_data_path="",output_path = "",time_e
             video_info['pred_start'] = start
             video_info['pred_end'] = end
 
-            # temp = input("press enter")
+
     # save_data(result_data, output_path)
-    print(f"null values: {get_null_value_count(result_data)}")#77
+    print(f"null values: {get_null_value_count(result_data)}")#59
     # total non null values
-    print(f"total non null values: {len(result_data) - none_count}")#1512
+    print(f"total non null values: {len(result_data) - none_count}")#1530
 def run_null_fix_ssbd(model_name,result_data_path="",output_path = "",time_extract_model=""):
     print(f"===================={model_name} null fix====================")
     if os.path.exists(output_path):
@@ -327,7 +327,7 @@ def run_null_fix_ssbd(model_name,result_data_path="",output_path = "",time_extra
             video_info['pred_end'] = end
 
             # temp = input("press enter")
-    save_data(result_data, output_path)
+    # save_data(result_data, output_path)
     print(f"null values: {get_null_value_count(result_data)}")#77
     # total non null values
     print(f"total non null values: {len(result_data) - get_null_value_count(result_data)}")#1512
@@ -342,8 +342,8 @@ if __name__ == "__main__":
     # run_null_fix_video_llama2_pred_uag_oops_dataset()
     #done
     # run_null_fix_video_llama2_pred_ssbd_dataset()
-    # ##TODO
-    # run_null_fix_uag_oops("llama3_pred_x_blip2_text_rep_x_uag_oops", llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,time_extract_model="llama3")
+    # 
+    # run_null_fix_uag_oops("llama3_pred_x_blip2_text_rep_x_uag_oops", llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,time_extract_model="llama3")#59
     run_null_fix_ssbd("llama3_pred_x_blip2_text_rep_x_ssbd", llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path_null_fixed,time_extract_model="llama3")
 
 
