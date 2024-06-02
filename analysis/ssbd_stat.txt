@@ -1,0 +1,9 @@
+ssbd dataset: The average time span of unusual activity is 15.442 seconds.
+ssbd dataset: The standard deviation of time span of unusual activity is 22.250 seconds.
+ssbd dataset: The number of samples with headbanging activity is 28.
+ssbd dataset: The number of samples with armflapping activity is 49.
+ssbd dataset: The number of samples with spinning activity is 27.
+The average time span of headbanging activity is 14.536 seconds.
+The standard deviation of time span of headbanging activity is 11.249 seconds.
+The average time span of armflapping activity is 11.061 seconds.
+ssbd dataset: The average duration of the whole video is 82.333 seconds.

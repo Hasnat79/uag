@@ -1,0 +1,2 @@
+uag_oops_v1 dataset: The average time span of unusual activity is 4.543 seconds.
+uag_oops_v1 dataset: The standard deviation of time span of unusual activity is 3.989 seconds.
