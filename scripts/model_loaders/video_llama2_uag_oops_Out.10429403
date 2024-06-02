@@ -1,0 +1,26 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+________________________________________________________________________________
+[Memory] Calling __main__--scratch-user-hasnat.md.abdullah-uag-scripts-model_loaders-video_llama2_loader.VideoLlama2Loader.initialize_model...
+initialize_model(Namespace(cfg_path='/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/eval_configs/video_llama_eval_withaudio.yaml', gpu_id=0, model_type='llama2', options=None))
+Initializing Chat
+Loading VIT
+Loading VIT Done
+Loading Q-Former
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:30<00:30, 30.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 18.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.57s/it]
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Initializing audio encoder from /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained ...
+audio encoder initialized.
+Load first Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained/VL_LLaMA_2_7B_Pretrained.pth
+Load second Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained/AL_LLaMA_2_7B_Pretrained.pth
+Initialization Finished
+_______________________________________________initialize_model - 162.3s, 2.7min
+Model loaded
+/scratch/user/hasnat.md.abdullah/uag/data/oops_dataset/oops_video/val/34 Funny Kid Nominees - FailArmy Hall Of Fame (May 2017)0.mp4
+Answer: Based on what I have just seen and heard, it appears that a father is playing with his young son in their bedroom. The father is jumping and spinning around the room, while the son is laughing and trying to keep up with him. The video is shot in a close-up and slow-motion style, which emphasizes the father's energetic movements and the son's joyful reactions.
