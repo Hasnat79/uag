@@ -123,19 +123,19 @@ correct_count: 2 len(result): 104
 
 ============== llama3_blip2_text_rep_x_uag_oops_dataset_v1 ==============
 model name: llama3_blip2_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
-After removing null predictions, total instances: 1530
-correct_count: 884 len(result): 1589
- IoU = 0.001 R@1: 55.63; mIoU: 16.46
-correct_count: 876 len(result): 1589
- IoU = 0.01 R@1: 55.13; mIoU: 16.46
-correct_count: 762 len(result): 1589
- IoU = 0.1 R@1: 47.95; mIoU: 16.46
-correct_count: 360 len(result): 1589
- IoU = 0.3 R@1: 22.66; mIoU: 16.46
-correct_count: 112 len(result): 1589
- IoU = 0.5 R@1: 7.05; mIoU: 16.46
-correct_count: 28 len(result): 1589
- IoU = 0.7 R@1: 1.76; mIoU: 16.46
+After removing null predictions, total instances: 1581
+correct_count: 810 len(result): 1589
+ IoU = 0.001 R@1: 50.98; mIoU: 12.93
+correct_count: 794 len(result): 1589
+ IoU = 0.01 R@1: 49.97; mIoU: 12.93
+correct_count: 650 len(result): 1589
+ IoU = 0.1 R@1: 40.91; mIoU: 12.93
+correct_count: 270 len(result): 1589
+ IoU = 0.3 R@1: 16.99; mIoU: 12.93
+correct_count: 88 len(result): 1589
+ IoU = 0.5 R@1: 5.54; mIoU: 12.93
+correct_count: 26 len(result): 1589
+ IoU = 0.7 R@1: 1.64; mIoU: 12.93
 
 
 ============== llama3_blip2_text_rep_x_ssbd_dataset ==============
@@ -153,3 +153,36 @@ correct_count: 2 len(result): 104
  IoU = 0.5 R@1: 1.92; mIoU: 4.53
 correct_count: 2 len(result): 104
  IoU = 0.7 R@1: 1.92; mIoU: 4.53
+
+ ============== llama3_videollama_text_rep_x_ssbd_dataset ==============
+model name: llama3_videollama_text_rep_x_ssbd_dataset x ssbd_result: 104
+After removing null predictions, total instances: 75
+correct_count: 23 len(result): 104
+ IoU = 0.001 R@1: 22.12; mIoU: 3.71
+correct_count: 22 len(result): 104
+ IoU = 0.01 R@1: 21.15; mIoU: 3.71
+correct_count: 8 len(result): 104
+ IoU = 0.1 R@1: 7.69; mIoU: 3.71
+correct_count: 3 len(result): 104
+ IoU = 0.3 R@1: 2.88; mIoU: 3.71
+correct_count: 1 len(result): 104
+ IoU = 0.5 R@1: 0.96; mIoU: 3.71
+correct_count: 0 len(result): 104
+ IoU = 0.7 R@1: 0.00; mIoU: 3.71
+
+
+============== llama3_videollama_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_videollama_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+After removing null predictions, total instances: 1579
+correct_count: 789 len(result): 1589
+ IoU = 0.001 R@1: 49.65; mIoU: 13.15
+correct_count: 771 len(result): 1589
+ IoU = 0.01 R@1: 48.52; mIoU: 13.15
+correct_count: 632 len(result): 1589
+ IoU = 0.1 R@1: 39.77; mIoU: 13.15
+correct_count: 278 len(result): 1589
+ IoU = 0.3 R@1: 17.50; mIoU: 13.15
+correct_count: 108 len(result): 1589
+ IoU = 0.5 R@1: 6.80; mIoU: 13.15
+correct_count: 24 len(result): 1589
+ IoU = 0.7 R@1: 1.51; mIoU: 13.15

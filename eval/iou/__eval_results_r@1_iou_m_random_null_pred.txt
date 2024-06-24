@@ -1,0 +1,259 @@
+
+
+============== random prediction_oops ==============
+videochat2_pred_uag_oops_v1: 1589
+ IoU = 0.001 R@1: 80.11 mIoU: 29.72
+ IoU = 0.01 R@1: 76.02 mIoU: 29.72
+ IoU = 0.1 R@1: 69.79 mIoU: 29.72
+ IoU = 0.3 R@1: 44.56 mIoU: 29.72
+ IoU = 0.5 R@1: 22.40 mIoU: 29.72
+ IoU = 0.7 R@1: 7.99 mIoU: 29.72
+
+
+============== random prediction_ssbd ==============
+video_chatgpt_pred_x_ssbd_result_null_fixed: 104
+ IoU = 0.001 R@1: 50.00 mIoU: 13.08
+ IoU = 0.01 R@1: 54.81 mIoU: 13.08
+ IoU = 0.1 R@1: 41.35 mIoU: 13.08
+ IoU = 0.3 R@1: 14.42 mIoU: 13.08
+ IoU = 0.5 R@1: 5.77 mIoU: 13.08
+ IoU = 0.7 R@1: 4.81 mIoU: 13.08
+
+
+============== videochat2_uag_oops_v1 ==============
+model name: videochat2_uag_oops_v1 x uag_oops_result: 1589
+correct_count: 769 len(result): 1589
+ IoU = 0.001 R@1: 48.40; mIoU: 14.06
+correct_count: 751 len(result): 1589
+ IoU = 0.01 R@1: 47.26; mIoU: 14.06
+correct_count: 605 len(result): 1589
+ IoU = 0.1 R@1: 38.07; mIoU: 14.06
+correct_count: 321 len(result): 1589
+ IoU = 0.3 R@1: 20.20; mIoU: 14.06
+correct_count: 117 len(result): 1589
+ IoU = 0.5 R@1: 7.36; mIoU: 14.06
+correct_count: 36 len(result): 1589
+ IoU = 0.7 R@1: 2.27; mIoU: 14.06
+
+
+============== videochat2_ssbd ==============
+videochat2_ssbd_pred: 104
+correct_count: 11 len(result): 104
+ IoU = 0.001 R@1: 10.58; mIoU: 2.12
+correct_count: 11 len(result): 104
+ IoU = 0.01 R@1: 10.58; mIoU: 2.12
+correct_count: 6 len(result): 104
+ IoU = 0.1 R@1: 5.77; mIoU: 2.12
+correct_count: 3 len(result): 104
+ IoU = 0.3 R@1: 2.88; mIoU: 2.12
+correct_count: 1 len(result): 104
+ IoU = 0.5 R@1: 0.96; mIoU: 2.12
+correct_count: 0 len(result): 104
+ IoU = 0.7 R@1: 0.00; mIoU: 2.12
+
+
+============== video_chatgpt_uag_oops_v1 ==============
+model name: video_chatgpt_uag_oops_v1 x uag_oops_result: 1589
+correct_count: 1142 len(result): 1589
+ IoU = 0.001 R@1: 71.87; mIoU: 22.62
+correct_count: 1134 len(result): 1589
+ IoU = 0.01 R@1: 71.37; mIoU: 22.62
+correct_count: 952 len(result): 1589
+ IoU = 0.1 R@1: 59.91; mIoU: 22.62
+correct_count: 539 len(result): 1589
+ IoU = 0.3 R@1: 33.92; mIoU: 22.62
+correct_count: 240 len(result): 1589
+ IoU = 0.5 R@1: 15.10; mIoU: 22.62
+correct_count: 72 len(result): 1589
+ IoU = 0.7 R@1: 4.53; mIoU: 22.62
+
+
+============== video_chatgpt_ssbd ==============
+model name: video_chatgpt_ssbd x ssbd_result: 104
+correct_count: 22 len(result): 104
+ IoU = 0.001 R@1: 21.15; mIoU: 4.95
+correct_count: 27 len(result): 104
+ IoU = 0.01 R@1: 25.96; mIoU: 4.95
+correct_count: 18 len(result): 104
+ IoU = 0.1 R@1: 17.31; mIoU: 4.95
+correct_count: 11 len(result): 104
+ IoU = 0.3 R@1: 10.58; mIoU: 4.95
+correct_count: 7 len(result): 104
+ IoU = 0.5 R@1: 6.73; mIoU: 4.95
+correct_count: 3 len(result): 104
+ IoU = 0.7 R@1: 2.88; mIoU: 4.95
+
+
+============== video_llama2_uag_oops_v1 ==============
+model name: video_llama2_uag_oops_v1 x uag_oops_result: 1589
+correct_count: 1164 len(result): 1589
+ IoU = 0.001 R@1: 73.25; mIoU: 27.10
+correct_count: 1163 len(result): 1589
+ IoU = 0.01 R@1: 73.19; mIoU: 27.10
+correct_count: 1028 len(result): 1589
+ IoU = 0.1 R@1: 64.69; mIoU: 27.10
+correct_count: 652 len(result): 1589
+ IoU = 0.3 R@1: 41.03; mIoU: 27.10
+correct_count: 335 len(result): 1589
+ IoU = 0.5 R@1: 21.08; mIoU: 27.10
+correct_count: 100 len(result): 1589
+ IoU = 0.7 R@1: 6.29; mIoU: 27.10
+
+
+============== video_llama2_ssbd ==============
+model name: video_llama2_ssbd x ssbd_result: 104
+correct_count: 36 len(result): 104
+ IoU = 0.001 R@1: 34.62; mIoU: 11.32
+correct_count: 36 len(result): 104
+ IoU = 0.01 R@1: 34.62; mIoU: 11.32
+correct_count: 31 len(result): 104
+ IoU = 0.1 R@1: 29.81; mIoU: 11.32
+correct_count: 16 len(result): 104
+ IoU = 0.3 R@1: 15.38; mIoU: 11.32
+correct_count: 9 len(result): 104
+ IoU = 0.5 R@1: 8.65; mIoU: 11.32
+correct_count: 2 len(result): 104
+ IoU = 0.7 R@1: 1.92; mIoU: 11.32
+
+
+============== llama3_blip2_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_blip2_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+correct_count: 966 len(result): 1589
+ IoU = 0.001 R@1: 60.79; mIoU: 15.42
+correct_count: 947 len(result): 1589
+ IoU = 0.01 R@1: 59.60; mIoU: 15.42
+correct_count: 773 len(result): 1589
+ IoU = 0.1 R@1: 48.65; mIoU: 15.42
+correct_count: 307 len(result): 1589
+ IoU = 0.3 R@1: 19.32; mIoU: 15.42
+correct_count: 115 len(result): 1589
+ IoU = 0.5 R@1: 7.24; mIoU: 15.42
+correct_count: 39 len(result): 1589
+ IoU = 0.7 R@1: 2.45; mIoU: 15.42
+
+
+============== llama3_blip2_text_rep_x_ssbd_dataset ==============
+model name: llama3_blip2_text_rep_x_ssbd_dataset x ssbd_result: 104
+correct_count: 39 len(result): 104
+ IoU = 0.001 R@1: 37.50; mIoU: 7.20
+correct_count: 34 len(result): 104
+ IoU = 0.01 R@1: 32.69; mIoU: 7.20
+correct_count: 19 len(result): 104
+ IoU = 0.1 R@1: 18.27; mIoU: 7.20
+correct_count: 6 len(result): 104
+ IoU = 0.3 R@1: 5.77; mIoU: 7.20
+correct_count: 3 len(result): 104
+ IoU = 0.5 R@1: 2.88; mIoU: 7.20
+correct_count: 2 len(result): 104
+ IoU = 0.7 R@1: 1.92; mIoU: 7.20
+
+
+============== llama3_videollama_text_rep_x_ssbd_dataset ==============
+model name: llama3_videollama_text_rep_x_ssbd_dataset x ssbd_result: 104
+correct_count: 35 len(result): 104
+ IoU = 0.001 R@1: 33.65; mIoU: 5.53
+correct_count: 32 len(result): 104
+ IoU = 0.01 R@1: 30.77; mIoU: 5.53
+correct_count: 15 len(result): 104
+ IoU = 0.1 R@1: 14.42; mIoU: 5.53
+correct_count: 7 len(result): 104
+ IoU = 0.3 R@1: 6.73; mIoU: 5.53
+correct_count: 2 len(result): 104
+ IoU = 0.5 R@1: 1.92; mIoU: 5.53
+correct_count: 0 len(result): 104
+ IoU = 0.7 R@1: 0.00; mIoU: 5.53
+
+
+============== llama3_videollama_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_videollama_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+correct_count: 887 len(result): 1589
+ IoU = 0.001 R@1: 55.82; mIoU: 14.91
+correct_count: 874 len(result): 1589
+ IoU = 0.01 R@1: 55.00; mIoU: 14.91
+correct_count: 717 len(result): 1589
+ IoU = 0.1 R@1: 45.12; mIoU: 14.91
+correct_count: 309 len(result): 1589
+ IoU = 0.3 R@1: 19.45; mIoU: 14.91
+correct_count: 129 len(result): 1589
+ IoU = 0.5 R@1: 8.12; mIoU: 14.91
+correct_count: 34 len(result): 1589
+ IoU = 0.7 R@1: 2.14; mIoU: 14.91
+
+
+============== finetuned_videollama_pred_x_uag_oops_dataset ==============
+model name: finetuned_videollama_pred_x_uag_oops_dataset x uag_oops_result: 1589
+correct_count: 1229 len(result): 1589
+ IoU = 0.001 R@1: 77.34; mIoU: 30.33
+correct_count: 1214 len(result): 1589
+ IoU = 0.01 R@1: 76.40; mIoU: 30.33
+correct_count: 1098 len(result): 1589
+ IoU = 0.1 R@1: 69.10; mIoU: 30.33
+correct_count: 714 len(result): 1589
+ IoU = 0.3 R@1: 44.93; mIoU: 30.33
+correct_count: 389 len(result): 1589
+ IoU = 0.5 R@1: 24.48; mIoU: 30.33
+correct_count: 140 len(result): 1589
+ IoU = 0.7 R@1: 8.81; mIoU: 30.33
+
+
+============== finetuned_videollama_pred_x_ssbd_dataset ==============
+model name: finetuned_videollama_pred_x_ssbd_dataset x ssbd_result: 104
+correct_count: 50 len(result): 104
+ IoU = 0.001 R@1: 48.08; mIoU: 11.02
+correct_count: 62 len(result): 104
+ IoU = 0.01 R@1: 59.62; mIoU: 11.02
+correct_count: 40 len(result): 104
+ IoU = 0.1 R@1: 38.46; mIoU: 11.02
+correct_count: 16 len(result): 104
+ IoU = 0.3 R@1: 15.38; mIoU: 11.02
+correct_count: 8 len(result): 104
+ IoU = 0.5 R@1: 7.69; mIoU: 11.02
+correct_count: 4 len(result): 104
+ IoU = 0.7 R@1: 3.85; mIoU: 11.02
+
+xx porer ta thik. 
+============== finetuned_videollama_pred_x_uag_oops_dataset ==============
+model name: finetuned_videollama_pred_x_uag_oops_dataset x uag_oops_result: 1589
+correct_count: 439 len(result): 1589
+ IoU = 0.001 R@1: 27.63; mIoU: 4.11
+correct_count: 426 len(result): 1589
+ IoU = 0.01 R@1: 26.81; mIoU: 4.11
+correct_count: 238 len(result): 1589
+ IoU = 0.1 R@1: 14.98; mIoU: 4.11
+correct_count: 50 len(result): 1589
+ IoU = 0.3 R@1: 3.15; mIoU: 4.11
+correct_count: 9 len(result): 1589
+ IoU = 0.5 R@1: 0.57; mIoU: 4.11
+correct_count: 3 len(result): 1589
+ IoU = 0.7 R@1: 0.19; mIoU: 4.11
+
+
+============== finetuned_videollama_pred_x_ssbd_dataset ==============
+model name: finetuned_videollama_pred_x_ssbd_dataset x ssbd_result: 104
+correct_count: 11 len(result): 104
+ IoU = 0.001 R@1: 10.58; mIoU: 0.54
+correct_count: 8 len(result): 104
+ IoU = 0.01 R@1: 7.69; mIoU: 0.54
+correct_count: 2 len(result): 104
+ IoU = 0.1 R@1: 1.92; mIoU: 0.54
+correct_count: 0 len(result): 104
+ IoU = 0.3 R@1: 0.00; mIoU: 0.54
+correct_count: 0 len(result): 104
+ IoU = 0.5 R@1: 0.00; mIoU: 0.54
+correct_count: 0 len(result): 104
+ IoU = 0.7 R@1: 0.00; mIoU: 0.54
+
+============== videochat2_pred_x_funqa_dataset ==============
+model name: videochat2_pred_x_funqa_dataset x funqa_result: 172
+correct_count: 33 len(result): 172
+ IoU = 0.001 R@1: 19.19; mIoU: 8.13
+correct_count: 33 len(result): 172
+ IoU = 0.01 R@1: 19.19; mIoU: 8.13
+correct_count: 30 len(result): 172
+ IoU = 0.1 R@1: 17.44; mIoU: 8.13
+correct_count: 22 len(result): 172
+ IoU = 0.3 R@1: 12.79; mIoU: 8.13
+correct_count: 8 len(result): 172
+ IoU = 0.5 R@1: 4.65; mIoU: 8.13
+correct_count: 6 len(result): 172
+ IoU = 0.7 R@1: 3.49; mIoU: 8.13

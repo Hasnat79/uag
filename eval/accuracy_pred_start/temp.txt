@@ -1,0 +1,103 @@
+
+
+============== random prediction_oops ==============
+videochat2_pred_uag_oops_v1: 1589
+correct_within_1_sec_count: 566 len(result): 1589
+correct_within_quarter_sec_count: 219 len(result): 1589
+Accuracy within 1 sec: 35.62
+Accuracy within 0.25 sec: 13.78
+
+
+============== random prediction_ssbd ==============
+video_chatgpt_pred_x_ssbd_result_null_fixed: 104
+correct_within_1_sec_count: 6 len(result): 104
+correct_within_quarter_sec_count: 2 len(result): 104
+Accuracy within 1 sec: 5.77
+Accuracy within 0.25 sec: 1.92
+
+
+============== videochat2_uag_oops_v1 ==============
+model name: videochat2_uag_oops_v1 x uag_oops_result: 1589
+correct_within_1_sec_count: 200 len(result): 1589
+correct_within_quarter_sec_count: 83 len(result): 1589
+Accuracy within 1 sec: 12.59
+Accuracy within 0.25 sec: 5.22
+
+
+============== videochat2_ssbd ==============
+videochat2_ssbd_pred: 104
+correct_within_1_sec_count: 7 len(result): 104
+correct_within_quarter_sec_count: 0 len(result): 104
+Accuracy within 1 sec: 6.73
+Accuracy within 0.25 sec: 0.00
+
+
+============== video_chatgpt_uag_oops_v1 ==============
+model name: video_chatgpt_uag_oops_v1 x uag_oops_result: 1589
+correct_within_1_sec_count: 246 len(result): 1589
+correct_within_quarter_sec_count: 95 len(result): 1589
+Accuracy within 1 sec: 15.48
+Accuracy within 0.25 sec: 5.98
+
+
+============== video_chatgpt_ssbd ==============
+model name: video_chatgpt_ssbd x ssbd_result: 104
+correct_within_1_sec_count: 10 len(result): 104
+correct_within_quarter_sec_count: 2 len(result): 104
+Accuracy within 1 sec: 9.62
+Accuracy within 0.25 sec: 1.92
+
+
+============== video_llama2_uag_oops_v1 ==============
+model name: video_llama2_uag_oops_v1 x uag_oops_result: 1589
+correct_within_1_sec_count: 324 len(result): 1589
+correct_within_quarter_sec_count: 133 len(result): 1589
+Accuracy within 1 sec: 20.39
+Accuracy within 0.25 sec: 8.37
+
+
+============== video_llama2_ssbd ==============
+model name: video_llama2_ssbd x ssbd_result: 104
+correct_within_1_sec_count: 16 len(result): 104
+correct_within_quarter_sec_count: 3 len(result): 104
+Accuracy within 1 sec: 15.38
+Accuracy within 0.25 sec: 2.88
+
+
+============== llama3_blip2_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_blip2_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+correct_within_1_sec_count: 757 len(result): 1589
+correct_within_quarter_sec_count: 283 len(result): 1589
+Accuracy within 1 sec: 47.64
+Accuracy within 0.25 sec: 17.81
+
+
+============== llama3_blip2_text_rep_x_ssbd_dataset ==============
+model name: llama3_blip2_text_rep_x_ssbd_dataset x ssbd_result: 104
+correct_within_1_sec_count: 7 len(result): 104
+correct_within_quarter_sec_count: 0 len(result): 104
+Accuracy within 1 sec: 6.73
+Accuracy within 0.25 sec: 0.00
+
+
+============== llama3_videollama_text_rep_x_ssbd_dataset ==============
+model name: llama3_videollama_text_rep_x_ssbd_dataset x ssbd_result: 104
+correct_within_1_sec_count: 11 len(result): 104
+correct_within_quarter_sec_count: 3 len(result): 104
+Accuracy within 1 sec: 10.58
+Accuracy within 0.25 sec: 2.88
+
+
+============== llama3_videollama_text_rep_x_uag_oops_dataset_v1 ==============
+model name: llama3_videollama_text_rep_x_uag_oops_dataset_v1 x uag_oops_result: 1589
+correct_within_1_sec_count: 766 len(result): 1589
+correct_within_quarter_sec_count: 284 len(result): 1589
+Accuracy within 1 sec: 48.21
+Accuracy within 0.25 sec: 17.87
+
+
+============== human_consitency_x_uag_oops_dataset_v1 ==============
+correct_within_1_sec_count: 1421 len(result): 1589
+correct_within_quarter_sec_count: 903 len(result): 1589
+Accuracy within 1 sec: 89.43
+Accuracy within 0.25 sec: 56.83
