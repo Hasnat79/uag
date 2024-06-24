@@ -4,9 +4,7 @@ import sys
 import os
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 from tqdm import tqdm
-from configs.configure import video_chatgpt_pred_x_uag_oops_dataset_path,video_chatgpt_pred_x_ssbd_result_path, video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path,video_llama2_pred_x_uag_oops_dataset_path,video_llama2_pred_x_uag_oops_dataset_null_fixed_path,video_llama2_pred_x_ssbd_result_path,video_llama2_pred_x_ssbd_result_null_fixed_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path_null_fixed
-
-
+from configs.configure import video_chatgpt_pred_x_uag_oops_dataset_path,video_chatgpt_pred_x_ssbd_result_path, video_chatgpt_pred_x_uag_oops_dataset_null_fixed_path,video_chatgpt_pred_x_ssbd_result_null_fixed_path,video_llama2_pred_x_uag_oops_dataset_path,video_llama2_pred_x_uag_oops_dataset_null_fixed_path,video_llama2_pred_x_ssbd_result_path,video_llama2_pred_x_ssbd_result_null_fixed_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path_null_fixed, llama3_pred_x_videollama2_text_rep_x_ssbd_dataset_path,llama3_pred_x_videollama2_text_rep_x_ssbd_dataset_path_null_fixed,llama3_pred_x_videollama2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_videollama2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,finetuned_videollama_pred_x_uag_oops_dataset_path,finetuned_videollama_pred_x_uag_oops_dataset_null_fixed_path,finetuned_videollama_pred_x_ssbd_dataset_path,finetuned_videollama_pred_x_ssbd_dataset_null_fixed_path
 def get_uag_oops_dataset(uag_oops_dataset_path):
     with open(uag_oops_dataset_path, "r") as f:
         uag_oops_dataset = json.load(f)
@@ -257,10 +255,14 @@ def extract_time_from_llama3(pred):
     pattern = r'"startTime": (\d+\.\d+),\s+"endTime": (\d+\.\d+)'
     pattern_2 = r'"start_time": (\d+\.?\d*),\s*"end_time": (\d+\.?\d*)'
     pattern_3 = r'Start time: (\d+\.?\d*)s\s+End time: (\d+\.?\d*)s'
+    pattern_4 = r'Start Time: (\d+\.?\d*)s\s+End Time: (\d+\.?\d*)s'
+    pattern_5 = r"start_time:\s*(\d+\.\d+),\s*end_time:\s*(\d+\.\d+)"
 
     match = re.search(pattern, pred)
     match_2 = re.search(pattern_2, pred)
     match_3 = re.search(pattern_3, pred)
+    match_4 = re.search(pattern_4, pred)
+    match_5 = re.search(pattern_5, pred)
     if match:
         start_time = float(match.group(1))
         end_time = float(match.group(2))
@@ -273,6 +275,14 @@ def extract_time_from_llama3(pred):
         start_time = float(match_3.group(1))
         end_time = float(match_3.group(2))
         return start_time, end_time
+    elif match_4:
+        start_time = float(match_4.group(1))
+        end_time = float(match_4.group(2))
+        return start_time, end_time
+    elif match_5:
+        start_time = float(match_5.group(1))
+        end_time = float(match_5.group(2))
+        return start_time, end_time
     return None, None
 def run_null_fix_uag_oops(model_name,result_data_path="",output_path = "",time_extract_model=""):
 
@@ -283,13 +293,14 @@ def run_null_fix_uag_oops(model_name,result_data_path="",output_path = "",time_e
         result_data = load_file(result_data_path)
     none_count = get_null_value_count(result_data)
     print(f"model_name: {model_name}, none_count: {none_count}")
-    
+    return
     for video_id,video_info in tqdm(result_data.items()):
         if video_info['pred_start'] is None or video_info['pred_end'] is None:
             # print("video_id: ", video_id)
 
             # print(f"""{model_name}_pred: {video_info[f"{model_name.split('_')[0]}_pred"]}""")
-            pred = video_info[f"""{model_name.split('_')[0]}_pred"""]
+            # pred = video_info[f"""{model_name.split('_')[0]}_pred"""]
+            pred = video_info[f"""video_llama2_pred"""]
             # print(f"pred: {pred}")
             if time_extract_model=="llama3":
                 start, end = extract_time_from_llama3(pred)
@@ -299,7 +310,7 @@ def run_null_fix_uag_oops(model_name,result_data_path="",output_path = "",time_e
             video_info['pred_end'] = end
 
 
-    # save_data(result_data, output_path)
+    save_data(result_data, output_path)
     print(f"null values: {get_null_value_count(result_data)}")#59
     # total non null values
     print(f"total non null values: {len(result_data) - none_count}")#1530
@@ -307,17 +318,18 @@ def run_null_fix_ssbd(model_name,result_data_path="",output_path = "",time_extra
     print(f"===================={model_name} null fix====================")
     if os.path.exists(output_path):
         result_data = load_file(output_path)
-        print("ff")
     else:
         result_data = load_file(result_data_path)
     none_count = get_null_value_count(result_data)
     print(f"model_name: {model_name}, none_count: {none_count}")
+    return
     for video_id,video_info in tqdm(result_data.items()):
         if video_info['pred_start'] is None or video_info['pred_end'] is None:
             # print("video_id: ", video_id)
 
             # print(f"""{model_name}_pred: {video_info[f"{model_name.split('_')[0]}_pred"]}""")
-            pred = video_info[f"""{model_name.split('_')[0]}_pred"""]
+            # pred = video_info[f"""{model_name.split('_')[0]}_pred"""]
+            pred = video_info[f"""video_llama2_pred"""]
             # print(f"pred: {pred}")
             if time_extract_model=="llama3":
                 start, end = extract_time_from_llama3(pred)
@@ -327,7 +339,7 @@ def run_null_fix_ssbd(model_name,result_data_path="",output_path = "",time_extra
             video_info['pred_end'] = end
 
             # temp = input("press enter")
-    # save_data(result_data, output_path)
+    save_data(result_data, output_path)
     print(f"null values: {get_null_value_count(result_data)}")#77
     # total non null values
     print(f"total non null values: {len(result_data) - get_null_value_count(result_data)}")#1512
@@ -344,6 +356,10 @@ if __name__ == "__main__":
     # run_null_fix_video_llama2_pred_ssbd_dataset()
     # 
     # run_null_fix_uag_oops("llama3_pred_x_blip2_text_rep_x_uag_oops", llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,time_extract_model="llama3")#59
-    run_null_fix_ssbd("llama3_pred_x_blip2_text_rep_x_ssbd", llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path_null_fixed,time_extract_model="llama3")
+    # run_null_fix_ssbd("llama3_pred_x_blip2_text_rep_x_ssbd", llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path,llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path_null_fixed,time_extract_model="llama3")
 
-
+    # llama3 + videollama2
+    # run_null_fix_ssbd("llama3_pred_x_videollama2_text_rep_x_ssbd", llama3_pred_x_videollama2_text_rep_x_ssbd_dataset_path,llama3_pred_x_videollama2_text_rep_x_ssbd_dataset_path_null_fixed,time_extract_model="llama3")
+    # run_null_fix_uag_oops("llama3_pred_x_videollama2_text_rep_x_uag_oops", llama3_pred_x_videollama2_text_rep_x_uag_oops_dataset_v1_path,llama3_pred_x_videollama2_text_rep_x_uag_oops_dataset_v1_path_null_fixed,time_extract_model="llama3")
+    run_null_fix_uag_oops("finetuned_videollama_pred_x_uag_oops_dataset", finetuned_videollama_pred_x_uag_oops_dataset_path,finetuned_videollama_pred_x_uag_oops_dataset_null_fixed_path,time_extract_model="llama3")
+    run_null_fix_ssbd("finetuned_videollama_pred_x_ssbd_dataset", finetuned_videollama_pred_x_ssbd_dataset_path,finetuned_videollama_pred_x_ssbd_dataset_null_fixed_path,time_extract_model="llama3")

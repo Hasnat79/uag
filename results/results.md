@@ -4,12 +4,14 @@
 | videochat2 (Video-LLM) | uag oops dataset v1 | 1589 | 124 | 1465 |
 | video_chatgpt (Video-LLM) | uag oops dataset v1 | 1589 | 274 | 1315 |
 | video_llama2 (Video-LLM)| uag oops dataset v1 | 1589 | 15 | 1574 |
-| blip2 (text representation) +llama3 | uag oops dataset v1 | 1589 | 59 | 1530 |
-| ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| llama3 + blip2 (text representation) [new values will be update] | uag oops dataset v1 | 1589 | 8 | 1581 |
+|llama3 + videollama2 (text rep)| uag oops dataset v1 | 1589 | 10 | 1579 |
+| -------- | ------ | ------ | ------ | ------ |
 |videochat2 (Video-LLM) | ssbd dataset | 104 | 0 | 104 |
 | video_chatgpt (Video-LLM) | ssbd dataset | 104 | 22 | 82 |
 | video_llama2 (Video-LLM)| ssbd dataset | 104 | 0 | 104 |
-| blip2 (text representation)+llama3 | ssbd dataset (Manual check pending) | 104 | 29 | 75 |
+| llama3+ blip2 (text representation) | ssbd dataset  | 104 | 29 | 75 |
+|llama3 + videollama2 (text rep) | ssbd dataset  | 104 | 29 | 75 |
 
 
 ## Summary
