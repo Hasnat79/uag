@@ -4,7 +4,7 @@ import shutil
 import cv2
 import shlex
 import torch
-import nltk
+# import nltk
 from tqdm import tqdm
 sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 from joblib import Memory
@@ -81,9 +81,11 @@ def generate_text_representation_from_video(video_path=""):
     '''
     save_temporary_frames_from_video(video_path,output_path = temp_video_frames_dir)
     video_frames = [os.path.join(temp_video_frames_dir, f) for f in os.listdir(temp_video_frames_dir) if f.endswith('.png')]
+    sorted_video_frames = sorted(video_frames,key = lambda x: int(x.split("/")[-1].split(".")[0]))
     text_rep = ""
     
-    for i,frame in enumerate(video_frames):
+    for i,frame in enumerate(sorted_video_frames):
+        print(f"frame: {frame}")
         frame_image = load_frame(frame)
         text_rep += f"{i}.0s: "
         text_rep += vqa_captioner(frame_image)+".\n"
@@ -110,16 +112,14 @@ def build_blip2_text_rep_x_oops_dataset_v1(dataset = uag_oops_dataset_path, outp
             text_rep = generate_text_representation_from_video(video_path)
             video_info["text_rep"] = text_rep
             blip2_text_rep_x_oops_dataset_v1[video_id] = video_info
-            
-        with open(output_path, 'w') as f:
-            json.dump(blip2_text_rep_x_oops_dataset_v1, f,indent=4)
-            print(f"succesfully saved blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
+            with open(output_path, 'w') as f:
+                json.dump(blip2_text_rep_x_oops_dataset_v1, f,indent=4)
+                print(f"succesfully saved blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
         
     #verifying the result
     with open(output_path,'r') as f:
         blip2_text_rep_x_oops_dataset_v1 = json.load(f)
     print(f"Loaded blip2_text_rep_x_oops_dataset_v1 with {len(blip2_text_rep_x_oops_dataset_v1)} samples")
-    print(f"total missing text_rep :{len([video_info for video_info in blip2_text_rep_x_oops_dataset_v1.values() if video_info['text_rep']==''])}")
 
   
 if __name__ == "__main__":
