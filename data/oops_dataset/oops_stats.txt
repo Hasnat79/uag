@@ -2,6 +2,10 @@ Total training files: 23201
 Total training videos available: 23201
 Total videos in train filtered list: 16012
 Total trained filtered videos available: 16012
+Total failed training filtered videos: 3855
+Total failed filtered training videos with descriptions: 3846
+Total available failed filtered training videos with descriptions: 3846
+# Final train dataset size: 3778 (removing 'don't know' descriptions)
 -----------------------------------------------
 Total validation files: 6739
 Total validation videos available: 6739
