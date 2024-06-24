@@ -105,7 +105,7 @@ for sample in ssbd_test_list:
         spinning_time_spans.append(time_span)
 
 print(f"The average time span of headbanging activity is {np.mean(head_banging_time_spans):.3f} seconds.")# 0 samples
-print(f"The standard deviation of time span of headbanging activity is {np.std(head_banging_time_spans):.3f} seconds.")# 0 samples
+print(f"The average time span of headbanging activity is {np.mean(head_banging_time_spans):.3f} seconds.")# 0 samples
 print(f"The average time span of armflapping activity is {np.mean(hand_flapping_time_spans):.3f} seconds.")# 0 samples
 
 
