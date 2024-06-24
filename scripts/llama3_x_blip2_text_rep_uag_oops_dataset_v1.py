@@ -58,10 +58,10 @@ if __name__ == "__main__":
             video_text_rep = video_info["text_rep"]
             # print(f"video_text_rep: {video_text_rep}")
             query = video_info["description"]
-            content = f"""Find the start time and end time of the query below given the video text representation.  Give your answer in json format
+            content = f"""Find the start time and end time of the query below given the video text representation. Even if the query is not present in the description, try to find relationship between the meaning of words and infer. You must predict an answer and do not predict any null prediction. Give your answer in json format
 Query: {query}
 Video Text Representation: {video_text_rep}
-"""         
+"""    
             try : 
               
               llama3_generate_text = llama3.infer(content)
@@ -73,7 +73,6 @@ Video Text Representation: {video_text_rep}
               with open(llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path, 'w') as f:
                 json.dump(results, f, indent=4)
                 print(f"Results saved successfully in {llama3_pred_x_blip2_text_rep_x_uag_oops_dataset_v1_path} with {len(results)} samples")
-                
             except Exception as e:
               print(e)
 
