@@ -83,13 +83,13 @@ class VideoLlama2Loader():
                                   num_beams=num_beams,
                                   temperature=temperature,
                                   max_new_tokens=300,
-                                  max_length=2000)[0]
+                                  max_length=500)[0]
         chatbot[-1][1] = llm_message
         # print(chat_state.get_prompt())
         # print(chat_state)
         return chatbot, chat_state, img_list  
-    @memory.cache
-    def initialize_model(args):
+    # @memory.cache
+    def initialize_model(self,args):
         print('Initializing Chat')
         cfg = Config(args)
         model_config = cfg.model_cfg

@@ -112,9 +112,9 @@ def generate_dataset_v1(failed_validation_videos_with_single_scene):
         for val_filtered_video in tqdm(failed_validation_videos_with_single_scene):
             print(f"val filtered video: {val_filtered_video}")
             video_path = oops_val_videos_dir+val_filtered_video+".mp4"
-            # get unusual activity start time from heldout transition times
-            if val_filtered_video in held_out_transition_times:
-                start_time = held_out_transition_times[val_filtered_video]['t'][0]
+            # get unusual activity start time from  transition times
+            if val_filtered_video in transition_times:
+                start_time = transition_times[val_filtered_video]['t'][0]
             else: 
                 start_time = None
             # get end_time = duration time from transition times

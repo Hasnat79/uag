@@ -39,7 +39,7 @@ if __name__ == "__main__":
         with open(video_llama2_pred_x_uag_oops_dataset_path, "r") as f:
             result = json.load(f)
         print(f"Loaded {len(result)} results")
-    for video_id, video_info in tqdm(uag_oops_v1.items()):
+    for video_id, video_info in tqdm(uag_oops_v1):
         if video_id not in result:
             gr_video = video_info["video_path"]
             gr_img = None
