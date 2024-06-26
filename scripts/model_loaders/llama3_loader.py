@@ -35,7 +35,7 @@ class Llama3Loader():
     
     def infer(self,content):
       messages = [
-    {"role": "system", "content": "You are a video analyst. You can read the the video text representation and predict the start and end time of any activity in the video."},
+    {"role": "system", "content": "You are a video analyst. You can read the the video text representation and infer the start and end time of a given activity from the cue words found in the video text representation."},
     {"role": "user", "content": f"{content}"},
 ]
       input_ids = self.tokenizer.apply_chat_template(
@@ -49,7 +49,7 @@ class Llama3Loader():
   ]
       outputs = self.model.generate(
       input_ids,
-      max_new_tokens=256,
+      max_new_tokens=500,
       eos_token_id=terminators,
       do_sample=True,
       temperature=0.6,
@@ -64,6 +64,11 @@ class Llama3Loader():
 
 if __name__ == "__main__":
   llama3 = Llama3Loader()
-  content = "Find the start time and end time of the query below from the video. Query: A guy jumps onto a bed where his son is. When the guy jumps, the son flies up and hits the wall. 0.0s: a man is helping a little boy put a quilt on a bed in a room with a man standing next to him.\n1.0s: a person laying on a bed in front of a window in a room with a quilt on top of the bed.\n2.0s: a man playing with a child on a bed in front of a window in a room with a bed and a window.\n3.0s: a man doing a handstand on a bed in front of a window in a room with a window in the background.\n"
+  content = """The following are description of activities from frames extracted 1 second apart from a video clip: 
+    0.0s: In the image, a young boy is being tickled by his father on a bed..\n1.0s: In the image, a young boy is playing with his father on a bed, jumping and running around while the father tries to catch him..\n2.0s: In the image, a man is performing a burpee exercise on a bed, jumping from a lying position to a standing position while simultaneously raising his arms above his head and kicking his feet forward..\n3.0s: In the image, a young girl is sitting on a bed, playing with a stuffed animal while a woman is standing behind her, holding a quilt and smiling ..\n
+
+    The action [A guy jumps onto a bed where his son is. When the guy jumps, the son flies up and hits the wall.] has occurred in the video clip. What interval is the action most likely to start and end?
+    Provide your best guess by providing the start and end time in json format
+    """
   answer = llama3.infer(content)
-  print(answer)
+  # print(answer)

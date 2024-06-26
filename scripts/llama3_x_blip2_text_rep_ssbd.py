@@ -11,7 +11,7 @@ sys.path.append("/scratch/user/hasnat.md.abdullah/uag/")
 
 import json
 from configs.configure import blip2_text_rep_x_ssbd_dataset_path, llama3_pred_x_blip2_text_rep_x_ssbd_dataset_path
-from model_loaders.llama3_loader import Llama3LLoader
+from model_loaders.llama3_loader import Llama3Loader
 
 
 
