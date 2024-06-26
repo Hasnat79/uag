@@ -1,0 +1,531 @@
+Initializing Chat
+Loading VIT
+Loading VIT Done
+Loading Q-Former
+Initializing audio encoder from /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained ...
+audio encoder initialized.
+Load first Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained/VL_LLaMA_2_7B_Pretrained.pth
+Load second Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained/AL_LLaMA_2_7B_Pretrained.pth
+Initialization Finished
+ length of data: 30170
+ length of unique_data: 424
+ length of humor_data: 172
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_101_1433_1631.mp4
+Predicted start: 0:00:00, Predicted end: 0:00:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_112_0000_0432.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_112_0436_0691.mp4
+Predicted start: 0:07, Predicted end: 0:10
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_125_2078_2286.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_125_2798_3062.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_135_3404_3567.mp4
+Predicted start: 00:00:40, Predicted end: 00:00:45
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_136_0465_0753.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_136_2847_2993.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_137_0922_1194.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_138_0681_0955.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_138_2285_2556.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_141_2377_2501.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_15_0000_0224.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_161_2850_3077.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_178_4300_4608.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_179_1690_1815.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_181_2139_2297.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_193_2339_2560.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_2_3370_3451.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_209_3104_3359.mp4
+Predicted start: 00:07, Predicted end: 00:11
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_211_2570_2883.mp4
+Predicted start: 0:00:05, Predicted end: 0:00:10
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_222_2427_2871.mp4
+Predicted start: 0:07, Predicted end: 0:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_23_2825_3046.mp4
+Predicted start: 0:00:05, Predicted end: 0:00:10
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_3_0760_0950.mp4
+Predicted start: 00:15, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_0000_0191.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_0442_0688.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_1484_1703.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_2511_2980.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_32_0694_0852.mp4
+Predicted start: 00:17, Predicted end: 00:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_32_2136_2435.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_36_2514_2828.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_39_2925_3134.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_0483_0559.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_1554_1712.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_3153_3445.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_73_0257_0456.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_100_3230_3400.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_101_2970_3120.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_102_1679_1774.mp4
+Predicted start: 0:25, Predicted end: 0:35
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_103_0920_1010.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_106_2022_2224.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_107_3072_3160.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_108_0600_0707.mp4
+Predicted start: 00:15, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_113_0712_0792.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_114_3686_3881.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_115_2190_2304.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_117_1030_1217.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_119_2067_2100.mp4
+Predicted start: 0:27, Predicted end: 0:33
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_121_3397_3512.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_125_2858_3029.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_127_1218_1399.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_127_1628_1761.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_13_1042_1221.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_132_0544_0639.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_132_1393_1497.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_133_1554_1718.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_165_3996_4080.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_165_4617_4709.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_169_1656_1737.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_182_2660_2786.mp4
+Predicted start: 00:15, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_192_0304_0384.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_193_2012_2100.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_194_0571_0756.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_196_0303_0504.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_199_1990_2259.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_2_3125_3305.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_20_3372_3540.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_203_1646_1713.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_203_2846_3053.mp4
+Predicted start: 00:15, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_213_1410_1499.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_223_0385_0424.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_225_1465_1622.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_244_3603_3682.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_245_3774_3967.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_246_0293_0390.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_248_0272_0319.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_249_0710_0923.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3168_3257.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3519_3609.mp4
+Predicted start: 0:12, Predicted end: 0:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3610_3726.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3965_4061.mp4
+Predicted start: 0:25, Predicted end: 0:35
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_4389_4472.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_5926_6298.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_259_0848_0931.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_0697_0794.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_1116_1234.mp4
+Predicted start: 0:33, Predicted end: 0:45
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_1577_1681.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_261_2742_2904.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_262_1313_1378.mp4
+Predicted start: 0:07, Predicted end: 0:10
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_262_1902_1986.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_288_2653_2769.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_295_0000_0165.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_3_0709_0916.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_3_1548_1678.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_30_1893_2009.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_8_2919_3025.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_84_2310_2408.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_95_0260_0377.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_95_0700_0801.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_99_1849_2077.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_99_2453_2635.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1069_0000_0243.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1181_0010_0520.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_63_0050_0248.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_630_0000_0160.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_646_0000_0178.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_647_0000_0312.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_662_0000_0260.mp4
+Predicted start: 0:00:08, Predicted end: 0:00:11
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_70_0000_0286.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_723_0123_0269.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_76_0000_0395.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_770_0000_0235.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_779_0000_0149.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_812_0035_0218.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_814_0031_0310.mp4
+Predicted start: 0:00, Predicted end: 0:03
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_848_0000_0538.mp4
+Predicted start: 0:30, Predicted end: 0:35
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_880_0000_0360.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_888_0000_0173.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_932_0000_0196.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_99_0000_0315.mp4
+Predicted start: 0:40, Predicted end: 0:50
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_137_0725_0795.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_139_1170_1296.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_145_1850_1912.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_146_3472_3673.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_987_0000_0107.mp4
+Predicted start: 0:00:23, Predicted end: 0:00:27
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_995_0000_0442.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_999_0000_0689.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_61_0865_1062.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_503_0000_0200.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_507_0000_0270.mp4
+Predicted start: 00:05, Predicted end: 00:07
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_530_0000_0220.mp4
+Predicted start: 0:20, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_534_0000_0400.mp4
+Predicted start: 00:20, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_552_0210_0270.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_555_0000_0400.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_564_0000_0760.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_568_0000_0500.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_580_0000_0770.mp4
+Predicted start: 0:07, Predicted end: 0:09
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_597_0000_0250.mp4
+Predicted start: 00:00:25, Predicted end: 00:00:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_617_0290_0344.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_122_0000_0528.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1227_0000_0191.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1230_0000_0285.mp4
+Predicted start: 0:17, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_125_0000_0387.mp4
+Predicted start: 0:10, Predicted end: 0:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1267_0010_0670.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1271_0005_0368.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1273_0010_0640.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1283_0012_0299.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_135_0315_0478.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_14_0000_0214.mp4
+Predicted start: 0:25, Predicted end: 0:35
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_150_0000_0480.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_0988_1128.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_1314_1489.mp4
+Predicted start: 0:15, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_2755_2849.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_3037_3124.mp4
+Predicted start: 0:27, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_239_0253_0303.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_286_0000_0278.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_378_0000_0317.mp4
+Predicted start: 0:23, Predicted end: 0:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_386_0000_0256.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_396_0000_0275.mp4
+Predicted start: 0:13, Predicted end: 0:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_42_0000_0826.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_471_0280_0336.mp4
+Predicted start: 0:00:00, Predicted end: 0:00:15
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_471_0340_0411.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_490_0000_0140.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_495_0000_0060.mp4
+Predicted start: 0:32, Predicted end: 0:34
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_312_3848_3972.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_342_0649_0850.mp4
+Predicted start: 00:15, Predicted end: 00:25
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_37_0727_0814.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_38_0544_0593.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_41_1853_1959.mp4
+Predicted start: 0:15, Predicted end: 0:20
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_45_2446_2509.mp4
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_46_0625_0746.mp4
+Predicted start: 00:13, Predicted end: 00:17
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_49_0462_0589.mp4
+Predicted start: 0:25, Predicted end: 0:30
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/videollama_pred_x_funqa_dataset.json
+verifying results
+size of results: 172
+none_count: 74

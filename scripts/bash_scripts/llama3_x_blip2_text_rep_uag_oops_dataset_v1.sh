@@ -17,4 +17,4 @@
 ##SBATCH --mail-user=hasnat.md.abdullah@tamu.edu    #Send all emails to email_address 
 
 cd /scratch/user/hasnat.md.abdullah/uag/scripts
-python llama3_x_blip2_text_rep_uag_oops_dataset_v1.py > logs/llama3_x_blip2_text_rep_x_uag_oops_run2_for_missing_text_rep.txt
+python llama3_x_blip2_text_rep_uag_oops_dataset_v1.py > logs/llama3_x_blip2_text_rep_x_uag_oops.txt

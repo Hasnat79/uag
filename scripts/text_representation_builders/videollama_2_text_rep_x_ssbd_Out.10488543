@@ -1,0 +1,2400 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+  0%|          | 0/104 [00:00<?, ?it/s]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-23T15:35:11.000000Z
+  Duration: 00:00:45.53, start: 0.000000, bitrate: 469 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 370 kb/s, 24.12 fps, 24.12 tbr, 24555 tbn, 48.24 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+      encoder         : Lavc58.91.100 png
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps= 13 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=1.85x    frame=   26 fps= 16 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=8.85x    frame=   38 fps= 18 q=-0.0 size=N/A time=00:00:26.00 bitrate=N/A speed=12.5x    frame=   46 fps= 18 q=-0.0 Lsize=N/A time=00:00:46.00 bitrate=N/A speed=18.5x    
+video:7906kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  1%|          | 1/104 [01:53<3:14:40, 113.40s/it]  2%|▏         | 2/104 [01:53<1:19:44, 46.91s/it] ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2021-06-24T07:44:45.000000Z
+  Duration: 00:00:51.27, start: 0.000000, bitrate: 322 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 204x360 [SAR 1:1 DAR 17:30], 190 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:44:45.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:44:45.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 204x360 [SAR 1:1 DAR 17:30], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:44:45.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+      encoder         : Lavc58.91.100 png
+frame=   17 fps=0.0 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=11.7x    frame=   32 fps= 31 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=20.6x    frame=   46 fps= 30 q=-0.0 size=N/A time=00:00:35.00 bitrate=N/A speed=  23x    frame=   51 fps= 27 q=-0.0 Lsize=N/A time=00:00:51.00 bitrate=N/A speed=27.3x    
+video:5856kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  3%|▎         | 3/104 [03:48<2:10:52, 77.74s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_03.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-12T08:44:34.000000Z
+  Duration: 00:01:01.95, start: 0.000000, bitrate: 346 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 480x360 [SAR 1:1 DAR 4:3], 215 kb/s, 15.03 fps, 15.03 tbr, 15033 tbn, 30.07 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-12T08:44:34.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/12/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-12T08:44:34.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/12/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-12T08:44:34.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/12/2023.
+      encoder         : Lavc58.91.100 png
+frame=   19 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   30 fps= 28 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=7.56x    frame=   44 fps= 28 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed=13.8x    frame=   59 fps= 28 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=17.5x    frame=   62 fps= 24 q=-0.0 Lsize=N/A time=00:01:02.00 bitrate=N/A speed=23.9x    
+video:13923kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  6%|▌         | 6/104 [06:31<1:41:39, 62.24s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_04.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-09-14T04:20:14.000000Z
+  Duration: 00:03:19.71, start: 0.000000, bitrate: 2032 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1900 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-14T04:20:14.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/13/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-09-14T04:20:14.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/13/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-14T04:20:14.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/13/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    5 fps=4.8 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=0.967x    frame=    8 fps=5.2 q=-0.0 size=N/A time=00:00:04.00 bitrate=N/A speed=2.59x    frame=   10 fps=4.9 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=2.93x    frame=   13 fps=5.1 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=3.53x    frame=   15 fps=4.9 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed= 3.6x    frame=   17 fps=4.8 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=3.66x    frame=   20 fps=4.9 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=3.94x    frame=   22 fps=4.8 q=-0.0 size=N/A time=00:00:18.00 bitrate=N/A speed=3.93x    frame=   24 fps=4.7 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=3.94x    frame=   27 fps=4.8 q=-0.0 size=N/A time=00:00:23.00 bitrate=N/A speed=4.12x    frame=   30 fps=4.9 q=-0.0 size=N/A time=00:00:25.00 bitrate=N/A speed=4.08x    frame=   32 fps=4.8 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=4.06x    frame=   35 fps=4.9 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=4.19x    frame=   37 fps=4.8 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=4.18x    frame=   39 fps=4.8 q=-0.0 size=N/A time=00:00:34.00 bitrate=N/A speed=4.16x    frame=   42 fps=4.8 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=4.26x    frame=   44 fps=4.8 q=-0.0 size=N/A time=00:00:39.00 bitrate=N/A speed=4.24x    frame=   47 fps=4.8 q=-0.0 size=N/A time=00:00:42.00 bitrate=N/A speed=4.33x    frame=   49 fps=4.8 q=-0.0 size=N/A time=00:00:44.00 bitrate=N/A speed=4.31x    frame=   52 fps=4.8 q=-0.0 size=N/A time=00:00:47.00 bitrate=N/A speed=4.37x    frame=   54 fps=4.8 q=-0.0 size=N/A time=00:00:49.00 bitrate=N/A speed=4.35x    frame=   57 fps=4.8 q=-0.0 size=N/A time=00:00:52.00 bitrate=N/A speed=4.41x    frame=   59 fps=4.8 q=-0.0 size=N/A time=00:00:54.00 bitrate=N/A speed=4.39x    frame=   62 fps=4.8 q=-0.0 size=N/A time=00:00:57.00 bitrate=N/A speed=4.45x    frame=   64 fps=4.8 q=-0.0 size=N/A time=00:00:58.00 bitrate=N/A speed=4.36x    frame=   67 fps=4.8 q=-0.0 size=N/A time=00:01:01.00 bitrate=N/A speed=4.41x    frame=   69 fps=4.8 q=-0.0 size=N/A time=00:01:03.00 bitrate=N/A speed=4.39x    frame=   72 fps=4.8 q=-0.0 size=N/A time=00:01:06.00 bitrate=N/A speed=4.44x    frame=   75 fps=4.9 q=-0.0 size=N/A time=00:01:09.00 bitrate=N/A speed=4.49x    frame=   78 fps=4.9 q=-0.0 size=N/A time=00:01:12.00 bitrate=N/A speed=4.54x    frame=   81 fps=5.0 q=-0.0 size=N/A time=00:01:15.00 bitrate=N/A speed=4.59x    frame=   84 fps=5.0 q=-0.0 size=N/A time=00:01:18.00 bitrate=N/A speed=4.62x    frame=   87 fps=5.0 q=-0.0 size=N/A time=00:01:21.00 bitrate=N/A speed=4.66x    frame=   89 fps=5.0 q=-0.0 size=N/A time=00:01:23.00 bitrate=N/A speed=4.64x    frame=   92 fps=5.0 q=-0.0 size=N/A time=00:01:26.00 bitrate=N/A speed=4.67x    frame=   95 fps=5.0 q=-0.0 size=N/A time=00:01:29.00 bitrate=N/A speed=4.71x    frame=   98 fps=5.0 q=-0.0 size=N/A time=00:01:32.00 bitrate=N/A speed=4.74x    frame=  101 fps=5.1 q=-0.0 size=N/A time=00:01:35.00 bitrate=N/A speed=4.77x    frame=  104 fps=5.1 q=-0.0 size=N/A time=00:01:38.00 bitrate=N/A speed= 4.8x    frame=  107 fps=5.1 q=-0.0 size=N/A time=00:01:41.00 bitrate=N/A speed=4.83x    frame=  110 fps=5.1 q=-0.0 size=N/A time=00:01:44.00 bitrate=N/A speed=4.86x    frame=  113 fps=5.2 q=-0.0 size=N/A time=00:01:47.00 bitrate=N/A speed=4.88x    frame=  116 fps=5.2 q=-0.0 size=N/A time=00:01:50.00 bitrate=N/A speed= 4.9x    frame=  118 fps=5.1 q=-0.0 size=N/A time=00:01:52.00 bitrate=N/A speed=4.88x    frame=  121 fps=5.2 q=-0.0 size=N/A time=00:01:55.00 bitrate=N/A speed=4.91x    frame=  124 fps=5.2 q=-0.0 size=N/A time=00:01:57.00 bitrate=N/A speed=4.89x    frame=  127 fps=5.2 q=-0.0 size=N/A time=00:02:00.00 bitrate=N/A speed=4.91x    frame=  129 fps=5.2 q=-0.0 size=N/A time=00:02:02.00 bitrate=N/A speed=4.89x    frame=  131 fps=5.1 q=-0.0 size=N/A time=00:02:03.00 bitrate=N/A speed=4.83x    frame=  134 fps=5.2 q=-0.0 size=N/A time=00:02:06.00 bitrate=N/A speed=4.86x    frame=  137 fps=5.2 q=-0.0 size=N/A time=00:02:09.00 bitrate=N/A speed=4.87x    frame=  139 fps=5.1 q=-0.0 size=N/A time=00:02:11.00 bitrate=N/A speed=4.85x    frame=  142 fps=5.2 q=-0.0 size=N/A time=00:02:14.00 bitrate=N/A speed=4.87x    frame=  145 fps=5.2 q=-0.0 size=N/A time=00:02:17.00 bitrate=N/A speed=4.89x    frame=  148 fps=5.2 q=-0.0 size=N/A time=00:02:20.00 bitrate=N/A speed=4.91x    frame=  150 fps=5.2 q=-0.0 size=N/A time=00:02:21.00 bitrate=N/A speed=4.86x    frame=  153 fps=5.2 q=-0.0 size=N/A time=00:02:24.00 bitrate=N/A speed=4.87x    frame=  156 fps=5.2 q=-0.0 size=N/A time=00:02:27.00 bitrate=N/A speed=4.89x    frame=  159 fps=5.2 q=-0.0 size=N/A time=00:02:30.00 bitrate=N/A speed=4.91x    frame=  162 fps=5.2 q=-0.0 size=N/A time=00:02:33.00 bitrate=N/A speed=4.92x    frame=  165 fps=5.2 q=-0.0 size=N/A time=00:02:36.00 bitrate=N/A speed=4.92x    frame=  168 fps=5.2 q=-0.0 size=N/A time=00:02:39.00 bitrate=N/A speed=4.94x    frame=  171 fps=5.2 q=-0.0 size=N/A time=00:02:41.00 bitrate=N/A speed=4.92x    frame=  174 fps=5.2 q=-0.0 size=N/A time=00:02:44.00 bitrate=N/A speed=4.92x    frame=  177 fps=5.2 q=-0.0 size=N/A time=00:02:45.00 bitrate=N/A speed=4.88x    frame=  179 fps=5.2 q=-0.0 size=N/A time=00:02:47.00 bitrate=N/A speed=4.86x    frame=  182 fps=5.2 q=-0.0 size=N/A time=00:02:50.00 bitrate=N/A speed=4.88x    frame=  185 fps=5.2 q=-0.0 size=N/A time=00:02:52.00 bitrate=N/A speed=4.87x    frame=  188 fps=5.2 q=-0.0 size=N/A time=00:02:55.00 bitrate=N/A speed=4.87x    frame=  190 fps=5.2 q=-0.0 size=N/A time=00:02:56.00 bitrate=N/A speed=4.83x    frame=  193 fps=5.2 q=-0.0 size=N/A time=00:02:59.00 bitrate=N/A speed=4.84x    frame=  196 fps=5.2 q=-0.0 size=N/A time=00:03:02.00 bitrate=N/A speed=4.85x    frame=  199 fps=5.2 q=-0.0 size=N/A time=00:03:05.00 bitrate=N/A speed=4.85x    frame=  200 fps=5.2 q=-0.0 Lsize=N/A time=00:03:20.00 bitrate=N/A speed=5.18x    
+video:197870kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  7%|▋         | 7/104 [14:57<4:32:37, 168.63s/it]  8%|▊         | 8/104 [14:57<3:21:04, 125.67s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_05.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-31T09:55:25.000000Z
+  Duration: 00:00:35.09, start: 0.000000, bitrate: 2333 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 2203 kb/s, 15 fps, 15 tbr, 15360 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-31T09:55:25.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-31T09:55:25.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-31T09:55:25.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2023.
+      encoder         : Lavc58.91.100 png
+frame=    4 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    8 fps=8.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=8.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps=7.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   17 fps=6.4 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   20 fps=6.2 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=0.623x    frame=   22 fps=5.9 q=-0.0 size=N/A time=00:00:04.00 bitrate=N/A speed=1.08x    frame=   26 fps=6.0 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=1.83x    frame=   28 fps=5.5 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=1.96x    frame=   32 fps=5.5 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed= 2.4x    frame=   35 fps=5.1 q=-0.0 Lsize=N/A time=00:00:35.00 bitrate=N/A speed=5.08x    
+video:58983kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  9%|▊         | 9/104 [16:49<3:13:16, 122.07s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:04:13.86, start: 0.000000, bitrate: 335 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709), 320x240 [SAR 1:1 DAR 4:3], 261 kb/s, 23.95 fps, 23.95 tbr, 29703 tbn, 47.91 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 71 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   21 fps=0.0 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=  26x    frame=   39 fps= 39 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=  31x    frame=   54 fps= 36 q=-0.0 size=N/A time=00:00:46.00 bitrate=N/A speed=30.6x    frame=   72 fps= 35 q=-0.0 size=N/A time=00:01:04.00 bitrate=N/A speed=31.2x    frame=   87 fps= 34 q=-0.0 size=N/A time=00:01:19.00 bitrate=N/A speed=30.4x    frame=  103 fps= 33 q=-0.0 size=N/A time=00:01:35.00 bitrate=N/A speed=30.7x    frame=  116 fps= 31 q=-0.0 size=N/A time=00:01:48.00 bitrate=N/A speed=  29x    frame=  127 fps= 30 q=-0.0 size=N/A time=00:01:59.00 bitrate=N/A speed=  28x    frame=  149 fps= 31 q=-0.0 size=N/A time=00:02:21.00 bitrate=N/A speed=29.6x    frame=  158 fps= 29 q=-0.0 size=N/A time=00:02:30.00 bitrate=N/A speed=27.5x    frame=  169 fps= 28 q=-0.0 size=N/A time=00:02:41.00 bitrate=N/A speed=26.9x    frame=  181 fps= 28 q=-0.0 size=N/A time=00:02:53.00 bitrate=N/A speed=26.5x    frame=  196 fps= 28 q=-0.0 size=N/A time=00:03:08.00 bitrate=N/A speed=26.7x    frame=  215 fps= 29 q=-0.0 size=N/A time=00:03:27.00 bitrate=N/A speed=27.4x    frame=  233 fps= 29 q=-0.0 size=N/A time=00:03:45.00 bitrate=N/A speed=  28x    frame=  253 fps= 30 q=-0.0 size=N/A time=00:04:05.00 bitrate=N/A speed=28.7x    frame=  254 fps= 29 q=-0.0 Lsize=N/A time=00:04:14.00 bitrate=N/A speed=29.3x    
+video:23664kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 10%|▉         | 10/104 [40:12<12:25:11, 475.66s/it] 11%|█         | 11/104 [40:12<8:48:59, 341.28s/it] ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.30.100
+  Duration: 00:02:48.04, start: 0.000000, bitrate: 949 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 640x480 [SAR 1:1 DAR 4:3], 813 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 640x480 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=    7 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   11 fps= 11 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=   2x    frame=   18 fps= 12 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=5.86x    frame=   23 fps= 11 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=6.88x    frame=   29 fps= 11 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=7.89x    frame=   35 fps= 11 q=-0.0 size=N/A time=00:00:26.00 bitrate=N/A speed=8.45x    frame=   40 fps= 11 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=8.66x    frame=   47 fps= 12 q=-0.0 size=N/A time=00:00:38.00 bitrate=N/A speed=9.32x    frame=   53 fps= 12 q=-0.0 size=N/A time=00:00:44.00 bitrate=N/A speed=9.55x    frame=   59 fps= 12 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=9.79x    frame=   64 fps= 11 q=-0.0 size=N/A time=00:00:55.00 bitrate=N/A speed= 9.8x    frame=   70 fps= 11 q=-0.0 size=N/A time=00:01:01.00 bitrate=N/A speed=9.98x    frame=   77 fps= 12 q=-0.0 size=N/A time=00:01:08.00 bitrate=N/A speed=10.2x    frame=   83 fps= 12 q=-0.0 size=N/A time=00:01:14.00 bitrate=N/A speed=10.3x    frame=   90 fps= 12 q=-0.0 size=N/A time=00:01:21.00 bitrate=N/A speed=10.5x    frame=   96 fps= 12 q=-0.0 size=N/A time=00:01:26.00 bitrate=N/A speed=10.4x    frame=  101 fps= 12 q=-0.0 size=N/A time=00:01:31.00 bitrate=N/A speed=10.4x    frame=  107 fps= 12 q=-0.0 size=N/A time=00:01:37.00 bitrate=N/A speed=10.5x    frame=  114 fps= 12 q=-0.0 size=N/A time=00:01:44.00 bitrate=N/A speed=10.6x    frame=  119 fps= 11 q=-0.0 size=N/A time=00:01:49.00 bitrate=N/A speed=10.5x    frame=  127 fps= 12 q=-0.0 size=N/A time=00:01:57.00 bitrate=N/A speed=10.8x    frame=  133 fps= 12 q=-0.0 size=N/A time=00:02:00.00 bitrate=N/A speed=10.6x    frame=  139 fps= 12 q=-0.0 size=N/A time=00:02:06.00 bitrate=N/A speed=10.6x    frame=  145 fps= 12 q=-0.0 size=N/A time=00:02:12.00 bitrate=N/A speed=10.6x    frame=  151 fps= 12 q=-0.0 size=N/A time=00:02:18.00 bitrate=N/A speed=10.7x    frame=  157 fps= 12 q=-0.0 size=N/A time=00:02:24.00 bitrate=N/A speed=10.7x    frame=  164 fps= 12 q=-0.0 size=N/A time=00:02:31.00 bitrate=N/A speed=10.8x    frame=  168 fps= 11 q=-0.0 Lsize=N/A time=00:02:48.00 bitrate=N/A speed=11.5x    
+video:107101kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 16%|█▋        | 17/104 [49:06<3:55:43, 162.57s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2015-12-11T13:30:52.000000Z
+  Duration: 00:02:14.19, start: 0.000000, bitrate: 493 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 419 kb/s, 23.95 fps, 23.95 tbr, 11977 tbn, 47.91 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 72 kb/s (default)
+    Metadata:
+      creation_time   : 2015-12-11T13:30:53.000000Z
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=   19 fps=0.0 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=19.4x    frame=   33 fps= 33 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed=23.6x    frame=   46 fps= 30 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=24.4x    frame=   63 fps= 31 q=-0.0 size=N/A time=00:00:54.00 bitrate=N/A speed=26.7x    frame=   77 fps= 30 q=-0.0 size=N/A time=00:01:08.00 bitrate=N/A speed=26.9x    frame=   92 fps= 30 q=-0.0 size=N/A time=00:01:23.00 bitrate=N/A speed=27.4x    frame=   99 fps= 28 q=-0.0 size=N/A time=00:01:30.00 bitrate=N/A speed=25.1x    frame=  114 fps= 28 q=-0.0 size=N/A time=00:01:45.00 bitrate=N/A speed=25.6x    frame=  127 fps= 27 q=-0.0 size=N/A time=00:01:58.00 bitrate=N/A speed=25.1x    frame=  134 fps= 26 q=-0.0 Lsize=N/A time=00:02:14.00 bitrate=N/A speed=25.9x    
+video:21753kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 21%|██        | 22/104 [57:08<3:00:50, 132.32s/it] 22%|██▏       | 23/104 [57:08<2:38:01, 117.05s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-24T00:12:01.000000Z
+  Duration: 00:02:45.51, start: 0.000000, bitrate: 347 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown), 480x360 [SAR 1:1 DAR 4:3], 247 kb/s, 29.68 fps, 29.68 tbr, 18547 tbn, 59.35 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-24T00:12:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-24T00:12:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-24T00:12:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   23 fps= 22 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=9.78x    frame=   35 fps= 23 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed=14.4x    frame=   45 fps= 22 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=15.6x    frame=   54 fps= 21 q=-0.0 size=N/A time=00:00:41.00 bitrate=N/A speed=16.1x    frame=   67 fps= 22 q=-0.0 size=N/A time=00:00:54.00 bitrate=N/A speed=17.5x    frame=   78 fps= 22 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=18.2x    frame=   87 fps= 21 q=-0.0 size=N/A time=00:01:14.00 bitrate=N/A speed=  18x    frame=   96 fps= 21 q=-0.0 size=N/A time=00:01:23.00 bitrate=N/A speed=17.9x    frame=  107 fps= 21 q=-0.0 size=N/A time=00:01:34.00 bitrate=N/A speed=18.3x    frame=  118 fps= 21 q=-0.0 size=N/A time=00:01:45.00 bitrate=N/A speed=18.6x    frame=  128 fps= 21 q=-0.0 size=N/A time=00:01:55.00 bitrate=N/A speed=18.5x    frame=  138 fps= 21 q=-0.0 size=N/A time=00:02:05.00 bitrate=N/A speed=18.6x    frame=  151 fps= 21 q=-0.0 size=N/A time=00:02:18.00 bitrate=N/A speed=19.1x    frame=  161 fps= 21 q=-0.0 size=N/A time=00:02:28.00 bitrate=N/A speed=19.1x    frame=  165 fps= 20 q=-0.0 Lsize=N/A time=00:02:45.00 bitrate=N/A speed=20.2x    
+video:36505kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 25%|██▌       | 26/104 [1:03:30<2:36:33, 120.43s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_13.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-09T02:23:07.000000Z
+  Duration: 00:01:26.24, start: 0.000000, bitrate: 2118 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1986 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-09T02:23:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/08/2023.
+    Stream #0:1(jpn): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-09T02:23:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/08/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-09T02:23:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/08/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    6 fps=5.9 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    8 fps=5.2 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=1.31x    frame=   11 fps=5.3 q=-0.0 size=N/A time=00:00:04.00 bitrate=N/A speed=1.94x    frame=   13 fps=5.1 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=1.95x    frame=   16 fps=5.2 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=2.59x    frame=   18 fps=5.0 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=2.48x    frame=   20 fps=4.8 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=2.66x    frame=   23 fps=4.9 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=2.99x    frame=   25 fps=4.8 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=3.07x    frame=   27 fps=4.7 q=-0.0 size=N/A time=00:00:18.00 bitrate=N/A speed=3.15x    frame=   30 fps=4.7 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed= 3.3x    frame=   33 fps=4.8 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed= 3.5x    frame=   35 fps=4.6 q=-0.0 size=N/A time=00:00:26.00 bitrate=N/A speed=3.44x    frame=   38 fps=4.6 q=-0.0 size=N/A time=00:00:29.00 bitrate=N/A speed=3.55x    frame=   41 fps=4.7 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=3.64x    frame=   44 fps=4.7 q=-0.0 size=N/A time=00:00:35.00 bitrate=N/A speed=3.76x    frame=   47 fps=4.8 q=-0.0 size=N/A time=00:00:38.00 bitrate=N/A speed=3.86x    frame=   50 fps=4.8 q=-0.0 size=N/A time=00:00:41.00 bitrate=N/A speed=3.93x    frame=   53 fps=4.8 q=-0.0 size=N/A time=00:00:43.00 bitrate=N/A speed=3.89x    frame=   56 fps=4.8 q=-0.0 size=N/A time=00:00:44.00 bitrate=N/A speed=3.81x    frame=   58 fps=4.8 q=-0.0 size=N/A time=00:00:46.00 bitrate=N/A speed=3.81x    frame=   60 fps=4.8 q=-0.0 size=N/A time=00:00:48.00 bitrate=N/A speed=3.82x    frame=   62 fps=4.7 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=3.82x    frame=   65 fps=4.7 q=-0.0 size=N/A time=00:00:53.00 bitrate=N/A speed=3.87x    frame=   67 fps=4.7 q=-0.0 size=N/A time=00:00:55.00 bitrate=N/A speed=3.87x    frame=   69 fps=4.7 q=-0.0 size=N/A time=00:00:57.00 bitrate=N/A speed=3.88x    frame=   72 fps=4.7 q=-0.0 size=N/A time=00:01:00.00 bitrate=N/A speed=3.94x    frame=   75 fps=4.8 q=-0.0 size=N/A time=00:01:03.00 bitrate=N/A speed=4.01x    frame=   77 fps=4.7 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=   4x    frame=   80 fps=4.7 q=-0.0 size=N/A time=00:01:08.00 bitrate=N/A speed=4.02x    frame=   83 fps=4.8 q=-0.0 size=N/A time=00:01:11.00 bitrate=N/A speed=4.08x    frame=   86 fps=4.8 q=-0.0 size=N/A time=00:01:14.00 bitrate=N/A speed=4.12x    frame=   86 fps=4.6 q=-0.0 Lsize=N/A time=00:01:26.00 bitrate=N/A speed=4.56x    
+video:109462kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 28%|██▊       | 29/104 [1:12:30<2:54:25, 139.54s/it] 29%|██▉       | 30/104 [1:12:30<2:29:18, 121.06s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_14.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:00:56.38, start: 0.000000, bitrate: 515 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 320x240 [SAR 1:1 DAR 4:3], 443 kb/s, 15.01 fps, 15.01 tbr, 15014 tbn, 30.03 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 72 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   24 fps= 24 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=10.9x    frame=   40 fps= 26 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=17.9x    frame=   55 fps= 27 q=-0.0 size=N/A time=00:00:42.00 bitrate=N/A speed=20.8x    frame=   56 fps= 26 q=-0.0 Lsize=N/A time=00:00:56.00 bitrate=N/A speed=26.1x    
+video:7851kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 30%|██▉       | 31/104 [1:14:47<2:30:22, 123.59s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_15.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-09-19T09:50:07.000000Z
+  Duration: 00:00:38.22, start: 0.000000, bitrate: 1593 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1462 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-19T09:50:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/19/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-09-19T09:50:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/19/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-19T09:50:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/19/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    7 fps=7.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   10 fps=6.6 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   13 fps=6.5 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   16 fps=6.3 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   19 fps=6.1 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=0.321x    frame=   21 fps=5.8 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=0.826x    frame=   24 fps=5.8 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=1.44x    frame=   26 fps=5.6 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=1.71x    frame=   29 fps=5.5 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed= 2.1x    frame=   31 fps=5.4 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=2.27x    frame=   34 fps=5.4 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=2.54x    frame=   36 fps=5.3 q=-0.0 size=N/A time=00:00:18.00 bitrate=N/A speed=2.64x    frame=   38 fps=5.0 q=-0.0 Lsize=N/A time=00:00:38.00 bitrate=N/A speed=5.01x    
+video:39825kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 31%|███       | 32/104 [1:16:35<2:24:55, 120.78s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_16.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.30.100
+  Duration: 00:00:53.45, start: 0.000000, bitrate: 2232 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 720x1280 [SAR 1:1 DAR 9:16], 2096 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 720x1280 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    6 fps=6.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    9 fps=5.9 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=5.9 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=0.988x    frame=   15 fps=5.9 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=1.96x    frame=   18 fps=5.8 q=-0.0 size=N/A time=00:00:07.00 bitrate=N/A speed=2.26x    frame=   21 fps=5.8 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=2.77x    frame=   24 fps=5.8 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=3.16x    frame=   28 fps=6.0 q=-0.0 size=N/A time=00:00:17.00 bitrate=N/A speed=3.66x    frame=   30 fps=5.8 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=3.68x    frame=   33 fps=5.8 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed=3.87x    frame=   36 fps=5.8 q=-0.0 size=N/A time=00:00:25.00 bitrate=N/A speed=4.04x    frame=   38 fps=5.7 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=4.04x    frame=   41 fps=5.7 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=4.14x    frame=   44 fps=5.7 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=4.26x    frame=   47 fps=5.7 q=-0.0 size=N/A time=00:00:36.00 bitrate=N/A speed=4.36x    frame=   49 fps=5.6 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=4.23x    frame=   52 fps=5.6 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=4.32x    frame=   53 fps=5.4 q=-0.0 Lsize=N/A time=00:00:53.00 bitrate=N/A speed=5.42x    
+video:35545kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 33%|███▎      | 34/104 [1:19:33<2:08:00, 109.72s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_18.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-10T19:59:23.000000Z
+  Duration: 00:01:28.42, start: 0.000000, bitrate: 567 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 480x360 [SAR 1:1 DAR 4:3], 435 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-10T19:59:23.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/10/2023.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-10T19:59:23.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/10/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-10T19:59:23.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/10/2023.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   22 fps= 22 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=8.96x    frame=   33 fps= 22 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=13.3x    frame=   44 fps= 22 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=15.4x    frame=   56 fps= 22 q=-0.0 size=N/A time=00:00:43.00 bitrate=N/A speed=17.1x    frame=   68 fps= 22 q=-0.0 size=N/A time=00:00:55.00 bitrate=N/A speed=18.1x    frame=   80 fps= 22 q=-0.0 size=N/A time=00:01:07.00 bitrate=N/A speed=18.8x    frame=   88 fps= 22 q=-0.0 Lsize=N/A time=00:01:28.00 bitrate=N/A speed=22.3x    
+video:24622kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 34%|███▎      | 35/104 [1:26:15<3:12:50, 167.69s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2016-04-18T22:47:38.000000Z
+  Duration: 00:04:20.44, start: 0.000000, bitrate: 449 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 351 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2016-04-18T22:47:38.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/18/2016.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 93 kb/s (default)
+    Metadata:
+      creation_time   : 2016-04-18T22:47:38.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/18/2016.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2016-04-18T22:47:38.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/18/2016.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=3.96x    frame=   22 fps= 22 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=12.9x    frame=   33 fps= 22 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed=15.9x    frame=   45 fps= 22 q=-0.0 size=N/A time=00:00:36.00 bitrate=N/A speed=  18x    frame=   56 fps= 22 q=-0.0 size=N/A time=00:00:47.00 bitrate=N/A speed=18.8x    frame=   67 fps= 22 q=-0.0 size=N/A time=00:00:58.00 bitrate=N/A speed=19.2x    frame=   78 fps= 22 q=-0.0 size=N/A time=00:01:09.00 bitrate=N/A speed=19.6x    frame=   89 fps= 22 q=-0.0 size=N/A time=00:01:20.00 bitrate=N/A speed=19.9x    frame=  101 fps= 22 q=-0.0 size=N/A time=00:01:32.00 bitrate=N/A speed=20.4x    frame=  113 fps= 22 q=-0.0 size=N/A time=00:01:44.00 bitrate=N/A speed=20.7x    frame=  124 fps= 22 q=-0.0 size=N/A time=00:01:55.00 bitrate=N/A speed=20.8x    frame=  136 fps= 23 q=-0.0 size=N/A time=00:02:07.00 bitrate=N/A speed=21.1x    frame=  147 fps= 23 q=-0.0 size=N/A time=00:02:18.00 bitrate=N/A speed=21.1x    frame=  159 fps= 23 q=-0.0 size=N/A time=00:02:30.00 bitrate=N/A speed=21.3x    frame=  171 fps= 23 q=-0.0 size=N/A time=00:02:42.00 bitrate=N/A speed=21.5x    frame=  183 fps= 23 q=-0.0 size=N/A time=00:02:54.00 bitrate=N/A speed=21.6x    frame=  193 fps= 23 q=-0.0 size=N/A time=00:03:04.00 bitrate=N/A speed=21.5x    frame=  204 fps= 23 q=-0.0 size=N/A time=00:03:15.00 bitrate=N/A speed=21.5x    frame=  214 fps= 22 q=-0.0 size=N/A time=00:03:25.00 bitrate=N/A speed=21.4x    frame=  225 fps= 22 q=-0.0 size=N/A time=00:03:36.00 bitrate=N/A speed=21.5x    frame=  235 fps= 22 q=-0.0 size=N/A time=00:03:46.00 bitrate=N/A speed=21.4x    frame=  247 fps= 22 q=-0.0 size=N/A time=00:03:58.00 bitrate=N/A speed=21.5x    frame=  259 fps= 22 q=-0.0 size=N/A time=00:04:10.00 bitrate=N/A speed=21.5x    frame=  260 fps= 22 q=-0.0 Lsize=N/A time=00:04:20.00 bitrate=N/A speed=22.3x    
+video:64839kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 36%|███▌      | 37/104 [1:40:57<4:57:34, 266.48s/it] 37%|███▋      | 38/104 [1:40:57<3:52:59, 211.82s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_20.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:01:50.88, start: 0.000000, bitrate: 363 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 320x240 [SAR 1:1 DAR 4:3], 265 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 96 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   16 fps=0.0 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=  12x    frame=   30 fps= 30 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=19.7x    frame=   42 fps= 28 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=21.1x    frame=   51 fps= 25 q=-0.0 size=N/A time=00:00:41.00 bitrate=N/A speed=20.3x    frame=   64 fps= 25 q=-0.0 size=N/A time=00:00:54.00 bitrate=N/A speed=21.4x    frame=   79 fps= 26 q=-0.0 size=N/A time=00:01:09.00 bitrate=N/A speed=22.8x    frame=   94 fps= 26 q=-0.0 size=N/A time=00:01:24.00 bitrate=N/A speed=23.5x    frame=  106 fps= 26 q=-0.0 size=N/A time=00:01:36.00 bitrate=N/A speed=23.2x    frame=  111 fps= 24 q=-0.0 Lsize=N/A time=00:01:51.00 bitrate=N/A speed=24.4x    
+video:13207kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 39%|███▉      | 41/104 [1:44:31<2:33:25, 146.12s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_21.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2013-11-23T02:29:13.000000Z
+  Duration: 00:00:22.34, start: 0.000000, bitrate: 699 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360, 601 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2013-11-23T02:29:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/22/2013.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 93 kb/s (default)
+    Metadata:
+      creation_time   : 2013-11-23T02:29:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/22/2013.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360, q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2013-11-23T02:29:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/22/2013.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   18 fps= 18 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=0.999x    frame=   22 fps= 17 q=-0.0 Lsize=N/A time=00:00:22.00 bitrate=N/A speed=17.1x    
+video:8333kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 40%|████      | 42/104 [1:46:01<2:20:28, 135.95s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-02-01T01:32:05.000000Z
+  Duration: 00:02:01.97, start: 0.000000, bitrate: 418 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 352x288 [SAR 1:1 DAR 11:9], 345 kb/s, 14.77 fps, 14.77 tbr, 14767 tbn, 29.53 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-01T01:32:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 72 kb/s (default)
+    Metadata:
+      creation_time   : 2020-02-01T01:32:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 352x288 [SAR 1:1 DAR 11:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-01T01:32:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/31/2020.
+      encoder         : Lavc58.91.100 png
+frame=   23 fps=0.0 q=-0.0 size=N/A time=00:00:07.00 bitrate=N/A speed=  14x    frame=   46 fps= 46 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=29.7x    frame=   69 fps= 46 q=-0.0 size=N/A time=00:00:53.00 bitrate=N/A speed=35.1x    frame=   92 fps= 46 q=-0.0 size=N/A time=00:01:16.00 bitrate=N/A speed=37.8x    frame=  115 fps= 46 q=-0.0 size=N/A time=00:01:39.00 bitrate=N/A speed=39.4x    frame=  122 fps= 45 q=-0.0 Lsize=N/A time=00:02:02.00 bitrate=N/A speed=  45x    
+video:20515kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 41%|████▏     | 43/104 [1:51:13<2:55:06, 172.23s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_24.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2022-12-31T12:06:03.000000Z
+  Duration: 00:00:41.33, start: 0.000000, bitrate: 569 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 480x360 [SAR 1:1 DAR 4:3], 437 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-31T12:06:03.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/31/2022.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2022-12-31T12:06:03.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/31/2022.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-31T12:06:03.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/31/2022.
+      encoder         : Lavc58.91.100 png
+frame=   14 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   25 fps= 24 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=7.52x    frame=   37 fps= 24 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=12.8x    frame=   41 fps= 23 q=-0.0 Lsize=N/A time=00:00:41.00 bitrate=N/A speed=23.4x    
+video:11974kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 46%|████▌     | 48/104 [1:54:15<1:25:08, 91.22s/it] ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_25.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-11-16T21:10:15.000000Z
+  Duration: 00:00:23.57, start: 0.000000, bitrate: 1537 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1405 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2023-11-16T21:10:15.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2023.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-11-16T21:10:15.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-11-16T21:10:15.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2023.
+      encoder         : Lavc58.91.100 png
+frame=    4 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    7 fps=7.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   10 fps=6.6 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   13 fps=6.4 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=1.48x    frame=   16 fps=6.3 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=2.37x    frame=   20 fps=6.5 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=3.27x    frame=   23 fps=6.4 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=3.61x    frame=   24 fps=6.1 q=-0.0 Lsize=N/A time=00:00:24.00 bitrate=N/A speed=6.11x    
+video:11053kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 47%|████▋     | 49/104 [1:55:49<1:24:04, 91.71s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_01.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    creation_time   : 2011-01-05T17:17:23.000000Z
+  Duration: 00:00:31.16, start: 0.000000, bitrate: 195 kb/s
+    Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 48 kb/s (default)
+    Metadata:
+      creation_time   : 2011-01-05T17:17:23.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 192x144 [SAR 1:1 DAR 4:3], 147 kb/s, 10.02 fps, 10.02 tbr, 10016 tbn, 20.03 tbc (default)
+    Metadata:
+      creation_time   : 2011-01-05T17:17:23.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 192x144 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2011-01-05T17:17:23.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+      encoder         : Lavc58.91.100 png
+frame=   31 fps=0.0 q=-0.0 Lsize=N/A time=00:00:31.00 bitrate=N/A speed= 102x    
+video:1459kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 48%|████▊     | 50/104 [1:57:46<1:26:23, 95.99s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_02.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.30.100
+  Duration: 00:00:56.50, start: 0.000000, bitrate: 893 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 640x480 [SAR 1:1 DAR 4:3], 757 kb/s, 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 640x480 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=    8 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps= 14 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=0.986x    frame=   21 fps= 14 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=5.19x    frame=   28 fps= 14 q=-0.0 size=N/A time=00:00:15.00 bitrate=N/A speed= 7.3x    frame=   36 fps= 14 q=-0.0 size=N/A time=00:00:23.00 bitrate=N/A speed=8.93x    frame=   43 fps= 14 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=9.75x    frame=   50 fps= 14 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=10.3x    frame=   56 fps= 14 q=-0.0 Lsize=N/A time=00:00:56.00 bitrate=N/A speed=13.7x    
+video:21583kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 49%|████▉     | 51/104 [2:00:52<1:40:34, 113.86s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_03.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    creation_time   : 2007-11-09T16:25:05.000000Z
+  Duration: 00:00:15.23, start: 0.000000, bitrate: 246 kb/s
+    Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 109 kb/s (default)
+    Metadata:
+      creation_time   : 2007-11-09T16:25:05.000000Z
+      handler_name    : (C) 2007 Google Inc. v06.24.2007.
+    Stream #0:1(und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p, 192x144 [SAR 1:1 DAR 4:3], 133 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      creation_time   : 2007-11-09T16:25:05.000000Z
+      handler_name    : (C) 2007 Google Inc. v06.24.2007.
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 192x144 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2007-11-09T16:25:05.000000Z
+      handler_name    : (C) 2007 Google Inc. v06.24.2007.
+      encoder         : Lavc58.91.100 png
+frame=   15 fps=0.0 q=-0.0 Lsize=N/A time=00:00:15.00 bitrate=N/A speed=34.1x    
+video:771kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 51%|█████     | 53/104 [2:01:22<1:06:25, 78.16s/it] ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_04.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-02-22T08:02:05.000000Z
+  Duration: 00:00:53.03, start: 0.000000, bitrate: 545 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 480x360 [SAR 1:1 DAR 4:3], 413 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2023-02-22T08:02:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/22/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-02-22T08:02:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/22/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-02-22T08:02:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/22/2023.
+      encoder         : Lavc58.91.100 png
+frame=   12 fps=0.0 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=5.99x    frame=   20 fps= 19 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=10.2x    frame=   29 fps= 18 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=12.7x    frame=   38 fps= 18 q=-0.0 size=N/A time=00:00:29.00 bitrate=N/A speed=  14x    frame=   48 fps= 19 q=-0.0 size=N/A time=00:00:39.00 bitrate=N/A speed=  15x    frame=   53 fps= 17 q=-0.0 Lsize=N/A time=00:00:53.00 bitrate=N/A speed=16.8x    
+video:8614kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 52%|█████▏    | 54/104 [2:03:00<1:08:26, 82.12s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_05.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2021-05-17T10:44:24.000000Z
+  Duration: 00:00:19.39, start: 0.000000, bitrate: 293 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 204x360 [SAR 1:1 DAR 17:30], 161 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2021-05-17T10:44:24.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 05/17/2021.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2021-05-17T10:44:24.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 05/17/2021.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 204x360 [SAR 1:1 DAR 17:30], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2021-05-17T10:44:24.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 05/17/2021.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=1.92x    frame=   19 fps= 16 q=-0.0 Lsize=N/A time=00:00:19.00 bitrate=N/A speed=  16x    
+video:2166kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 54%|█████▍    | 56/104 [2:03:32<46:10, 57.72s/it]  ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_06.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-02-03T00:09:32.000000Z
+  Duration: 00:00:23.01, start: 0.000000, bitrate: 514 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown), 480x360 [SAR 1:1 DAR 4:3], 413 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-03T00:09:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/02/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-02-03T00:09:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/02/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-03T00:09:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/02/2020.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   20 fps= 20 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=5.89x    frame=   23 fps= 15 q=-0.0 Lsize=N/A time=00:00:23.00 bitrate=N/A speed=14.7x    
+video:6149kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 55%|█████▍    | 57/104 [2:04:41<47:08, 60.17s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_07.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:03:00.67, start: 0.000000, bitrate: 304 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 176x144 [SAR 1:1 DAR 11:9], 231 kb/s, 14.58 fps, 14.58 tbr, 21731 tbn, 29.17 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 72 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 176x144 [SAR 1:1 DAR 11:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   24 fps=0.0 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=27.7x    frame=   37 fps= 37 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=26.8x    frame=   52 fps= 35 q=-0.0 size=N/A time=00:00:42.00 bitrate=N/A speed=27.9x    frame=   70 fps= 34 q=-0.0 size=N/A time=00:01:00.00 bitrate=N/A speed=29.5x    frame=   87 fps= 34 q=-0.0 size=N/A time=00:01:17.00 bitrate=N/A speed=29.8x    frame=  108 fps= 35 q=-0.0 size=N/A time=00:01:38.00 bitrate=N/A speed=31.5x    frame=  123 fps= 34 q=-0.0 size=N/A time=00:01:53.00 bitrate=N/A speed=31.3x    frame=  144 fps= 35 q=-0.0 size=N/A time=00:02:14.00 bitrate=N/A speed=32.5x    frame=  166 fps= 36 q=-0.0 size=N/A time=00:02:36.00 bitrate=N/A speed=33.6x    frame=  181 fps= 34 q=-0.0 Lsize=N/A time=00:03:01.00 bitrate=N/A speed=34.4x    
+video:8714kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 56%|█████▌    | 58/104 [2:10:36<1:37:57, 127.78s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_10.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-02-04T10:30:40.000000Z
+  Duration: 00:00:45.65, start: 0.000000, bitrate: 537 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 405 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-04T10:30:40.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/04/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2020-02-04T10:30:40.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/04/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-02-04T10:30:40.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/04/2020.
+      encoder         : Lavc58.91.100 png
+frame=   12 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   22 fps= 21 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=8.79x    frame=   33 fps= 22 q=-0.0 size=N/A time=00:00:20.00 bitrate=N/A speed=13.1x    frame=   43 fps= 21 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=14.7x    frame=   46 fps= 18 q=-0.0 Lsize=N/A time=00:00:46.00 bitrate=N/A speed=18.1x    
+video:10920kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 57%|█████▋    | 59/104 [2:12:14<1:30:23, 120.53s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_13.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-04-13T05:00:13.000000Z
+  Duration: 00:00:29.54, start: 0.000000, bitrate: 1615 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1485 kb/s, 23.07 fps, 23.07 tbr, 15500 tbn, 46.13 tbc (default)
+    Metadata:
+      creation_time   : 2023-04-13T05:00:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/12/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-04-13T05:00:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/12/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-04-13T05:00:13.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 04/12/2023.
+      encoder         : Lavc58.91.100 png
+frame=    5 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    9 fps=8.8 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   13 fps=8.5 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=1.97x    frame=   17 fps=8.2 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=2.91x    frame=   21 fps=8.2 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed= 3.9x    frame=   24 fps=7.8 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=4.24x    frame=   27 fps=7.6 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=4.48x    frame=   30 fps=7.3 q=-0.0 Lsize=N/A time=00:00:30.00 bitrate=N/A speed=7.25x    
+video:12349kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 58%|█████▊    | 60/104 [2:13:46<1:22:59, 113.17s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_14.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.30.100
+  Duration: 00:00:32.67, start: 0.000000, bitrate: 484 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 272x480 [SAR 1:1 DAR 17:30], 347 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 272x480 [SAR 1:1 DAR 17:30], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=   15 fps=0.0 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=   4x    frame=   24 fps= 24 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=  11x    frame=   33 fps= 21 q=-0.0 Lsize=N/A time=00:00:33.00 bitrate=N/A speed=21.2x    
+video:5759kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 59%|█████▊    | 61/104 [2:15:13<1:15:53, 105.89s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_15.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2022-12-28T06:05:31.000000Z
+  Duration: 00:00:52.71, start: 0.000000, bitrate: 387 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 480x360 [SAR 1:1 DAR 4:3], 256 kb/s, 27.69 fps, 27.69 tbr, 13844 tbn, 55.38 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-28T06:05:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/27/2022.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2022-12-28T06:05:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/27/2022.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-28T06:05:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/27/2022.
+      encoder         : Lavc58.91.100 png
+frame=   16 fps=0.0 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=9.82x    frame=   28 fps= 28 q=-0.0 size=N/A time=00:00:17.00 bitrate=N/A speed=16.7x    frame=   39 fps= 26 q=-0.0 size=N/A time=00:00:28.00 bitrate=N/A speed=18.5x    frame=   51 fps= 25 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=19.4x    frame=   53 fps= 23 q=-0.0 Lsize=N/A time=00:00:53.00 bitrate=N/A speed=23.1x    
+video:7792kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 60%|█████▉    | 62/104 [2:16:50<1:12:27, 103.52s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_16.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:01:00.65, start: 0.000000, bitrate: 223 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 204x360 [SAR 1:1 DAR 17:30], 147 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 72 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 204x360 [SAR 1:1 DAR 17:30], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   24 fps=0.0 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=21.2x    frame=   38 fps= 37 q=-0.0 size=N/A time=00:00:25.00 bitrate=N/A speed=24.1x    frame=   57 fps= 37 q=-0.0 size=N/A time=00:00:44.00 bitrate=N/A speed=28.6x    frame=   61 fps= 33 q=-0.0 Lsize=N/A time=00:01:01.00 bitrate=N/A speed=32.7x    
+video:6580kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 61%|██████    | 63/104 [2:18:53<1:14:31, 109.07s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_17.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:01:48.37, start: 0.000000, bitrate: 706 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 480x360 [SAR 1:1 DAR 4:3], 632 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 71 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   10 fps=0.0 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=9.97x    frame=   19 fps= 19 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=  14x    frame=   27 fps= 18 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed=14.6x    frame=   38 fps= 19 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=16.1x    frame=   47 fps= 18 q=-0.0 size=N/A time=00:00:42.00 bitrate=N/A speed=16.4x    frame=   58 fps= 19 q=-0.0 size=N/A time=00:00:53.00 bitrate=N/A speed=17.1x    frame=   68 fps= 19 q=-0.0 size=N/A time=00:01:03.00 bitrate=N/A speed=17.4x    frame=   78 fps= 19 q=-0.0 size=N/A time=00:01:13.00 bitrate=N/A speed=17.6x    frame=   88 fps= 19 q=-0.0 size=N/A time=00:01:23.00 bitrate=N/A speed=17.9x    frame=   99 fps= 19 q=-0.0 size=N/A time=00:01:30.00 bitrate=N/A speed=17.5x    frame=  108 fps= 19 q=-0.0 size=N/A time=00:01:39.00 bitrate=N/A speed=17.4x    frame=  108 fps= 19 q=-0.0 Lsize=N/A time=00:01:48.00 bitrate=N/A speed=18.6x    
+video:21717kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 62%|██████▏   | 64/104 [2:24:46<1:59:42, 179.57s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_18.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-12-14T23:51:31.000000Z
+  Duration: 00:00:25.22, start: 0.000000, bitrate: 355 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 480x360 [SAR 1:1 DAR 4:3], 224 kb/s, 20 fps, 20 tbr, 10240 tbn, 40 tbc (default)
+    Metadata:
+      creation_time   : 2020-12-14T23:51:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/14/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      creation_time   : 2020-12-14T23:51:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/14/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-12-14T23:51:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/14/2020.
+      encoder         : Lavc58.91.100 png
+frame=   16 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   25 fps= 22 q=-0.0 Lsize=N/A time=00:00:25.00 bitrate=N/A speed=21.6x    
+video:4668kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 62%|██████▎   | 65/104 [2:25:55<1:35:50, 147.45s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2014-01-28T13:50:48.000000Z
+  Duration: 00:04:02.97, start: 0.000000, bitrate: 560 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360, 430 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2014-01-28T13:50:48.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/28/2014.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      creation_time   : 2014-01-28T13:50:48.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/28/2014.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360, q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2014-01-28T13:50:48.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/28/2014.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=17.6x    frame=   18 fps= 18 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=15.8x    frame=   26 fps= 17 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed=15.9x    frame=   34 fps= 17 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=15.9x    frame=   43 fps= 17 q=-0.0 size=N/A time=00:00:41.00 bitrate=N/A speed=16.2x    frame=   52 fps= 17 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=16.5x    frame=   62 fps= 18 q=-0.0 size=N/A time=00:00:55.00 bitrate=N/A speed=15.6x    frame=   72 fps= 18 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=  16x    frame=   83 fps= 18 q=-0.0 size=N/A time=00:01:16.00 bitrate=N/A speed=16.6x    frame=   93 fps= 18 q=-0.0 size=N/A time=00:01:26.00 bitrate=N/A speed=16.9x    frame=  104 fps= 19 q=-0.0 size=N/A time=00:01:37.00 bitrate=N/A speed=17.3x    frame=  113 fps= 19 q=-0.0 size=N/A time=00:01:46.00 bitrate=N/A speed=17.4x    frame=  122 fps= 18 q=-0.0 size=N/A time=00:01:55.00 bitrate=N/A speed=17.4x    frame=  130 fps= 18 q=-0.0 size=N/A time=00:02:03.00 bitrate=N/A speed=17.2x    frame=  137 fps= 18 q=-0.0 size=N/A time=00:02:10.00 bitrate=N/A speed=  17x    frame=  147 fps= 18 q=-0.0 size=N/A time=00:02:20.00 bitrate=N/A speed=17.2x    frame=  156 fps= 18 q=-0.0 size=N/A time=00:02:29.00 bitrate=N/A speed=17.2x    frame=  167 fps= 18 q=-0.0 size=N/A time=00:02:40.00 bitrate=N/A speed=17.4x    frame=  177 fps= 18 q=-0.0 size=N/A time=00:02:50.00 bitrate=N/A speed=17.5x    frame=  188 fps= 18 q=-0.0 size=N/A time=00:03:01.00 bitrate=N/A speed=17.7x    frame=  197 fps= 18 q=-0.0 size=N/A time=00:03:10.00 bitrate=N/A speed=17.7x    frame=  207 fps= 18 q=-0.0 size=N/A time=00:03:20.00 bitrate=N/A speed=17.8x    frame=  218 fps= 19 q=-0.0 size=N/A time=00:03:31.00 bitrate=N/A speed=  18x    frame=  229 fps= 19 q=-0.0 size=N/A time=00:03:42.00 bitrate=N/A speed=18.1x    frame=  242 fps= 19 q=-0.0 size=N/A time=00:03:55.00 bitrate=N/A speed=18.4x    frame=  243 fps= 19 q=-0.0 Lsize=N/A time=00:04:03.00 bitrate=N/A speed=18.9x    
+video:56651kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 63%|██████▎   | 66/104 [2:37:19<3:13:25, 305.41s/it] 64%|██████▍   | 67/104 [2:37:19<2:12:33, 214.96s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-06-04T20:21:39.000000Z
+  Duration: 00:00:57.54, start: 0.000000, bitrate: 492 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt470bg/bt709), 480x360 [SAR 1:1 DAR 4:3], 361 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2023-06-04T20:21:39.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/04/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-06-04T20:21:39.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/04/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-06-04T20:21:39.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/04/2023.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   24 fps= 23 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=10.6x    frame=   34 fps= 22 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=13.5x    frame=   44 fps= 21 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=15.1x    frame=   53 fps= 21 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=15.7x    frame=   58 fps= 20 q=-0.0 Lsize=N/A time=00:00:58.00 bitrate=N/A speed=19.6x    
+video:13736kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 67%|██████▋   | 70/104 [2:39:15<1:05:53, 116.27s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-25T07:23:17.000000Z
+  Duration: 00:01:29.14, start: 0.000000, bitrate: 1435 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1304 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-25T07:23:17.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/24/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-25T07:23:17.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/24/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-25T07:23:17.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/24/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    7 fps=7.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   10 fps=6.7 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   13 fps=6.5 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=0.999x    frame=   16 fps=6.4 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=1.99x    frame=   19 fps=6.3 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=2.65x    frame=   22 fps=6.2 q=-0.0 size=N/A time=00:00:11.00 bitrate=N/A speed=3.12x    frame=   25 fps=6.2 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=3.48x    frame=   29 fps=6.4 q=-0.0 size=N/A time=00:00:18.00 bitrate=N/A speed=3.94x    frame=   32 fps=6.3 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=4.14x    frame=   35 fps=6.3 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed=4.31x    frame=   39 fps=6.4 q=-0.0 size=N/A time=00:00:28.00 bitrate=N/A speed=4.56x    frame=   42 fps=6.3 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=4.52x    frame=   45 fps=6.3 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=4.48x    frame=   48 fps=6.3 q=-0.0 size=N/A time=00:00:35.00 bitrate=N/A speed=4.58x    frame=   51 fps=6.2 q=-0.0 size=N/A time=00:00:38.00 bitrate=N/A speed=4.64x    frame=   54 fps=6.2 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=4.59x    frame=   57 fps=6.2 q=-0.0 size=N/A time=00:00:43.00 bitrate=N/A speed=4.66x    frame=   60 fps=6.2 q=-0.0 size=N/A time=00:00:45.00 bitrate=N/A speed=4.62x    frame=   63 fps=6.1 q=-0.0 size=N/A time=00:00:47.00 bitrate=N/A speed=4.58x    frame=   66 fps=6.1 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=4.65x    frame=   69 fps=6.1 q=-0.0 size=N/A time=00:00:53.00 bitrate=N/A speed=4.71x    frame=   72 fps=6.1 q=-0.0 size=N/A time=00:00:56.00 bitrate=N/A speed=4.74x    frame=   75 fps=6.1 q=-0.0 size=N/A time=00:00:59.00 bitrate=N/A speed=4.77x    frame=   78 fps=6.0 q=-0.0 size=N/A time=00:01:02.00 bitrate=N/A speed=4.81x    frame=   81 fps=6.0 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=4.82x    frame=   85 fps=6.1 q=-0.0 size=N/A time=00:01:09.00 bitrate=N/A speed=4.92x    frame=   88 fps=6.0 q=-0.0 size=N/A time=00:01:12.00 bitrate=N/A speed=4.95x    frame=   89 fps=5.9 q=-0.0 Lsize=N/A time=00:01:29.00 bitrate=N/A speed=5.92x    
+video:65364kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 70%|███████   | 73/104 [2:42:42<49:16, 95.37s/it]   ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_22.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:00:52.76, start: 0.000000, bitrate: 619 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709), 384x640 [SAR 1:1 DAR 3:5], 425 kb/s, 16.79 fps, 16.79 tbr, 15040 tbn, 33.57 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 384x640 [SAR 1:1 DAR 3:5], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   16 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   26 fps= 25 q=-0.0 size=N/A time=00:00:07.00 bitrate=N/A speed= 6.6x    frame=   40 fps= 25 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=13.3x    frame=   52 fps= 25 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=15.8x    frame=   53 fps= 24 q=-0.0 Lsize=N/A time=00:00:53.00 bitrate=N/A speed=23.7x    
+video:15753kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 73%|███████▎  | 76/104 [2:46:24<40:38, 87.09s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_24.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2021-06-24T07:52:31.000000Z
+  Duration: 00:00:15.26, start: 0.000000, bitrate: 256 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709), 270x360 [SAR 1:1 DAR 3:4], 124 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:52:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:52:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 270x360 [SAR 1:1 DAR 3:4], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2021-06-24T07:52:31.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 06/24/2021.
+      encoder         : Lavc58.91.100 png
+frame=   15 fps=0.0 q=-0.0 Lsize=N/A time=00:00:15.00 bitrate=N/A speed=32.3x    
+video:856kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 74%|███████▍  | 77/104 [2:47:09<36:13, 80.51s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_01.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2011-03-03T17:07:08.000000Z
+  Duration: 00:02:28.56, start: 0.000000, bitrate: 361 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 259 kb/s, 29.97 fps, 29.92 tbr, 1k tbn, 59.83 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)
+    Metadata:
+      creation_time   : 2011-03-03T17:07:10.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=   23 fps=0.0 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=  20x    frame=   46 fps= 45 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=32.4x    frame=   70 fps= 46 q=-0.0 size=N/A time=00:00:57.00 bitrate=N/A speed=37.3x    frame=   93 fps= 46 q=-0.0 size=N/A time=00:01:20.00 bitrate=N/A speed=39.4x    frame=  115 fps= 45 q=-0.0 size=N/A time=00:01:42.00 bitrate=N/A speed=40.3x    frame=  139 fps= 46 q=-0.0 size=N/A time=00:02:06.00 bitrate=N/A speed=41.5x    frame=  149 fps= 43 q=-0.0 Lsize=N/A time=00:02:29.00 bitrate=N/A speed=43.2x    
+video:17295kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 75%|███████▌  | 78/104 [2:53:11<57:05, 131.76s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_02.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-27T11:44:20.000000Z
+  Duration: 00:01:35.18, start: 0.000000, bitrate: 497 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown), 480x360 [SAR 1:1 DAR 4:3], 397 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-27T11:44:20.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/27/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 95 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-27T11:44:20.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/27/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-27T11:44:20.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/27/2020.
+      encoder         : Lavc58.91.100 png
+frame=   12 fps=0.0 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=3.87x    frame=   24 fps= 24 q=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed=13.8x    frame=   35 fps= 23 q=-0.0 size=N/A time=00:00:25.00 bitrate=N/A speed=16.3x    frame=   47 fps= 23 q=-0.0 size=N/A time=00:00:37.00 bitrate=N/A speed=18.2x    frame=   59 fps= 23 q=-0.0 size=N/A time=00:00:49.00 bitrate=N/A speed=19.2x    frame=   72 fps= 23 q=-0.0 size=N/A time=00:01:02.00 bitrate=N/A speed=20.2x    frame=   84 fps= 24 q=-0.0 size=N/A time=00:01:14.00 bitrate=N/A speed=20.7x    frame=   95 fps= 23 q=-0.0 Lsize=N/A time=00:01:35.00 bitrate=N/A speed=23.4x    
+video:17380kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 76%|███████▌  | 79/104 [2:56:49<1:02:18, 149.54s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_04.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-08-28T11:51:57.000000Z
+  Duration: 00:01:25.43, start: 0.000000, bitrate: 2232 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 2101 kb/s, 24 fps, 24 tbr, 12288 tbn, 48 tbc (default)
+    Metadata:
+      creation_time   : 2023-08-28T11:51:57.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/28/2023.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      creation_time   : 2023-08-28T11:51:57.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/28/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-08-28T11:51:57.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/28/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    6 fps=5.9 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    9 fps=5.9 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   11 fps=5.3 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=0.967x    frame=   14 fps=5.4 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=1.92x    frame=   16 fps=5.1 q=-0.0 size=N/A time=00:00:07.00 bitrate=N/A speed=2.24x    frame=   19 fps=5.1 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=2.71x    frame=   21 fps=5.0 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=2.86x    frame=   24 fps=5.1 q=-0.0 size=N/A time=00:00:15.00 bitrate=N/A speed=3.19x    frame=   26 fps=5.0 q=-0.0 size=N/A time=00:00:17.00 bitrate=N/A speed=3.26x    frame=   29 fps=5.1 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=3.33x    frame=   31 fps=5.0 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=3.38x    frame=   34 fps=5.1 q=-0.0 size=N/A time=00:00:24.00 bitrate=N/A speed=3.57x    frame=   36 fps=5.0 q=-0.0 size=N/A time=00:00:26.00 bitrate=N/A speed= 3.6x    frame=   39 fps=5.0 q=-0.0 size=N/A time=00:00:29.00 bitrate=N/A speed=3.74x    frame=   42 fps=5.1 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=3.74x    frame=   44 fps=5.0 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=3.76x    frame=   47 fps=5.1 q=-0.0 size=N/A time=00:00:36.00 bitrate=N/A speed=3.88x    frame=   50 fps=5.1 q=-0.0 size=N/A time=00:00:38.00 bitrate=N/A speed=3.85x    frame=   53 fps=5.1 q=-0.0 size=N/A time=00:00:41.00 bitrate=N/A speed=3.95x    frame=   55 fps=5.0 q=-0.0 size=N/A time=00:00:43.00 bitrate=N/A speed=3.95x    frame=   58 fps=5.1 q=-0.0 size=N/A time=00:00:46.00 bitrate=N/A speed=4.04x    frame=   61 fps=5.1 q=-0.0 size=N/A time=00:00:47.00 bitrate=N/A speed=3.94x    frame=   64 fps=5.1 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=4.01x    frame=   67 fps=5.1 q=-0.0 size=N/A time=00:00:53.00 bitrate=N/A speed=4.07x    frame=   69 fps=5.1 q=-0.0 size=N/A time=00:00:54.00 bitrate=N/A speed=3.98x    frame=   73 fps=5.2 q=-0.0 size=N/A time=00:00:58.00 bitrate=N/A speed=4.11x    frame=   75 fps=5.1 q=-0.0 size=N/A time=00:01:00.00 bitrate=N/A speed=4.11x    frame=   77 fps=5.1 q=-0.0 size=N/A time=00:01:02.00 bitrate=N/A speed= 4.1x    frame=   80 fps=5.1 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=4.11x    frame=   83 fps=5.1 q=-0.0 size=N/A time=00:01:08.00 bitrate=N/A speed=4.16x    frame=   85 fps=5.0 q=-0.0 Lsize=N/A time=00:01:25.00 bitrate=N/A speed=4.97x    
+video:91453kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 77%|███████▋  | 80/104 [3:00:47<1:07:51, 169.64s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_05.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2011-02-26T02:33:10.000000Z
+  Duration: 00:00:19.00, start: 0.000000, bitrate: 287 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 224 kb/s, 10 fps, 10 tbr, 1k tbn, 20 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 58 kb/s (default)
+    Metadata:
+      creation_time   : 2011-02-26T02:33:10.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=   19 fps=0.0 q=-0.0 Lsize=N/A time=00:00:19.00 bitrate=N/A speed=30.9x    
+video:2381kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 78%|███████▊  | 81/104 [3:01:49<54:56, 143.33s/it]  ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_07.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2016-08-28T19:59:53.000000Z
+  Duration: 00:00:29.63, start: 0.000000, bitrate: 1446 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 406x720, 1317 kb/s, 19.92 fps, 19.92 tbr, 90k tbn, 39.83 tbc (default)
+    Metadata:
+      creation_time   : 2016-08-28T19:59:53.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      creation_time   : 2016-08-28T19:59:53.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 406x720, q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2016-08-28T19:59:53.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=    7 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps= 14 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   20 fps= 13 q=-0.0 size=N/A time=00:00:05.00 bitrate=N/A speed=3.32x    frame=   27 fps= 13 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=5.75x    frame=   30 fps= 12 q=-0.0 Lsize=N/A time=00:00:30.00 bitrate=N/A speed=12.1x    
+video:9418kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 79%|███████▉  | 82/104 [3:02:45<44:14, 120.67s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_08.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:01:20.81, start: 0.000000, bitrate: 325 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 320x240 [SAR 1:1 DAR 4:3], 251 kb/s, 9.97 fps, 9.97 tbr, 19938 tbn, 19.94 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 71 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   26 fps=0.0 q=-0.0 size=N/A time=00:00:03.00 bitrate=N/A speed=   6x    frame=   41 fps= 41 q=-0.0 size=N/A time=00:00:18.00 bitrate=N/A speed=17.9x    frame=   58 fps= 39 q=-0.0 size=N/A time=00:00:35.00 bitrate=N/A speed=23.2x    frame=   74 fps= 36 q=-0.0 size=N/A time=00:00:51.00 bitrate=N/A speed=  25x    frame=   81 fps= 30 q=-0.0 Lsize=N/A time=00:01:21.00 bitrate=N/A speed=  30x    
+video:6705kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 80%|███████▉  | 83/104 [3:06:10<50:13, 143.51s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2019-12-18T05:52:06.000000Z
+  Duration: 00:01:08.85, start: 0.000000, bitrate: 641 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709), 568x320 [SAR 1:1 DAR 71:40], 566 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2019-12-18T05:52:06.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/17/2019.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 71 kb/s (default)
+    Metadata:
+      creation_time   : 2019-12-18T05:52:06.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/17/2019.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 568x320 [SAR 1:1 DAR 71:40], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2019-12-18T05:52:06.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/17/2019.
+      encoder         : Lavc58.91.100 png
+frame=   15 fps=0.0 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=  16x    frame=   28 fps= 28 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=  19x    frame=   38 fps= 25 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=17.5x    frame=   51 fps= 25 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=19.6x    frame=   62 fps= 24 q=-0.0 size=N/A time=00:00:51.00 bitrate=N/A speed=19.9x    frame=   69 fps= 23 q=-0.0 Lsize=N/A time=00:01:09.00 bitrate=N/A speed=22.9x    
+video:17804kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 81%|████████  | 84/104 [3:10:23<58:00, 174.02s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_10.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-24T04:26:32.000000Z
+  Duration: 00:00:42.35, start: 0.000000, bitrate: 505 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 405 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-24T04:26:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-24T04:26:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-24T04:26:32.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+      encoder         : Lavc58.91.100 png
+frame=   12 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   23 fps= 22 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed= 8.6x    frame=   35 fps= 22 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=13.3x    frame=   42 fps= 21 q=-0.0 Lsize=N/A time=00:00:42.00 bitrate=N/A speed=21.4x    
+video:12912kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 84%|████████▎ | 87/104 [3:11:55<27:12, 96.03s/it] ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_11.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2022-12-22T21:59:56.000000Z
+  Duration: 00:00:33.90, start: 0.000000, bitrate: 1797 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1667 kb/s, 12.78 fps, 12.78 tbr, 12777 tbn, 25.55 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-22T21:59:56.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/22/2022.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2022-12-22T21:59:56.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/22/2022.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2022-12-22T21:59:56.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/22/2022.
+      encoder         : Lavc58.91.100 png
+frame=    6 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   11 fps= 11 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   15 fps=9.6 q=-0.0 size=N/A time=00:00:01.00 bitrate=N/A speed=0.641x    frame=   20 fps=9.7 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=2.91x    frame=   24 fps=9.4 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=3.51x    frame=   29 fps=9.3 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=3.85x    frame=   33 fps=9.1 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=4.41x    frame=   34 fps=7.9 q=-0.0 Lsize=N/A time=00:00:34.00 bitrate=N/A speed=7.86x    
+video:19370kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 85%|████████▍ | 88/104 [3:13:04<24:04, 90.31s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_12.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Google
+  Duration: 00:01:54.20, start: 0.000000, bitrate: 167 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 204x360 [SAR 1:1 DAR 17:30], 92 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 71 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 204x360 [SAR 1:1 DAR 17:30], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc58.91.100 png
+frame=   26 fps=0.0 q=-0.0 size=N/A time=00:00:09.00 bitrate=N/A speed=17.6x    frame=   48 fps= 47 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=30.6x    frame=   68 fps= 45 q=-0.0 size=N/A time=00:00:51.00 bitrate=N/A speed=33.7x    frame=   90 fps= 44 q=-0.0 size=N/A time=00:01:13.00 bitrate=N/A speed=36.1x    frame=  111 fps= 44 q=-0.0 size=N/A time=00:01:34.00 bitrate=N/A speed=37.2x    frame=  114 fps= 42 q=-0.0 Lsize=N/A time=00:01:54.00 bitrate=N/A speed=  42x    
+video:18058kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 86%|████████▌ | 89/104 [3:17:14<31:40, 126.67s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_14.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2014-03-08T11:04:33.000000Z
+  Duration: 00:01:17.55, start: 0.000000, bitrate: 336 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 239 kb/s, 30.01 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2014-03-08T11:04:33.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2014.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 93 kb/s (default)
+    Metadata:
+      creation_time   : 2014-03-08T11:04:33.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2014.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2014-03-08T11:04:33.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2014.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   22 fps= 22 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=7.93x    frame=   33 fps= 22 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=12.5x    frame=   43 fps= 21 q=-0.0 size=N/A time=00:00:29.00 bitrate=N/A speed=14.4x    frame=   54 fps= 21 q=-0.0 size=N/A time=00:00:40.00 bitrate=N/A speed=15.5x    frame=   65 fps= 21 q=-0.0 size=N/A time=00:00:51.00 bitrate=N/A speed=16.4x    frame=   75 fps= 21 q=-0.0 size=N/A time=00:01:01.00 bitrate=N/A speed=16.8x    frame=   78 fps= 19 q=-0.0 Lsize=N/A time=00:01:18.00 bitrate=N/A speed=18.9x    
+video:18248kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 87%|████████▋ | 90/104 [3:25:41<51:17, 219.84s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_15.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-19T03:28:01.000000Z
+  Duration: 00:00:25.15, start: 0.000000, bitrate: 474 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 374 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-19T03:28:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/18/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-19T03:28:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/18/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-19T03:28:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/18/2020.
+      encoder         : Lavc58.91.100 png
+frame=   13 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   22 fps= 21 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=7.77x    frame=   25 fps= 19 q=-0.0 Lsize=N/A time=00:00:25.00 bitrate=N/A speed=19.3x    
+video:7089kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 88%|████████▊ | 91/104 [3:26:42<38:44, 178.80s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_16.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-01-06T08:53:50.000000Z
+  Duration: 00:02:06.57, start: 0.000000, bitrate: 210 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 270x360 [SAR 1:1 DAR 3:4], 79 kb/s, 16 fps, 16 tbr, 16384 tbn, 32 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-06T08:53:50.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/06/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      creation_time   : 2023-01-06T08:53:50.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/06/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 270x360 [SAR 1:1 DAR 3:4], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-01-06T08:53:50.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/06/2023.
+      encoder         : Lavc58.91.100 png
+frame=   22 fps=0.0 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=  24x    frame=   41 fps= 41 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=  31x    frame=   61 fps= 40 q=-0.0 size=N/A time=00:00:51.00 bitrate=N/A speed=33.8x    frame=   80 fps= 40 q=-0.0 size=N/A time=00:01:10.00 bitrate=N/A speed=34.6x    frame=  101 fps= 40 q=-0.0 size=N/A time=00:01:31.00 bitrate=N/A speed=36.1x    frame=  123 fps= 41 q=-0.0 size=N/A time=00:01:53.00 bitrate=N/A speed=37.4x    frame=  127 fps= 40 q=-0.0 Lsize=N/A time=00:02:07.00 bitrate=N/A speed=39.6x    
+video:11780kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 88%|████████▊ | 92/104 [3:30:51<39:30, 197.54s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2013-12-28T17:19:10.000000Z
+  Duration: 00:04:54.78, start: 0.000000, bitrate: 436 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360, 338 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2013-12-28T17:19:10.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/28/2013.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 93 kb/s (default)
+    Metadata:
+      creation_time   : 2013-12-28T17:19:10.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/28/2013.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360, q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2013-12-28T17:19:10.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 12/28/2013.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=-0.0 size=N/A time=00:00:02.00 bitrate=N/A speed=3.96x    frame=   21 fps= 21 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=11.8x    frame=   31 fps= 20 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed=14.5x    frame=   43 fps= 21 q=-0.0 size=N/A time=00:00:34.00 bitrate=N/A speed=16.7x    frame=   54 fps= 21 q=-0.0 size=N/A time=00:00:45.00 bitrate=N/A speed=17.8x    frame=   65 fps= 21 q=-0.0 size=N/A time=00:00:56.00 bitrate=N/A speed=18.4x    frame=   75 fps= 21 q=-0.0 size=N/A time=00:01:06.00 bitrate=N/A speed=18.6x    frame=   86 fps= 21 q=-0.0 size=N/A time=00:01:17.00 bitrate=N/A speed=18.8x    frame=   98 fps= 21 q=-0.0 size=N/A time=00:01:29.00 bitrate=N/A speed=19.2x    frame=  108 fps= 21 q=-0.0 size=N/A time=00:01:39.00 bitrate=N/A speed=19.3x    frame=  118 fps= 21 q=-0.0 size=N/A time=00:01:49.00 bitrate=N/A speed=19.4x    frame=  130 fps= 21 q=-0.0 size=N/A time=00:02:01.00 bitrate=N/A speed=19.7x    frame=  141 fps= 21 q=-0.0 size=N/A time=00:02:12.00 bitrate=N/A speed=19.8x    frame=  152 fps= 21 q=-0.0 size=N/A time=00:02:23.00 bitrate=N/A speed=  20x    frame=  163 fps= 21 q=-0.0 size=N/A time=00:02:34.00 bitrate=N/A speed=20.1x    frame=  174 fps= 21 q=-0.0 size=N/A time=00:02:45.00 bitrate=N/A speed=20.1x    frame=  183 fps= 21 q=-0.0 size=N/A time=00:02:54.00 bitrate=N/A speed=  20x    frame=  192 fps= 21 q=-0.0 size=N/A time=00:03:03.00 bitrate=N/A speed=19.9x    frame=  203 fps= 21 q=-0.0 size=N/A time=00:03:14.00 bitrate=N/A speed=  20x    frame=  214 fps= 21 q=-0.0 size=N/A time=00:03:25.00 bitrate=N/A speed=20.1x    frame=  225 fps= 21 q=-0.0 size=N/A time=00:03:36.00 bitrate=N/A speed=20.2x    frame=  236 fps= 21 q=-0.0 size=N/A time=00:03:47.00 bitrate=N/A speed=20.3x    frame=  247 fps= 21 q=-0.0 size=N/A time=00:03:58.00 bitrate=N/A speed=20.3x    frame=  255 fps= 21 q=-0.0 size=N/A time=00:04:06.00 bitrate=N/A speed=20.1x    frame=  267 fps= 21 q=-0.0 size=N/A time=00:04:18.00 bitrate=N/A speed=20.2x    frame=  278 fps= 21 q=-0.0 size=N/A time=00:04:29.00 bitrate=N/A speed=20.3x    frame=  289 fps= 21 q=-0.0 size=N/A time=00:04:40.00 bitrate=N/A speed=20.3x    frame=  295 fps= 21 q=-0.0 Lsize=N/A time=00:04:55.00 bitrate=N/A speed=20.7x    
+video:72860kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 90%|█████████ | 94/104 [3:43:35<46:20, 278.05s/it] 92%|█████████▏| 96/104 [3:43:35<22:51, 171.39s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_19.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2018-03-03T22:33:12.000000Z
+  Duration: 00:02:12.14, start: 0.000000, bitrate: 439 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m), 640x360 [SAR 1:1 DAR 16:9], 310 kb/s, 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2018-03-03T22:33:12.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/03/2018.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      creation_time   : 2018-03-03T22:33:12.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/03/2018.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2018-03-03T22:33:12.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/03/2018.
+      encoder         : Lavc58.91.100 png
+frame=   11 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   21 fps= 21 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=  10x    frame=   32 fps= 21 q=-0.0 size=N/A time=00:00:21.00 bitrate=N/A speed=13.8x    frame=   40 fps= 20 q=-0.0 size=N/A time=00:00:29.00 bitrate=N/A speed=14.1x    frame=   50 fps= 19 q=-0.0 size=N/A time=00:00:39.00 bitrate=N/A speed=15.2x    frame=   59 fps= 19 q=-0.0 size=N/A time=00:00:48.00 bitrate=N/A speed=15.6x    frame=   70 fps= 20 q=-0.0 size=N/A time=00:00:59.00 bitrate=N/A speed=16.5x    frame=   80 fps= 20 q=-0.0 size=N/A time=00:01:09.00 bitrate=N/A speed=  17x    frame=   88 fps= 19 q=-0.0 size=N/A time=00:01:17.00 bitrate=N/A speed=16.8x    frame=   98 fps= 19 q=-0.0 size=N/A time=00:01:27.00 bitrate=N/A speed=17.2x    frame=  109 fps= 20 q=-0.0 size=N/A time=00:01:38.00 bitrate=N/A speed=17.5x    frame=  119 fps= 20 q=-0.0 size=N/A time=00:01:48.00 bitrate=N/A speed=17.7x    frame=  130 fps= 20 q=-0.0 size=N/A time=00:01:59.00 bitrate=N/A speed=  18x    frame=  132 fps= 20 q=-0.0 Lsize=N/A time=00:02:12.00 bitrate=N/A speed=19.6x    
+video:28233kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 95%|█████████▌| 99/104 [3:48:43<11:41, 140.28s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_21.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2023-09-18T16:43:37.000000Z
+  Duration: 00:02:07.11, start: 0.000000, bitrate: 2334 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 2204 kb/s, 12.78 fps, 12.78 tbr, 12779 tbn, 25.56 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-18T16:43:37.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/18/2023.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2023-09-18T16:43:37.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/18/2023.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2023-09-18T16:43:37.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/18/2023.
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=    6 fps=5.9 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   10 fps=6.5 q=-0.0 size=N/A time=00:00:04.00 bitrate=N/A speed=2.59x    frame=   13 fps=6.3 q=-0.0 size=N/A time=00:00:07.00 bitrate=N/A speed=3.41x    frame=   16 fps=6.3 q=-0.0 size=N/A time=00:00:10.00 bitrate=N/A speed=3.91x    frame=   19 fps=6.2 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed=4.25x    frame=   22 fps=6.2 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=4.49x    frame=   25 fps=6.1 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=4.66x    frame=   28 fps=6.1 q=-0.0 size=N/A time=00:00:22.00 bitrate=N/A speed= 4.8x    frame=   31 fps=6.1 q=-0.0 size=N/A time=00:00:25.00 bitrate=N/A speed=4.91x    frame=   34 fps=6.1 q=-0.0 size=N/A time=00:00:28.00 bitrate=N/A speed=   5x    frame=   37 fps=6.1 q=-0.0 size=N/A time=00:00:31.00 bitrate=N/A speed=5.08x    frame=   40 fps=6.1 q=-0.0 size=N/A time=00:00:33.00 bitrate=N/A speed=   5x    frame=   44 fps=6.1 q=-0.0 size=N/A time=00:00:36.00 bitrate=N/A speed=5.02x    frame=   47 fps=6.1 q=-0.0 size=N/A time=00:00:39.00 bitrate=N/A speed=5.08x    frame=   50 fps=6.1 q=-0.0 size=N/A time=00:00:42.00 bitrate=N/A speed=5.13x    frame=   54 fps=6.2 q=-0.0 size=N/A time=00:00:46.00 bitrate=N/A speed=5.26x    frame=   57 fps=6.1 q=-0.0 size=N/A time=00:00:49.00 bitrate=N/A speed=5.26x    frame=   60 fps=6.1 q=-0.0 size=N/A time=00:00:52.00 bitrate=N/A speed= 5.3x    frame=   64 fps=6.2 q=-0.0 size=N/A time=00:00:56.00 bitrate=N/A speed=5.41x    frame=   67 fps=6.2 q=-0.0 size=N/A time=00:00:58.00 bitrate=N/A speed=5.34x    frame=   70 fps=6.2 q=-0.0 size=N/A time=00:01:01.00 bitrate=N/A speed=5.37x    frame=   74 fps=6.2 q=-0.0 size=N/A time=00:01:05.00 bitrate=N/A speed=5.47x    frame=   77 fps=6.2 q=-0.0 size=N/A time=00:01:08.00 bitrate=N/A speed=5.49x    frame=   81 fps=6.3 q=-0.0 size=N/A time=00:01:12.00 bitrate=N/A speed=5.58x    frame=   84 fps=6.3 q=-0.0 size=N/A time=00:01:15.00 bitrate=N/A speed= 5.6x    frame=   87 fps=6.3 q=-0.0 size=N/A time=00:01:18.00 bitrate=N/A speed=5.61x    frame=   90 fps=6.2 q=-0.0 size=N/A time=00:01:20.00 bitrate=N/A speed=5.55x    frame=   94 fps=6.3 q=-0.0 size=N/A time=00:01:21.00 bitrate=N/A speed=5.43x    frame=   97 fps=6.3 q=-0.0 size=N/A time=00:01:24.00 bitrate=N/A speed=5.45x    frame=  101 fps=6.3 q=-0.0 size=N/A time=00:01:28.00 bitrate=N/A speed=5.52x    frame=  105 fps=6.4 q=-0.0 size=N/A time=00:01:32.00 bitrate=N/A speed=5.58x    frame=  109 fps=6.4 q=-0.0 size=N/A time=00:01:36.00 bitrate=N/A speed=5.65x    frame=  113 fps=6.5 q=-0.0 size=N/A time=00:01:38.00 bitrate=N/A speed=5.61x    frame=  116 fps=6.4 q=-0.0 size=N/A time=00:01:39.00 bitrate=N/A speed=5.49x    frame=  120 fps=6.5 q=-0.0 size=N/A time=00:01:43.00 bitrate=N/A speed=5.54x    frame=  124 fps=6.5 q=-0.0 size=N/A time=00:01:47.00 bitrate=N/A speed=5.61x    frame=  127 fps=6.3 q=-0.0 Lsize=N/A time=00:02:07.00 bitrate=N/A speed= 6.3x    
+video:106779kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 96%|█████████▌| 100/104 [3:55:34<12:32, 188.20s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_22.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2024-03-19T10:54:04.000000Z
+  Duration: 00:01:20.34, start: 0.000000, bitrate: 514 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 480x360 [SAR 1:1 DAR 4:3], 383 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2024-03-19T10:54:04.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/19/2024.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2024-03-19T10:54:04.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/19/2024.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2024-03-19T10:54:04.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/19/2024.
+      encoder         : Lavc58.91.100 png
+frame=   14 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   25 fps= 25 q=-0.0 size=N/A time=00:00:08.00 bitrate=N/A speed=7.91x    frame=   36 fps= 24 q=-0.0 size=N/A time=00:00:19.00 bitrate=N/A speed=12.6x    frame=   49 fps= 24 q=-0.0 size=N/A time=00:00:32.00 bitrate=N/A speed=15.7x    frame=   62 fps= 24 q=-0.0 size=N/A time=00:00:45.00 bitrate=N/A speed=17.7x    frame=   73 fps= 24 q=-0.0 size=N/A time=00:00:56.00 bitrate=N/A speed=18.4x    frame=   80 fps= 23 q=-0.0 Lsize=N/A time=00:01:20.00 bitrate=N/A speed=22.7x    
+video:22485kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 97%|█████████▋| 101/104 [4:00:24<10:26, 208.88s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_23.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    creation_time   : 2010-09-19T05:19:03.000000Z
+  Duration: 00:02:37.62, start: 0.000000, bitrate: 298 kb/s
+    Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 6 kb/s (default)
+    Metadata:
+      creation_time   : 2010-09-19T05:19:03.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 290 kb/s, 14.98 fps, 14.98 tbr, 14977 tbn, 29.95 tbc (default)
+    Metadata:
+      creation_time   : 2010-09-19T05:19:03.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isomavc1mp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2010-09-19T05:19:03.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+      encoder         : Lavc58.91.100 png
+frame=   23 fps=0.0 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=11.8x    frame=   40 fps= 39 q=-0.0 size=N/A time=00:00:23.00 bitrate=N/A speed=22.3x    frame=   56 fps= 36 q=-0.0 size=N/A time=00:00:39.00 bitrate=N/A speed=25.3x    frame=   72 fps= 35 q=-0.0 size=N/A time=00:00:55.00 bitrate=N/A speed=26.8x    frame=   92 fps= 36 q=-0.0 size=N/A time=00:01:15.00 bitrate=N/A speed=29.3x    frame=  109 fps= 36 q=-0.0 size=N/A time=00:01:32.00 bitrate=N/A speed=  30x    frame=  126 fps= 35 q=-0.0 size=N/A time=00:01:49.00 bitrate=N/A speed=30.5x    frame=  141 fps= 34 q=-0.0 size=N/A time=00:02:04.00 bitrate=N/A speed=30.3x    frame=  157 fps= 34 q=-0.0 size=N/A time=00:02:20.00 bitrate=N/A speed=30.4x    frame=  157 fps= 32 q=-0.0 Lsize=N/A time=00:02:37.00 bitrate=N/A speed=32.2x    
+video:19784kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ 99%|█████████▉| 103/104 [4:06:42<03:21, 201.52s/it]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_25.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2011-03-03T19:28:42.000000Z
+  Duration: 00:01:07.88, start: 0.000000, bitrate: 344 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 241 kb/s, 29.97 fps, 29.92 tbr, 1k tbn, 59.83 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)
+    Metadata:
+      creation_time   : 2011-03-03T19:28:42.000000Z
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 1970-01-01T00:00:00.000000Z
+      handler_name    : VideoHandler
+      encoder         : Lavc58.91.100 png
+frame=    3 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   17 fps= 17 q=-0.0 size=N/A time=00:00:12.00 bitrate=N/A speed=11.9x    frame=   35 fps= 23 q=-0.0 size=N/A time=00:00:30.00 bitrate=N/A speed=19.6x    frame=   48 fps= 24 q=-0.0 size=N/A time=00:00:43.00 bitrate=N/A speed=21.1x    frame=   64 fps= 25 q=-0.0 size=N/A time=00:00:59.00 bitrate=N/A speed=  23x    frame=   68 fps= 25 q=-0.0 Lsize=N/A time=00:01:08.00 bitrate=N/A speed=24.6x    
+video:7428kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+100%|██████████| 104/104 [4:09:30<00:00, 194.57s/it]100%|██████████| 104/104 [4:09:30<00:00, 143.95s/it]

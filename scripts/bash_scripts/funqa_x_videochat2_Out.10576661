@@ -1,0 +1,7 @@
+  0%|          | 0/172 [00:00<?, ?it/s]  0%|          | 0/172 [00:51<?, ?it/s]
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/funqa_x_videochat2.py", line 56, in <module>
+    pred_start, pred_end = extract_time_from_answer(answer)
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/funqa_x_videochat2.py", line 35, in extract_time_from_answer
+    return pred_start, pred_end
+UnboundLocalError: local variable 'pred_start' referenced before assignment

@@ -1,0 +1,528 @@
+Loading weights from /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/video_chatgpt-7B.bin
+Weights loaded from /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-ChatGPT/video_chatgpt-7B.bin
+ length of data: 30170
+ length of unique_data: 424
+ length of humor_data: 172
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_101_1433_1631.mp4
+Answer: The funny moment in the video is when the cat starts drinking from the glass and the person starts laughing. The cat is seen drinking from the glass and the person is laughing. The cat is also seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from the glass and the person is laughing. The cat is seen drinking from
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_112_0000_0432.mp4
+Answer: The funny moment in the video is when the little girl gets on the dog's back and starts to ride it. The dog is trying to get up and the girl is laughing. The girl's laughter is the funny part of the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_112_0436_0691.mp4
+Answer: The funny moment in the video is when the little boy starts to laugh while trying to clean the floor with the vacuum cleaner. The video shows the little boy trying to clean the floor with the vacuum cleaner, and as he starts to laugh, the camera captures the moment.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_125_2078_2286.mp4
+Answer: The funny moment in the video is when the bird is seen sticking its tongue out while playing with the toothbrush. The bird is seen sticking its tongue out while playing with the toothbrush, which is quite unusual and amusing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_125_2798_3062.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_135_3404_3567.mp4
+Answer: The funny moment in the video is when the dog starts to play with the snowball. The dog starts to play with the snowball and then starts to chase it. The dog is seen running around and trying to catch the snowball. The dog's playful behavior is captured in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_136_0465_0753.mp4
+Answer: The funny moment in the video is when the dog starts chasing the smoke from the fire hydrant, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continues to chase the smoke, and the owner starts running after the dog. The dog continue
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_136_2847_2993.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_137_0922_1194.mp4
+Answer: The funny moment in the video is when the dog is wearing a costume and a man is riding a motorcycle. The dog is wearing a costume and a helmet, and the man is riding the motorcycle with the dog on his back. This is a humorous and entertaining scene that captures the attention of the viewers.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_138_0681_0955.mp4
+Answer: The funny moment in the video occurs at 0:13 when the dog starts to play with the tennis ball.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_138_2285_2556.mp4
+Answer: The funny moment in the video is when the man puts his dog in the bed with him and the dog starts to play with the man's feet. The dog starts to play with the man's feet and the man starts to laugh. The video also shows the dog playing with a tennis ball.
+
+start_time: 00:00:00, end_time: 00:00:10.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_141_2377_2501.mp4
+Answer: The funny moment in the video is when a man is riding a motorcycle and a dog is chasing him. The dog is trying to bite the man's leg, and the man is trying to get away from the dog. This scene is hilarious because it is not common to see a dog chasing a man on a motorcycle. The dog's actions are unexpected and the man's attempts to get away are amusing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_15_0000_0224.mp4
+Answer: The funny moment in the video occurs at 1:05 when the dog starts to run away from the camera.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_161_2850_3077.mp4
+Answer: The funny moment in the video is when the person puts the cat's face on the cat's head.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_178_4300_4608.mp4
+Answer: The funny moment in the video is when the seagulls are seen flying in the sky, and the man is seen running towards the camera with a smile on his face. The funny moment starts at 00:00:00 and ends at 00:00:05.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_179_1690_1815.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_181_2139_2297.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_193_2339_2560.mp4
+Answer: The funny moment in the video is when the dog starts to bite the person's hand while they are trying to put a cone on its head. The dog starts to bite the person's hand, causing the person to laugh.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_2_3370_3451.mp4
+Answer: The funny moment in the video occurs at 1:05 when the man starts to dance. He starts by standing on one foot and then moves to the other foot. He then starts to dance on the diving board. The man is wearing a black shirt and shorts. The funny moment lasts for about 10 seconds.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_209_3104_3359.mp4
+Answer: The funny moment in the video is when the two dogs are playing with each other and one of them falls over. The video shows the dog falling over and then getting up, while the other dog watches. The moment is captured at 00:00:10 - 00:00:20.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_211_2570_2883.mp4
+Answer: The funny moment in the video is when the two birds are walking together on the sand and the one bird suddenly stops and starts to walk away. The other bird continues to walk with the first bird, and the first bird turns around and starts to walk backward. The other bird continues to walk forward, and the first bird starts to walk backward again. This creates a humorous and entertaining scene.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_222_2427_2871.mp4
+Answer: The funny moment in the video is when the woman is trying to get the baby to drink from the bottle. The baby is not cooperating, and the woman is trying to get the baby to drink by holding the bottle to the baby's mouth and shaking it. The baby is laughing and playing with the bottle, making it a funny moment.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_23_2825_3046.mp4
+Answer: The funny moment in the video is when the donkey is seen eating from the bowl of food. The donkey is seen eating the food from the bowl, and the person is seen laughing at the sight.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_3_0760_0950.mp4
+Answer: The funny moment in the video is when the woman is trying to get the dog to play with her. The dog is not interested and keeps running away. The woman tries to get the dog to play with her by holding the stick, but the dog continues to run away. The woman then starts to dance and the dog starts to play with her. This moment is funny because it showcases the dog's reluctance to play and the woman's determination to make it happen.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_0000_0191.mp4
+Answer: The funny moment in the video is when one of the men starts eating a french fry and then starts talking about how he wants to eat the other man's face. The man then starts eating the french fry with his mouth open and the other man starts laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_0442_0688.mp4
+Answer: The funny moment in the video is when the two women are playing with a frisbee and one of them accidentally hits the other in the face with it. The video shows the woman who was hit laughing and the other woman apologizing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_1484_1703.mp4
+Answer: The funny moment in the video is when the man is trying to get a bird to fly over to him. He is holding a stick and trying to get the bird to fly over to him. The bird is not cooperating, and the man is laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_31_2511_2980.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_32_0694_0852.mp4
+Answer: The funny moment in the video is when the man in the blue jeans and white shirt falls off the stairs and the other man in the white shirt and blue jeans helps him up.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_32_2136_2435.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_36_2514_2828.mp4
+Answer: The funny moment in the video is when the baby is trying to open the car door. The baby is seen trying to open the car door with a smile on its face.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_39_2925_3134.mp4
+Answer: The funny moment in the video is when a man is shaving another man's head while the other man is sitting in a chair. The man sitting in the chair is laughing and smiling, which is the funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_0483_0559.mp4
+Answer: The funny moment in the video occurs at 0:00 to 0:05. A man is seen jumping over a bar with a pole, and the pole is seen going up and down.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_1554_1712.mp4
+Answer: The funny moment in the video is when a man is trying to kick a ball on a trampoline, but he keeps missing it. The video shows the man trying to kick the ball multiple times, and each time he misses it, the ball goes flying into the air. This creates a humorous and entertaining scene for the viewers.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_40_3153_3445.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_73_0257_0456.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_100_3230_3400.mp4
+Answer: The funny moment occurs at 2:00 when the man is walking away from the snowy area and the snow is falling on him.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_101_2970_3120.mp4
+Answer: The funny moment in the video is when a woman is seen doing a dance in the street while holding a handbag. The video also shows a man doing a dance in the street.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_102_1679_1774.mp4
+Answer: The funny moment in the video is when the man is seen brushing his hair in the mirror, and the camera is focused on his reflection. The man is seen brushing his hair in the mirror, and the camera is focused on his reflection, which is hilarious because it is a video of a man brushing his hair in a mirror.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_103_0920_1010.mp4
+Answer: The funny moment in the video is when the man in the white shirt is trying to get the woman to eat the food he has prepared. The woman is laughing and refusing to eat the food, which adds a humorous element to the scene. The video also shows the man trying to get the woman to eat the food, which adds to the humor. The video ends with the woman laughing and the man smiling.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_106_2022_2224.mp4
+Answer: The funny moment in the video occurs at 0:00:25. A man is seen jumping into the pool and splashing water on himself.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_107_3072_3160.mp4
+Answer: The funny moment in the video is when the man in the red shirt is trying to clean the floor with a broom. He is laughing and making a funny face while doing so. The video also shows the man in the red shirt and the man in the white shirt talking to each other.
+
+start_time: 00:00:00, end_time: 00:00:15.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_108_0600_0707.mp4
+Answer: The funny moment in the video is when the dog starts to run away from the girl, and she starts to chase it. The dog then turns around and starts to run towards the girl. The girl then starts to run away from the dog, and the dog starts to chase her. The girl then turns around and starts to run towards the dog. The dog then starts to run away from the girl again, and the girl starts to chase it once more. This back and forth chase between the girl and the dog creates a humorous and entertaining scene.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_113_0712_0792.mp4
+Answer: The funny moment in the video is when the boy is trying to shoot a balloon with a toy gun. He is seen trying to aim the toy gun at the balloon, but it keeps missing. The boy then starts to laugh and the camera zooms in on him. This moment is captured at 1:19 to 1:22 in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_114_3686_3881.mp4
+Answer: The funny moment in the video is when the woman starts to push the cart with the shopping cart and accidentally pushes it into the cart with the shopping cart. The cart with the shopping cart starts to roll away, and the woman starts to chase it.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_115_2190_2304.mp4
+Answer: The funny moment in the video is when the person in the black and white outfit is seen holding a broom and hitting a person with it. The person in the black and white outfit is also seen putting on a mask. The video ends with the person in the black and white outfit hitting a person with a broom.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_117_1030_1217.mp4
+Answer: The funny moment in the video is when the man is trying to open the laptop and accidentally knocks it over. The laptop falls on the floor and the man laughs.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_119_2067_2100.mp4
+Answer: The funny moment in the video is when the little girl starts to play with the boy's hair. The boy then starts to play with her hair, and they both laugh. The moment starts at 1:05 and ends at 1:10.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_121_3397_3512.mp4
+Answer: The funny moment in the video is when the man is trying to get the dog to stand on its hind legs. The dog is not cooperating, and the man is getting frustrated. The dog is seen trying to stand on its hind legs, but it is not successful. The man is seen trying to get the dog to stand on its hind legs, but the dog is not cooperating. The man is getting frustrated, and the dog is also looking at the camera with a funny expression.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_125_2858_3029.mp4
+Answer: The funny moment in the video is when the man in the brown uniform is seen walking on the wall and then suddenly falls off.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_127_1218_1399.mp4
+Answer: The funny moment in the video is when the man is trying to get his pants back on after falling off. The video shows the man trying to put his pants back on while sitting on the ground.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_127_1628_1761.mp4
+Answer: The funny moment in the video is when the man is trying to get over the fence and he falls over. The video shows the man trying to get over the fence and then he falls over. The video also shows the man getting back up and trying again. The funny moment starts at 0:15 and ends at 0:30.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_13_1042_1221.mp4
+Answer: The funny moment in the video is when a man is seen swinging a pole on a rope, and the pole breaks. The man is then seen holding the broken pole and laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_132_0544_0639.mp4
+Answer: The funny moment in the video is when the person is brushing their teeth with a toothbrush and a cup of water. The person is seen brushing their teeth with the toothbrush and the cup of water, and the video ends with the person laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_132_1393_1497.mp4
+Answer: The funny moment in the video is when the man is trying to get his shoe off and the other man is trying to help him. The man is trying to get his shoe off by using a brick to scrape the shoe off his foot. The other man is trying to help him by holding the brick and trying to get the shoe off his foot. This is a funny moment because it is a humorous and unconventional way of removing a shoe.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_133_1554_1718.mp4
+Answer: The funny moment in the video occurs at 0:21 when a man is seen running across the street while the car is driving. The car driver is seen looking back at the man as he runs across the street.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_165_3996_4080.mp4
+Answer: The funny moment in the video is when a man is seen running down the street while holding a woman in his arms. The woman is laughing and the man is trying to run away from the camera.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_165_4617_4709.mp4
+Answer: The funny moment in the video is when the little boy starts to laugh while playing with the snow. The video shows the boy making a snowman and then laughing while playing with the snow. The video also shows the man shoveling snow and the little boy playing in the snow.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_169_1656_1737.mp4
+Answer: The funny moment in the video is when a man is holding an umbrella over a woman's head, and the woman is trying to get away from him. The man is trying to shield the woman from the rain, but she is trying to get away from him. This creates a humorous situation as the woman tries to escape while the man tries to protect her.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_182_2660_2786.mp4
+Answer: The funny moment in the video is when the child is playing with a toy and the toy starts to play with the child. The child is laughing and the toy is also laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_192_0304_0384.mp4
+Answer: The funny moment in the video is when the dog is seen walking on its hind legs and the panda is seen walking on its front legs. This is a humorous moment as it is not a common sight to see a dog and a panda walking on their hind and front legs, respectively.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_193_2012_2100.mp4
+Answer: The funny moment in the video is when the bear is seen walking around the room. The bear is wearing a dress and is seen walking around the room while people are watching. The bear is also seen walking around the room in a diamond ring. The video also shows a man in a bear costume walking around the room.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_194_0571_0756.mp4
+Answer: The funny moment in the video is when a man is trying to get on the boat while it is moving, and he falls off. The video shows the man falling into the water and trying to get back on the boat.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_196_0303_0504.mp4
+Answer: The funny moment in the video is when the barber starts to cut the man's hair and the man starts to laugh. The barber continues to cut the man's hair while the man laughs.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_199_1990_2259.mp4
+Answer: The funny moment in the video is when the man puts his hand on the toilet paper roll and it falls off the roller.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_2_3125_3305.mp4
+Answer: The funny moment in the video is when the little girl is seen brushing her teeth with a toothbrush.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_20_3372_3540.mp4
+Answer: The funny moment in the video is when the man in the black shirt starts to talk to the camera and the man in the white shirt starts to laugh. The man in the black shirt then says, "I'm not laughing, I'm just talking to the camera." The man in the white shirt continues to laugh, and the man in the black shirt says, "I'm not laughing, I'm just talking to the camera." This exchange creates a humorous moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_203_1646_1713.mp4
+Answer: The funny moment in the video is when the man riding the motorcycle stops to talk to the man on the moped. The man on the moped is holding a dog, and the man on the motorcycle is trying to get the dog to come to him. The dog is not cooperating, and the man on the motorcycle is laughing at the situation.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_203_2846_3053.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_213_1410_1499.mp4
+Answer: The funny moment in the video is when the woman is standing on the swing and starts to swing. She is laughing and smiling as she swings back and forth. The video also shows her doing a handstand on the swing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_223_0385_0424.mp4
+Answer: The funny moment in the video is when the bride and groom are talking to each other and the groom starts to talk about his wedding day. The bride starts to laugh and the groom continues to talk about his wedding day. The video shows the couple talking to each other and the bride laughing. The funny moment starts at 0:00 and ends at 0:15.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_225_1465_1622.mp4
+Answer: The funny moment in the video is when the little girl in the pink dress starts laughing uncontrollably while the man in the suit is talking to her. The video also shows a group of people in the background who are also laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_244_3603_3682.mp4
+Answer: The funny moment occurs at 1:00 when the man in the white shirt gets out of the car and starts to walk away. The car then drives off, and the man starts to walk away from it.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_245_3774_3967.mp4
+Answer: The funny moment in the video is when the man in the car is trying to open the window, and the woman in the other car is trying to close it. The man is trying to open the window, but the woman is trying to close it. The man is laughing, and the woman is also laughing. This moment is funny because it is a playful interaction between the two people in the car, and it is unexpected that the woman would try to close the window while the man is trying to open it.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_246_0293_0390.mp4
+Answer: The funny moment in the video is when the boy starts eating his noodles while looking at the camera. The camera then zooms in on his face as he continues to eat, and the boy starts laughing. The video ends with the boy laughing and the camera zooming out.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_248_0272_0319.mp4
+Answer: The funny moment in the video is when the leopard is trying to get out of the cage. The leopard is seen scratching the glass of the cage, attempting to climb out, and even trying to bite the glass. The leopard's actions are quite amusing to watch, as it is trying to escape from the cage. The video also shows the leopard's reaction to the person's presence, as it looks at the person with curiosity.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_249_0710_0923.mp4
+Answer: The funny moment in the video is when the man is sitting on the ground and the other man is sitting on his head.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3168_3257.mp4
+Answer: The funny moment in the video is when the child is seen eating a popsicle while holding a stick in his mouth. The child is seen holding the popsicle in his mouth while the stick is still in his mouth. This is a funny moment because it is unusual and unexpected for a child to eat a popsicle with a stick in their mouth.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3519_3609.mp4
+Answer: The funny moment in the video is when the little girl starts eating her food while the boy is talking to the camera. The boy starts laughing and the girl continues eating, while the boy continues talking.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3610_3726.mp4
+Answer: The funny moment in the video is when the little girl is sitting on the back of the woman's bike and the woman is riding the bike. The little girl is laughing and enjoying the ride. The start time is 0:00 and the end time is 0:10.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_3965_4061.mp4
+Answer: The funny moment in the video is when the baby is seen sticking out its tongue at the camera. The baby is seen sticking out its tongue at the camera while the woman is holding it.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_4389_4472.mp4
+Answer: The funny moment in the video is when the man in the blue shirt starts to clean the floor and the boy starts to laugh. The man then starts to clean the floor with the broom, and the boy continues to laugh. The video ends with the boy still laughing as the man finishes cleaning the floor.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_258_5926_6298.mp4
+Answer: The funny moment in the video is when the man is trying to feed the baby with a spoon, and the baby starts laughing. The baby is laughing so hard that the man has to hold the baby's head to keep it from falling.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_259_0848_0931.mp4
+Answer: The funny moment in the video is when the man is swinging on the swing and the camera zooms in on his face.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_0697_0794.mp4
+Answer: The funny moment in the video is when the man in the blue shirt is seen walking down the street and talking on his cell phone. The video shows him walking down the street while talking on his cell phone, which is a humorous moment as it is not common to see someone walking down the street while talking on their phone.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_1116_1234.mp4
+Answer: The funny moment in the video is when the woman is seen laughing while standing in the snow. The video shows her laughing while looking at the camera.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_260_1577_1681.mp4
+Answer: The funny moment in the video is when a little girl is seen running on the red line, and the boy behind her is seen running in the opposite direction. This creates a humorous moment as the girl is running towards the boy, who is running away from her. The video also shows a man and a woman who are playing with a ball, which adds to the overall lighthearted atmosphere of the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_261_2742_2904.mp4
+Answer: The funny moment in the video is when a man in a red jacket walks into the classroom and starts talking to the teacher. The teacher is not paying attention to him, and the man continues talking for a while before leaving the classroom.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_262_1313_1378.mp4
+Answer: The funny moment in the video occurs at 1:12 when the cow starts to run away from the camera.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_262_1902_1986.mp4
+Answer: The funny moment in the video is when the man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in the green suit starts to dance and the other man in the green suit starts to walk away. The man in
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_288_2653_2769.mp4
+Answer: The funny moment in the video is when the person is washing their hands in the sink. The video shows a person washing their hands in a sink, and the camera captures the moment when the person accidentally splashes water on their face. The person then wipes their face with a towel.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_295_0000_0165.mp4
+Answer: The funny moment in the video is when the two dogs are playing with each other, and one of them starts to bite the other's ear. The video shows the dog trying to bite the other dog's ear, and the other dog is trying to avoid it. This is a playful and amusing moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_3_0709_0916.mp4
+Answer: The funny moment in the video is when the man in the brown jacket is seen sitting on the back of the chair and leaning back.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_3_1548_1678.mp4
+Answer: The funny moment in the video is when the person pours a drink into the red cup and the cup starts to spin. The person then pours a drink into the red cup and the cup spins faster and faster. The person then pours a drink into the red cup and the cup spins even faster. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins even faster, making it difficult for the person to pour the drink. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins even faster. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins even faster. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be spinning in reverse. The person then pours a drink into the red cup and the cup spins so fast that it appears to be
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_30_1893_2009.mp4
+Answer: The funny moment in the video is when the girls are dancing and one of them suddenly stops and starts laughing. The video also shows a group of people in the background who are watching the girls dance.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_8_2919_3025.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_84_2310_2408.mp4
+Answer: The funny moment in the video is when a man is sitting on a bench and a woman is sitting on his lap. The man is laughing and the woman is smiling. The man is also seen laughing while sitting on the bench.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_95_0260_0377.mp4
+Answer: The funny moment in the video is when the man in the black jacket falls down while walking in the snow. The video shows the man walking in the snow, and then he falls down. The funny part is that he continues to walk and fall down in the snow.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_95_0700_0801.mp4
+Answer: The funny moment in the video is when the little girl starts to cry after the man accidentally hits her with the snowball.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_99_1849_2077.mp4
+Answer: The funny moment in the video is when the man in the yellow jacket starts dancing and the other man in the red jacket starts laughing. The video shows the two men dancing and laughing together in a room.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_99_2453_2635.mp4
+Answer: The funny moment in the video is when the two men are walking in the restaurant and one of them starts to dance. The other man starts to dance as well, and they both dance in the restaurant.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1069_0000_0243.mp4
+Answer: The funny moment in the video is when the man and woman are standing in the water and the man starts to dance. The woman starts to laugh and the man continues to dance.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1181_0010_0520.mp4
+Answer: The funny moment in the video is when the man in the black jacket is sitting on a chair and the woman in the red jacket is sitting on his lap. The man is trying to get up from the chair, but the woman is holding onto him, making it difficult for him to move. The man then starts to laugh, and the woman continues to hold onto him. This moment is captured in a close-up shot, making it even more amusing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_63_0050_0248.mp4
+Answer: The funny moment in the video occurs at 1:25 when a man puts a diaper on a baby's head.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_630_0000_0160.mp4
+Answer: The funny moment in the video is when the girl is sitting on the bench and the man is sitting on the ground in front of her. The girl starts laughing and the man starts laughing as well. The girl then gets up and starts walking away, and the man starts laughing again. The video also shows a man sitting on a bench and a woman sitting on the ground in front of him. The man starts laughing and the woman starts laughing as well.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_646_0000_0178.mp4
+Answer: The funny moment in the video is when a man is driving a car and a dog is sitting in the back seat. The dog is wearing sunglasses and the man is laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_647_0000_0312.mp4
+Answer: The funny moment in the video is when the truck driver is seen laughing while driving down the road. The video also shows a person laughing while driving a car.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_662_0000_0260.mp4
+Answer: The funny moment in the video is when the car is shown to be a white car, but the driver is a black man. The video also shows a man in a white shirt and black pants getting out of the car and walking away.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_70_0000_0286.mp4
+Answer: The funny moment in the video is when the man in the car starts to talk to the camera while the car is moving. The man is wearing a hat and a hoodie, and he is sitting in the driver's seat of a car. The car is moving, and the man starts talking to the camera, making it a humorous and unexpected moment.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_723_0123_0269.mp4
+Answer: The funny moment in the video is when the man is trying to put the computer in the fish tank. He is laughing and trying to get the computer in the tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not fitting. The man is laughing and trying to get the computer in the fish tank, but it is not fitting. He then tries to put the computer in the fish tank again, but it is still not
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_76_0000_0395.mp4
+Answer: The funny moment in the video occurs at 1:05 when the man in the black hoodie is seen sitting on a bench and laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_770_0000_0235.mp4
+Answer: The funny moment in the video is when the man in the white shirt is seen holding a broom and a bucket, and he starts to dance in the kitchen. The man is seen laughing and dancing while holding the broom and the bucket.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_779_0000_0149.mp4
+Answer: The funny moment in the video is when the man in the white jacket starts laughing uncontrollably while sitting on the bench. This moment is captured at 0:18 to 0:23.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_812_0035_0218.mp4
+Answer: The funny moment in the video is when the man in the blue shirt is seen sitting on the blue ball. The video shows the man sitting on the blue ball in a room, and the funny moment occurs when the man gets up and walks away. The video also shows the man sitting on the blue ball in a room with a blue wall.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_814_0031_0310.mp4
+Answer: The funny moment in the video is when the man in the car is trying to open the car door and accidentally hits the car door with his hand. The video shows the man trying to open the door and then hitting it with his hand. The man then laughs and says, "I hit the door."
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_848_0000_0538.mp4
+Answer: The funny moment in the video is when the man in the white suit starts to dance in the middle of the ceremony. The man in the white suit is seen dancing in the middle of the ceremony, which is quite unusual and unexpected.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_880_0000_0360.mp4
+Answer: The funny moment in the video is when the person is washing their hands in a sink and the camera pans away to show the ocean. The person then turns around and starts washing their hands again.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_888_0000_0173.mp4
+Answer: The funny moment in the video is when the person in the mask starts dancing and spinning around in the water. The video shows the person in the mask spinning around and laughing, making it a lighthearted and entertaining moment.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_932_0000_0196.mp4
+Answer: The funny moment in the video occurs at 1:05 when the person on the boat starts to shave the head of the man in the water.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_99_0000_0315.mp4
+Answer: The funny moment in the video is when the man in the black hat is shown sitting in a chair and laughing. The video also shows a man in a black hat and a black shirt sitting in a chair and laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_137_0725_0795.mp4
+Answer: The funny moment in the video is when the little girl starts to dance and the dog starts to follow her. The girl is seen dancing on the floor, and the dog starts to dance along with her. The girl is laughing, and the dog is also laughing. This is a cute and funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_139_1170_1296.mp4
+Answer: The funny moment in the video is when the woman is trying to catch the fish in the water. She is seen holding a fish in her hand, and the fish is trying to escape from her. The funny part is that the fish is trying to get away from her, and she is trying to catch it. The video also shows the woman's reaction to the fish trying to escape, which adds to the humor of the scene.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_145_1850_1912.mp4
+Answer: The funny moment in the video is when a man is seen doing a split on a bed while another person is sitting on the bed. The man is seen doing the split with his legs up in the air, and the other person is sitting on the bed, watching him. The funny moment starts at 0:15 and ends at 0:30.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_146_3472_3673.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_987_0000_0107.mp4
+Answer: The funny moment in the video is when a small animal is seen running across the beach. The video shows the animal running towards the camera, and the camera then zooms in on the animal's face. The animal then runs away from the camera, and the video ends with the animal running towards the camera again.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_995_0000_0442.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_999_0000_0689.mp4
+Answer: The funny moment in the video is when the man is trying to balance a cup on a bicycle wheel. He starts by placing the cup on the wheel and then tries to balance it. He fails multiple times and starts laughing. The video captures the funny moment and the man's laughter.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_A_61_0865_1062.mp4
+Answer: The funny moment in the video is when the man and woman are standing on the bridge and the man is trying to kiss the woman on the mouth. The woman is laughing and trying to avoid the kiss.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_503_0000_0200.mp4
+Answer: The funny moment in the video is when the cat jumps onto the table and starts eating the cake.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_507_0000_0270.mp4
+Answer: The funny moment in the video is when a man is walking down the street and a woman is walking towards him. The man stops and starts to walk backward, and the woman starts to walk backward as well. They both continue to walk backward in opposite directions, and the man starts to run away. The woman starts to run after him, and they both continue running in opposite directions.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_530_0000_0220.mp4
+Answer: The funny moment in the video is when the man in the black hat is seen laughing at the panda bear. The panda bear is seen trying to get out of a cardboard box, and the man is laughing at the panda bear's attempt to escape. The man is also seen talking to the panda bear, which adds to the humor of the scene. The start time of the funny moment is 1:04 and the end time is 1:10.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_534_0000_0400.mp4
+Answer: The funny moment in the video is when the man puts his finger in his mouth and starts laughing. The video also shows a man with a black beard who is smiling and laughing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_552_0210_0270.mp4
+Answer: The funny moment in the video is when the man is sitting on the couch and the woman is sitting on the floor in front of him. The man starts to talk to the woman and she starts to get up, but the man tells her to stay on the floor. The woman then starts to dance and the man starts to laugh. The video ends with the woman sitting on the floor and the man sitting on the couch.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_555_0000_0400.mp4
+Answer: The funny moment in the video is when the man in the hoodie is talking to the dog and the dog starts to bark. The man then starts to talk to the dog in a funny way, and the dog starts to bark again. This creates a humorous interaction between the man and the dog.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_564_0000_0760.mp4
+Answer: The funny moment in the video is when the man in the black hoodie starts talking to the camera and the other man starts laughing. The man in the hoodie then says "I'm not funny" and the other man continues to laugh.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_568_0000_0500.mp4
+Answer: The funny moment in the video is when the man in the green shirt and the man in the green jacket are seen kissing each other on the lips.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_580_0000_0770.mp4
+Answer: The funny moment in the video is when the man is trying to clean the floor and the cat comes out from under the door. The man is seen trying to get the cat to move, but it remains under the door. The cat is seen peeking out from under the door, and the man is seen trying to get it to move. This moment is funny because the cat's actions are unexpected and the man's attempts to get the cat to move are amusing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_597_0000_0250.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_617_0290_0344.mp4
+Answer: The funny moment in the video is when the man is lying on the floor and the dog is playing with a green toy. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to stop it. The dog is trying to bite the toy, but the man is trying to
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_122_0000_0528.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1227_0000_0191.mp4
+Answer: The funny moment in the video is when the man is playing table tennis and accidentally hits the ball into the wall. The ball bounces back and hits him in the face.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1230_0000_0285.mp4
+Answer: The funny moment in the video is when a person is trying to get a tattoo on their finger. They are holding their finger in the air and trying to get the tattoo on it. The tattoo artist is trying to help them, but it is not working. The person is laughing and trying again.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_125_0000_0387.mp4
+Answer: The funny moment in the video occurs at 1:08, where a man is seen eating a flower while the other man is talking to him.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1267_0010_0670.mp4
+Answer: The funny moment in the video is when the man is seen holding a cup of coffee while riding the boat.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1271_0005_0368.mp4
+Answer: The funny moment in the video is when the man is seen doing a dance in the kitchen. The video also shows him making a funny face while cutting the cake.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1273_0010_0640.mp4
+Answer: The funny moment in the video is when the man in the yellow shirt is trying to get the truck to start. He is seen banging on the truck and yelling at it, which is quite amusing. The video also shows a man in a yellow shirt trying to get a truck to start, which adds to the humor.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_1283_0012_0299.mp4
+Answer: The video does not have a funny moment.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_135_0315_0478.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_14_0000_0214.mp4
+Answer: The funny moment in the video is when the man in the red hat is sitting on the chair and the man in the black hoodie is standing behind him. The man in the red hat starts to stand up, but the man in the black hoodie pulls him back down. The man in the red hat then tries to stand up again, but the man in the black hoodie pulls him back down. This continues for a while until the man in the red hat finally manages to stand up.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_150_0000_0480.mp4
+Answer: The funny moment in the video is when the man in the hat is trying to get the fish out of the fishing net. He is seen trying to pull the fish out of the net, but it is stuck, and he is laughing as he tries to free it. The video also shows a man in a hat and a woman in a bikini, and the man is seen talking to the woman while the fish is stuck in the net.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_0988_1128.mp4
+Answer: The funny moment in the video is when the man is trying to get the woman to eat the fruit. He starts by holding it up to her face, but she refuses. He then tries to feed it to her, but she still refuses. He then puts it in her mouth, and she starts to eat it. The funny part is that she is trying to eat the fruit while the man is trying to feed it to her.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_1314_1489.mp4
+Answer: The funny moment in the video is when the man in the red shirt starts laughing and the other man in the blue shirt starts laughing as well. The video shows the two men sitting on a couch and laughing together.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_2755_2849.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_256_3037_3124.mp4
+Answer: The funny moment in the video is at 0:44 when the man starts to dance and the woman starts to laugh.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_239_0253_0303.mp4
+Answer: The funny moment in the video is when the person is trying to wrap the refrigerator with aluminum foil. They are using a large piece of foil and trying to wrap it around the refrigerator, but it is not fitting properly. The person then uses a knife to cut the foil and continues wrapping the refrigerator. The video shows the person's attempts to cover the refrigerator with foil, which is both amusing and comical.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_286_0000_0278.mp4
+Answer: The funny moment in the video is when the man puts a fake mustache on his face and the woman laughs. The start time is 1:10 and the end time is 1:15.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_378_0000_0317.mp4
+Answer: The funny moment in the video is when the boy puts on the Spider-Man mask and says "I'm a superhero."
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_386_0000_0256.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_396_0000_0275.mp4
+Answer: The funny moment in the video is when the dog is seen sitting on the edge of the sink, looking at the camera. The dog's facial expression and body language are quite amusing, making it a memorable moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_42_0000_0826.mp4
+Answer: The funny moment in the video is when the man in the black hoodie says "I'm not a fan of the color pink," and the woman in the pink shirt responds "I'm not a fan of the color black." This moment is hilarious because it is unexpected and unexpectedly funny.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_471_0280_0336.mp4
+Answer: The funny moment in the video is when the two dogs are playing with a frisbee in the field. The dogs are jumping and running around, and the frisbee is flying through the air. The video captures the dogs' excitement and playfulness as they chase after the frisbee.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_471_0340_0411.mp4
+Answer: The funny moment in the video is when the dog starts chasing the stick and then stops and looks at the camera, making a funny face. The start time is 00:00:07 and the end time is 00:00:10.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_490_0000_0140.mp4
+Answer: The funny moment in the video is when the person opens the box and finds a toy inside. They are surprised and laugh at the unexpected toy.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_T_495_0000_0060.mp4
+Answer: The funny moment in the video is when the dog jumps over the fence and lands on the other side. The dog is seen jumping over the fence and landing on the other side, which is a humorous moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_312_3848_3972.mp4
+Answer: The funny moment in the video is when the girl puts on a pair of pants and then takes them off. The video shows her putting on the pants and then taking them off, which is quite amusing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_342_0649_0850.mp4
+Answer: The funny moment in the video is when the man in the red shirt starts laughing while holding the man in the blue shirt. The man in the red shirt is laughing so hard that he falls off the swing.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_37_0727_0814.mp4
+Answer: The funny moment in the video is when the two people are trying to push each other off the pier. One person is holding the other person's leg and trying to push them off, while the other person is trying to push the first person off. This creates a humorous and playful scene as they both try to outdo each other in a friendly competition. The start time of this moment is 1:00:50 and the end time is 1:02:00.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_38_0544_0593.mp4
+Answer: The funny moment in the video is when a man walks into the store and starts talking to the fish. He talks to the fish as if they were human, asking them if they are okay and if they are hungry. The fish seem to respond to his questions, which is quite amusing. The funny moment starts at 00:00:30 and ends at 00:00:45.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_41_1853_1959.mp4
+Answer: There is no funny moment in the video.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_45_2446_2509.mp4
+Answer: The funny moment in the video is when the dog starts to run after the man who is riding the horse. The dog starts to run after the man, and the man starts to run away from the dog. The dog is trying to catch up with the man, but the man is able to maintain a distance from the dog. This creates a humorous scene as the dog tries to chase the man, while the man tries to avoid the dog.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_46_0625_0746.mp4
+Answer: The funny moment in the video is when the man is seen walking on the street with a long stick and a board, and he suddenly starts to dance. The video shows the man dancing in the middle of the street, which is quite unusual and unexpected.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+Loading video from /scratch/user/hasnat.md.abdullah/uag/data/FunQA/test/test_humor/H_H_49_0462_0589.mp4
+Answer: The funny moment in the video is when the little boy starts to eat the cake and the camera zooms in on his face. The boy's facial expression is hilarious as he tries to eat the cake.
+/scratch/user/hasnat.md.abdullah/uag/results/video_chatgpt_pred_x_funqa_dataset.json saved successfully
+verifying results
+size of results: 172
+None count: 155

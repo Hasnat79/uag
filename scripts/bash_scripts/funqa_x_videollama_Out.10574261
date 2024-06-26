@@ -1,0 +1,10 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/funqa_x_videollama.py", line 43, in <module>
+    video_llama2 = VideoLlama2Loader()
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/model_loaders/video_llama2_loader.py", line 29, in __init__
+    self.chat = self.initialize_model(self.args)
+TypeError: initialize_model() takes 1 positional argument but 2 were given

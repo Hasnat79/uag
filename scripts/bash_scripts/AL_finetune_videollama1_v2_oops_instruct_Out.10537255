@@ -1,0 +1,154 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+2024-06-14 11:38:16,808 [INFO] 
+=====  Running Parameters    =====
+2024-06-14 11:38:16,809 [INFO] {
+    "amp": true,
+    "batch_size_eval": 2,
+    "batch_size_train": 4,
+    "device": "cuda",
+    "dist_backend": "nccl",
+    "dist_url": "env://",
+    "distributed": true,
+    "evaluate": false,
+    "gpu": 0,
+    "init_lr": 3e-05,
+    "iters_per_epoch": 1000,
+    "lr_sched": "linear_warmup_cosine_lr",
+    "max_epoch": 3,
+    "min_lr": 1e-05,
+    "num_workers": 4,
+    "output_dir": "output/audiobranch_stage2_finetune",
+    "rank": 0,
+    "resume_ckpt_path": null,
+    "seed": 42,
+    "task": "video_text_pretrain",
+    "train_splits": [
+        "train"
+    ],
+    "warmup_lr": 1e-06,
+    "warmup_steps": 400,
+    "weight_decay": 0.05,
+    "world_size": 1
+}
+2024-06-14 11:38:16,809 [INFO] 
+======  Dataset Attributes  ======
+2024-06-14 11:38:16,809 [INFO] 
+======== webvid_instruct =======
+2024-06-14 11:38:16,810 [INFO] {
+    "build_info": {
+        "anno_dir": "/scratch/user/hasnat.md.abdullah/uag/data/oops_dataset/uag_oops_dataset/uag_oops_train_instruct_dataset_v1.json",
+        "videos_dir": "/scratch/user/hasnat.md.abdullah/uag/data/oops_dataset/oops_video/train/"
+    },
+    "data_type": "video",
+    "model_type": "llama_v2",
+    "num_video_query_token": 8,
+    "text_processor": {
+        "train": {
+            "name": "blip_caption"
+        }
+    },
+    "tokenizer_name": "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf",
+    "vis_processor": {
+        "train": {
+            "image_size": 224,
+            "n_frms": 8,
+            "name": "alpro_video_train"
+        }
+    }
+}
+2024-06-14 11:38:16,810 [INFO] 
+======  Model Attributes  ======
+2024-06-14 11:38:16,810 [INFO] {
+    "arch": "video_llama",
+    "ckpt": "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/VL_LLaMA_2_7B_Finetuned.pth",
+    "ckpt_2": "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/AL_LLaMA_2_7B_Finetuned.pth",
+    "drop_path_rate": 0,
+    "end_sym": "###",
+    "equip_audio_branch": true,
+    "freeze_qformer": true,
+    "freeze_vit": true,
+    "frozen_audio_Qformer": false,
+    "frozen_llama_proj": true,
+    "frozen_video_Qformer": true,
+    "fusion_head_layers": 2,
+    "fusion_header_type": "seqTransf",
+    "image_size": 224,
+    "imagebind_ckpt_path": "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/imagebind_huge.pth",
+    "llama_model": "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf",
+    "max_frame_pos": 32,
+    "max_txt_len": 512,
+    "model_type": "pretrain_vicuna",
+    "num_query_token": 32,
+    "prompt": "",
+    "prompt_path": "prompts/alignment_image.txt",
+    "prompt_template": "###Human: {} ###Assistant: ",
+    "use_grad_checkpoint": false,
+    "vit_precision": "fp16"
+}
+2024-06-14 11:38:16,811 [INFO] Building datasets...
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+2024-06-14 11:38:40,618 [INFO] freeze vision encoder
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+2024-06-14 11:38:46,609 [INFO] load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth
+2024-06-14 11:38:46,617 [INFO] freeze Qformer
+2024-06-14 11:38:46,617 [INFO] Loading Q-Former Done
+2024-06-14 11:38:46,617 [INFO] Loading LLAMA Tokenizer
+2024-06-14 11:38:46,923 [INFO] Loading LLAMA Model
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:27<00:27, 27.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:36<00:00, 16.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:36<00:00, 18.10s/it]
+2024-06-14 11:39:25,209 [INFO] Loading LLAMA Done
+2024-06-14 11:39:25,209 [INFO] Loading LLAMA proj
+2024-06-14 11:39:25,233 [INFO] LLAMA proj is frozen
+2024-06-14 11:39:25,233 [INFO] Loading llama_proj Done
+2024-06-14 11:39:26,373 [INFO] video_Qformer is frozen
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/train.py", line 107, in <module>
+[rank0]:     main()
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/train.py", line 98, in main
+[rank0]:     model = task.build_model(cfg)
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/tasks/base_task.py", line 33, in build_model
+[rank0]:     return model_cls.from_config(model_config)
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/models/video_llama.py", line 574, in from_config
+[rank0]:     model = cls(
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/models/video_llama.py", line 230, in __init__
+[rank0]:     self.audio_encoder.load_state_dict(torch.load("{}/imagebind_huge.pth".format(imagebind_ckpt_path)))
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/serialization.py", line 997, in load
+[rank0]:     with _open_file_like(f, 'rb') as opened_file:
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/serialization.py", line 444, in _open_file_like
+[rank0]:     return _open_file(name_or_buffer, mode)
+[rank0]:   File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/serialization.py", line 425, in __init__
+[rank0]:     super().__init__(open(name, mode))
+[rank0]: NotADirectoryError: [Errno 20] Not a directory: '/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/imagebind_huge.pth/imagebind_huge.pth'
+E0614 11:39:46.301408 47584594241664 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 252408) of binary: /scratch/user/hasnat.md.abdullah/.conda/envs/videollama/bin/python
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-14_11:39:46
+  host      : g080.cluster
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 252408)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

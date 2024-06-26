@@ -1,0 +1,432 @@
+________________________________________________________________________________
+[Memory] Calling model_loaders.video_llama2_loader.VideoLlama2Loader.initialize_model...
+initialize_model(Namespace(cfg_path='/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/eval_configs/video_llama_eval_withaudio.yaml', gpu_id=0, model_type='llama2', options=None))
+Initializing Chat
+Loading VIT
+Loading VIT Done
+Loading Q-Former
+Initializing audio encoder from /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Pretrained ...
+audio encoder initialized.
+Load first Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/output/videollama_stage2_finetune/20240614095/checkpoint_2.pth
+Load second Checkpoint: /scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/Video-LLaMA-2-7B-Finetuned/AL_LLaMA_2_7B_Finetuned.pth
+Initialization Finished
+_______________________________________________initialize_model - 112.6s, 1.9min
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4
+start_time: 0.506462, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4
+start_time: 1.648848, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4
+start_time: 0.774305, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4
+start_time: 1.295936, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_02.mp4
+start_time: 1.376637, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_03.mp4
+start_time: 0.433275, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_04.mp4
+start_time: 3.015372, end_time: 3.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_04.mp4
+start_time: 1.276822, end_time: 1.375
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_05.mp4
+start_time: 1.400864, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 1.14719, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.47716, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.000000, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.30686, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.576948, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.477835, end_time: 1.5
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_08.mp4
+start_time: 0.228844, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4
+start_time: 1.40568, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4
+start_time: 1.526435, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4
+start_time: 0.265671, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4
+start_time: 2.124593, end_time: 2.375
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_09.mp4
+start_time: 1.335765, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4
+start_time: 0.828841, end_time: 1.5625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4
+start_time: 1.032047, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4
+start_time: 2.068268, end_time: 3.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_10.mp4
+start_time: 2.472288, end_time: 3.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4
+start_time: 1.000742, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4
+start_time: 0.729463, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_12.mp4
+start_time: 1.655735, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_13.mp4
+start_time: 0.542011, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_13.mp4
+start_time: 0.66266, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_14.mp4
+start_time: 14.885754, end_time: 16.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_15.mp4
+start_time: 2.216244, end_time: 2.375
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_15.mp4
+start_time: 1.548246, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_16.mp4
+start_time: 1.300295, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_18.mp4
+start_time: 0.330769, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_18.mp4
+start_time: 1.02483, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4
+start_time: 1.578284, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4
+start_time: 1.04706, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4
+start_time: 0.522077, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_19.mp4
+start_time: 0.149254, end_time: 0.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_20.mp4
+start_time: 0.646635, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_21.mp4
+start_time: 13.523591, end_time: 15.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4
+start_time: 3.068585, end_time: 3.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4
+start_time: 2.66307, end_time: 3.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4
+start_time: 1.752678, end_time: 2.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4
+start_time: 2.373865, end_time: 2.625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_22.mp4
+start_time: 2.05048, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_24.mp4
+start_time: 1.420838, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_25.mp4
+start_time: 0.435026, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_01.mp4
+start_time: 0.645402, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_02.mp4
+start_time: 0.766141, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_02.mp4
+start_time: 1.08405, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_03.mp4
+start_time: 0.304554, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_04.mp4
+start_time: 1.294273, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_04.mp4
+start_time: 1.23509, end_time: 1.375
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_05.mp4
+start_time: 2.477513, end_time: 3.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_06.mp4
+start_time: 1.509887, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_07.mp4
+start_time: 1.371075, end_time: 2.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_10.mp4
+start_time: 1.245086, end_time: 1.475
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_13.mp4
+start_time: 1.174444, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_14.mp4
+start_time: 2.129476, end_time: 3.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_15.mp4
+start_time: 0.556643, end_time: 1.75
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_16.mp4
+start_time: 0.520822, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_17.mp4
+start_time: 0.254815, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_18.mp4
+start_time: 1.100778, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4
+start_time: 1.206141, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4
+start_time: 2.056645, end_time: 3.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4
+start_time: 2.582761, end_time: 3.75
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_19.mp4
+start_time: 2.604645, end_time: 3.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4
+start_time: 1.068446, end_time: 2.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4
+start_time: 0.0, end_time: 1.575
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_20.mp4
+start_time: 1.25878, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4
+start_time: 0.32994, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4
+start_time: 1.254982, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_21.mp4
+start_time: 1.358304, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_22.mp4
+start_time: 0.532064, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_HeadBanging_24.mp4
+start_time: 0.755442, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_01.mp4
+start_time: 2.425371, end_time: 3.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_02.mp4
+start_time: 0.745776, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_04.mp4
+start_time: 1.332465, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_05.mp4
+start_time: 1.417891, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_07.mp4
+start_time: 0.806212, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_08.mp4
+start_time: 2.774743, end_time: 3.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4
+start_time: 0.577096, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4
+start_time: 0.541077, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_09.mp4
+start_time: 0.097, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_10.mp4
+start_time: 1.010384, end_time: 2.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_11.mp4
+start_time: 0.720983, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_12.mp4
+start_time: 0.74555, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_14.mp4
+start_time: 1.12567, end_time: 2.12567
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_15.mp4
+start_time: 0.64338, end_time: 1.375
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_16.mp4
+start_time: 0.353845, end_time: 1.5625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_16.mp4
+start_time: 0.008255, end_time: 0.025
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4
+start_time: 2.509642, end_time: 3.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4
+start_time: 1.015, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4
+start_time: 1.41727, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4
+start_time: 0.75843, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_18.mp4
+start_time: 0.874631, end_time: 1.0625
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_19.mp4
+start_time: 0.583483, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_21.mp4
+start_time: 0.426489, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_22.mp4
+start_time: 0.072122, end_time: 1.25
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_22.mp4
+start_time: 1.174898, end_time: 2.0
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_23.mp4
+start_time: 0.078, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_Spinning_25.mp4
+start_time: 0.583027, end_time: 1.125
+Predicted start: None, Predicted end: None
+Results saved successfully in /scratch/user/hasnat.md.abdullah/uag/results/finetuned_videollama_pred_x_ssbd_dataset.json
+verifying results
+size of results: 104
+none_count: 104

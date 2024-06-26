@@ -1,0 +1,44 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/train.py", line 107, in <module>
+    main()
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/train.py", line 82, in main
+    cfg = Config(parse_args())
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/common/config.py", line 31, in __init__
+    dataset_config = self.build_dataset_config(config)
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Video-LLaMA/video_llama/common/config.py", line 101, in build_dataset_config
+    dataset_config_path = builder_cls.default_config_path(
+AttributeError: 'NoneType' object has no attribute 'default_config_path'
+E0614 11:04:43.054243 47041658550400 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 250178) of binary: /scratch/user/hasnat.md.abdullah/.conda/envs/videollama/bin/python
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-14_11:04:43
+  host      : g080.cluster
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 250178)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

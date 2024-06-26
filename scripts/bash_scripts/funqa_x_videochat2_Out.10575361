@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/funqa_x_videochat2.py", line 11, in <module>
+    from model_loaders.videochat2_loader import VideoChat2Loader
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/model_loaders/videochat2_loader.py", line 11, in <module>
+    from conversation import Chat
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Ask-Anything/video_chat2/conversation.py", line 11, in <module>
+    from dataset.video_transforms import (
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Ask-Anything/video_chat2/dataset/__init__.py", line 7, in <module>
+    from dataset.pt_dataset import PTImgTrainDataset, PTVidTrainDataset, PTImgEvalDataset, PTVidEvalDataset
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Ask-Anything/video_chat2/dataset/pt_dataset.py", line 12, in <module>
+    from dataset.video_utils import VIDEO_READER_FUNCS
+  File "/scratch/user/hasnat.md.abdullah/uag/foundation_models/Ask-Anything/video_chat2/dataset/video_utils.py", line 9, in <module>
+    import imageio
+ModuleNotFoundError: No module named 'imageio'

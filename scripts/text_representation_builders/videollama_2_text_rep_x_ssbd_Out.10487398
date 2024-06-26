@@ -1,0 +1,59 @@
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+  0%|          | 0/104 [00:00<?, ?it/s]ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/scratch/user/hasnat.md.abdullah/.conda/envs/videollama --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/scratch/user/hasnat.md.abdullah/uag/data/ssbd/videos/v_ArmFlapping_01.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-01-23T15:35:11.000000Z
+  Duration: 00:00:45.53, start: 0.000000, bitrate: 469 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 370 kb/s, 24.12 fps, 24.12 tbr, 24555 tbn, 48.24 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to './temp_frames/%d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: png, rgb24, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 1 fps, 1 tbn, 1 tbc (default)
+    Metadata:
+      creation_time   : 2020-01-23T15:35:11.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/23/2020.
+      encoder         : Lavc58.91.100 png
+frame=   14 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   23 fps= 23 q=-0.0 size=N/A time=00:00:06.00 bitrate=N/A speed=   6x    frame=   33 fps= 22 q=-0.0 size=N/A time=00:00:16.00 bitrate=N/A speed=10.7x    frame=   44 fps= 22 q=-0.0 size=N/A time=00:00:27.00 bitrate=N/A speed=13.5x    frame=   46 fps= 18 q=-0.0 Lsize=N/A time=00:00:46.00 bitrate=N/A speed=18.3x    
+video:7906kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+  0%|          | 0/104 [01:49<?, ?it/s]
+Traceback (most recent call last):
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/text_representation_builders/videollama_2_text_rep_x_ssbd.py", line 60, in <module>
+    build_videollama2_text_rep_ssbd_(ssbd,videollama2,output_path = videollama2_text_rep_x_ssbd_dataset_path)
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/text_representation_builders/videollama_2_text_rep_x_ssbd.py", line 42, in build_videollama2_text_rep_ssbd_
+    text_rep = generate_text_representation_from_video(videollama2,video_path)
+  File "/scratch/user/hasnat.md.abdullah/uag/scripts/text_representation_builders/videollama_2_text_rep_x_ssbd.py", line 24, in generate_text_representation_from_video
+    shutil.rmtree("../temp_frames")
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/shutil.py", line 724, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/scratch/user/hasnat.md.abdullah/.conda/envs/videollama/lib/python3.9/shutil.py", line 722, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: '../temp_frames'

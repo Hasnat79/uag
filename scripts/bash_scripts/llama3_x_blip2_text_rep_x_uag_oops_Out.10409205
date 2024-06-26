@@ -1,25 +1,0 @@
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.94s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.37s/it]
-  0%|          | 0/1589 [00:00<?, ?it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  0%|          | 5/1589 [00:02<15:38,  1.69it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  0%|          | 7/1589 [00:14<1:04:03,  2.43s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 8/1589 [00:22<1:36:12,  3.65s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 9/1589 [00:34<2:22:33,  5.41s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 10/1589 [00:38<2:17:23,  5.22s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 11/1589 [00:43<2:15:26,  5.15s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 12/1589 [00:52<2:39:15,  6.06s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 13/1589 [00:56<2:30:20,  5.72s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 14/1589 [01:04<2:44:16,  6.26s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-  1%|          | 15/1589 [01:11<2:49:42,  6.47s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
-slurmstepd: error: *** JOB 10409205 ON r006 CANCELLED AT 2024-05-20T13:58:24 ***
